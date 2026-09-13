@@ -233,8 +233,12 @@ def render(data, com):
     return body, page
 
 def make_pdf(html_path, pdf_path):
-    for exe in ["google-chrome", "chromium", "chromium-browser", "chrome",
-                "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"]:
+    import glob
+    candidates = ["google-chrome", "chromium", "chromium-browser", "chrome",
+                  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"]
+    candidates += sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"), reverse=True)  # sandbox Claude cloud (Playwright)
+    candidates += sorted(glob.glob(os.path.expanduser("~/.cache/ms-playwright/chromium-*/chrome-linux/chrome")), reverse=True)
+    for exe in candidates:
         p = shutil.which(exe) or (exe if os.path.exists(exe) else None)
         if p:
             r = subprocess.run([p, "--headless=new", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",
