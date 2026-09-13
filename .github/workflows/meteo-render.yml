@@ -1,4 +1,4 @@
-name: Météo : rendu page et PDF
+name: "Météo, rendu page et PDF"
 on:
   push:
     paths:

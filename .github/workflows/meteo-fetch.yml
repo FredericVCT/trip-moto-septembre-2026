@@ -1,4 +1,4 @@
-name: Météo : récupération des données
+name: "Météo, récupération des données"
 on:
   schedule:
     - cron: "15 16 * * *"   # 18h15 Paris (16h15 UTC)
