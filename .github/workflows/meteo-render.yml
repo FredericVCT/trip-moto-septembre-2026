@@ -1,9 +1,6 @@
 name: "Météo, rendu page et PDF"
+# Secours manuel : la routine Claude génère déjà la page et le PDF (Chromium du bac à sable).
 on:
-  push:
-    paths:
-      - "meteo/comments.json"
-      - "meteo/data.json"
   workflow_dispatch:
 permissions:
   contents: write
