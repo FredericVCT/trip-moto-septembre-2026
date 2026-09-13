@@ -1,0 +1,6 @@
+{"headline":"Beau et chaud lundi et mardi, front atténué mercredi (gris, frais, vent), retour au calme jeudi.",
+ "days":{"2026-09-14":{"mood":"sun","label":"Grand beau","badge":"✅ Parfait","tip":"👍 <b>Ciel dégagé, visibilité parfaite au Puy Mary.</b> Doublure pour les 2 premières heures."},
+         "2026-09-15":{"mood":"hot","label":"Chaud & sec","badge":"✅ Chaud","tip":"🥵 <b>Journée la plus chaude.</b> Eau et pauses."},
+         "2026-09-16":{"mood":"rain","label":"Front : gris, vent","badge":"⚠️ À surveiller","tip":"🧥 <b>Tenue de pluie accessible au départ.</b> Vent traversier l'après-midi."},
+         "2026-09-17":{"mood":"cloud","label":"Voilé, sec","badge":"✅ Sec, frais","tip":"🧤 Doublure et gants le matin."}},
+ "kit":["☀️ <b>Lun & Mar :</b> tenue d'été.","🌧️ <b>Mer :</b> pluie à portée de main.","🥶 <b>Jeu :</b> départ froid.","❓ <b>Incertitude :</b> pluie mercredi matin."]}
