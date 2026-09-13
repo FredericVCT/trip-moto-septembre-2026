@@ -1,0 +1,27 @@
+name: Météo : rendu page et PDF
+on:
+  push:
+    paths:
+      - "meteo/comments.json"
+      - "meteo/data.json"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Rendu HTML et PDF (Chrome)
+        run: |
+          TZ=Europe/Paris python3 meteo/build_meteo.py render
+      - name: Pousser index.html, email.html, PDF
+        run: |
+          git config user.name "meteo-bot"
+          git config user.email "fvincenot@gmail.com"
+          git pull --rebase origin main
+          git add meteo/index.html meteo/email.html meteo/Meteo_Trip.pdf
+          git diff --cached --quiet || git commit -m "Météo : rendu du $(TZ=Europe/Paris date '+%d/%m %Hh%M')"
+          git push

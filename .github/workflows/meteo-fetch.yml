@@ -1,0 +1,23 @@
+name: Météo : récupération des données
+on:
+  schedule:
+    - cron: "15 16 * * *"   # 18h15 Paris (16h15 UTC)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Récupérer Open-Meteo
+        run: |
+          TZ=Europe/Paris python3 meteo/build_meteo.py fetch
+          TZ=Europe/Paris python3 meteo/build_meteo.py hourly
+      - name: Pousser data.json et hourly.txt
+        run: |
+          git config user.name "meteo-bot"
+          git config user.email "fvincenot@gmail.com"
+          git add meteo/data.json meteo/hourly.txt
+          git diff --cached --quiet || git commit -m "Météo : données du $(TZ=Europe/Paris date '+%d/%m %Hh%M')"
+          git push

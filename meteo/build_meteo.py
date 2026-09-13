@@ -3,7 +3,8 @@
 
 Usage :
   python3 build_meteo.py fetch  [--date YYYY-MM-DD]   -> meteo/data.json + tableau lisible sur stdout
-  python3 build_meteo.py hourly [--date YYYY-MM-DD]   -> détail heure par heure (ECMWF et Météo-France) pour la prochaine journée
+  python3 build_meteo.py hourly [--date YYYY-MM-DD]   -> détail heure par heure (ECMWF et Météo-France) pour la prochaine journée (+ meteo/hourly.txt)
+  python3 build_meteo.py show                          -> réaffiche le tableau à partir de meteo/data.json (sans réseau)
   python3 build_meteo.py render [--date YYYY-MM-DD]   -> meteo/index.html (+ meteo/Meteo_Trip.pdf si un moteur est dispo)
                                                           lit meteo/data.json et meteo/comments.json
 
@@ -117,21 +118,28 @@ def print_table(data):
 
 def hourly(t):
     days = remaining_days(t)
-    if not days: print("Plus de journée à venir."); return
-    date = days[0]
-    print(f"Détail horaire {DAYS[date]['j']} {date} · ECMWF | Météo-France  (T°, pluie mm, prob %, vent/raf km/h, dir)")
-    for name, lat, lon, win in DAYS[date]["pts"]:
-        h = fetch_point(lat, lon, date)["hourly"]
-        print(f"\n-- {name} (créneau {win}h) --")
-        for i, tt in enumerate(h["time"]):
-            hh = int(tt[11:13])
-            if 7 <= hh <= 19:
-                def v(k, m):
-                    x = h.get(f"{k}_{m}"); return x[i] if x and x[i] is not None else None
-                e = lambda k: v(k, "ecmwf_ifs025"); m = lambda k: v(k, "meteofrance_seamless")
-                f = lambda x, fmt: (fmt % x) if x is not None else "  -"
-                print(f"{hh:02d}h  ECMWF {f(e('temperature_2m'),'%4.1f')}° {f(e('precipitation'),'%4.1f')}mm {f(e('precipitation_probability'),'%3.0f')}% {f(e('wind_speed_10m'),'%3.0f')}/{f(e('wind_gusts_10m'),'%3.0f')} {dirname(e('wind_direction_10m')):2s}"
-                      f"  | MF {f(m('temperature_2m'),'%4.1f')}° {f(m('precipitation'),'%4.1f')}mm {f(m('wind_speed_10m'),'%3.0f')}/{f(m('wind_gusts_10m'),'%3.0f')} {dirname(m('wind_direction_10m')):2s}")
+    lines = []
+    out = lines.append
+    if not days:
+        out("Plus de journée à venir.")
+    else:
+        date = days[0]
+        out(f"Détail horaire {DAYS[date]['j']} {date} · ECMWF | Météo-France  (T°, pluie mm, prob %, vent/raf km/h, dir)")
+        for name, lat, lon, win in DAYS[date]["pts"]:
+            h = fetch_point(lat, lon, date)["hourly"]
+            out(f"\n-- {name} (créneau {win}h) --")
+            for i, tt in enumerate(h["time"]):
+                hh = int(tt[11:13])
+                if 7 <= hh <= 19:
+                    def v(k, m):
+                        x = h.get(f"{k}_{m}"); return x[i] if x and x[i] is not None else None
+                    e = lambda k: v(k, "ecmwf_ifs025"); m = lambda k: v(k, "meteofrance_seamless")
+                    f = lambda x, fmt: (fmt % x) if x is not None else "  -"
+                    out(f"{hh:02d}h  ECMWF {f(e('temperature_2m'),'%4.1f')}° {f(e('precipitation'),'%4.1f')}mm {f(e('precipitation_probability'),'%3.0f')}% {f(e('wind_speed_10m'),'%3.0f')}/{f(e('wind_gusts_10m'),'%3.0f')} {dirname(e('wind_direction_10m')):2s}"
+                        f"  | MF {f(m('temperature_2m'),'%4.1f')}° {f(m('precipitation'),'%4.1f')}mm {f(m('wind_speed_10m'),'%3.0f')}/{f(m('wind_gusts_10m'),'%3.0f')} {dirname(m('wind_direction_10m')):2s}")
+    txt = "\n".join(lines) + "\n"
+    print(txt, end="")
+    open(os.path.join(HERE, "hourly.txt"), "w").write(txt)
 
 # ---------- rendu ----------
 MOOD = {"sun":("☀️","#f2a516"), "hot":("🌞","#e9821b"), "rain":("🌧️","#6b7d8f"), "cloud":("⛅","#8aa4bd"), "wind":("💨","#7a8fa6"), "storm":("⛈️","#5a6b7c")}
@@ -245,6 +253,11 @@ if __name__ == "__main__":
             print("PLUS AUCUNE JOURNÉE À VENIR : rien à faire.")
     elif cmd == "hourly":
         hourly(t)
+    elif cmd == "show":
+        data = json.load(open(os.path.join(HERE, "data.json")))
+        print_table(data)
+        if not data["days"]:
+            print("PLUS AUCUNE JOURNÉE À VENIR : rien à faire.")
     elif cmd == "render":
         data = json.load(open(os.path.join(HERE, "data.json")))
         com = json.load(open(os.path.join(HERE, "comments.json")))
