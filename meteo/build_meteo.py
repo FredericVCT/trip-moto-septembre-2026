@@ -18,7 +18,7 @@ comments.json (écrit par l'assistant après lecture du tableau) :
   "kit": ["conseil 1", "conseil 2", ...]
 }
 """
-import json, sys, os, subprocess, shutil, statistics, datetime, urllib.request, urllib.parse
+import json, sys, os, time, subprocess, shutil, statistics, datetime, urllib.request, urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PAGES = "https://fredericvct.github.io/trip-moto-septembre-2026"
@@ -63,8 +63,15 @@ def fetch_point(lat, lon, date):
     q = dict(latitude=lat, longitude=lon, hourly=VARS, models=",".join(MODELS),
              start_date=date, end_date=date, timezone="Europe/Paris", wind_speed_unit="kmh")
     url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(q)
-    with urllib.request.urlopen(url, timeout=60) as r:
-        return json.load(r)
+    last = None
+    for attempt, delay in enumerate((0, 5, 15, 30, 60)):
+        if delay: time.sleep(delay)
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                return json.load(r)
+        except Exception as e:
+            last = e; print(f"  (tentative {attempt+1} échouée : {e})", file=sys.stderr)
+    raise last
 
 def dirname(deg):
     if deg is None: return ""
