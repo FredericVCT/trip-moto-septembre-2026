@@ -5,6 +5,8 @@ Usage :
   python3 build_meteo.py fetch  [--date YYYY-MM-DD]   -> meteo/data.json + tableau lisible sur stdout
   python3 build_meteo.py hourly [--date YYYY-MM-DD]   -> détail heure par heure (ECMWF et Météo-France) pour la prochaine journée (+ meteo/hourly.txt)
   python3 build_meteo.py show                          -> réaffiche le tableau à partir de meteo/data.json (sans réseau)
+  python3 build_meteo.py diff                          -> compare data.json au dernier briefing envoyé (data_sent.json) -> meteo/delta.json + liste des écarts
+  python3 build_meteo.py mark-sent                     -> copie data.json vers data_sent.json (à lancer après l'envoi du mail)
   python3 build_meteo.py render [--date YYYY-MM-DD]   -> meteo/index.html (+ meteo/Meteo_Trip.pdf si un moteur est dispo)
                                                           lit meteo/data.json et meteo/comments.json
 
@@ -15,7 +17,8 @@ comments.json (écrit par l'assistant après lecture du tableau) :
     "2026-09-14": {"mood": "sun|hot|rain|cloud|wind", "label": "Grand beau", "badge": "✅ Parfait", "tip": "conseil équipement / vigilance"},
     ...
   },
-  "kit": ["conseil 1", "conseil 2", ...]
+  "kit": ["conseil 1", "conseil 2", ...],
+  "changes_note": "phrase optionnelle interprétant les écarts listés par `diff` (ex. « le front de mercredi arrive 3 h plus tôt »)"
 }
 """
 import json, sys, os, time, subprocess, shutil, statistics, datetime, urllib.request, urllib.parse
@@ -148,6 +151,48 @@ def hourly(t):
     print(txt, end="")
     open(os.path.join(HERE, "hourly.txt"), "w").write(txt)
 
+def diff():
+    """Écarts significatifs entre data.json et data_sent.json (dernier briefing envoyé)."""
+    new = json.load(open(os.path.join(HERE, "data.json")))
+    ps = os.path.join(HERE, "data_sent.json")
+    out = {"sent_issued": None, "new_issued": new["issued"], "lines": [], "days": {}}
+    if not os.path.exists(ps):
+        out["lines"] = []
+        print("Pas de briefing précédent (data_sent.json absent) : aucune comparaison.")
+    else:
+        old = json.load(open(ps)); out["sent_issued"] = old["issued"]
+        def f1(x): return f"{x:.0f}"
+        for date, rows in new["days"].items():
+            orows = {r["name"]: r for r in old["days"].get(date, [])}
+            dl = []
+            for r in rows:
+                o = orows.get(r["name"])
+                if not o: continue
+                parts = []
+                dt = (r["tmax"] - o["tmax"]) if None not in (r["tmax"], o["tmax"]) else 0
+                dtm = (r["tmin"] - o["tmin"]) if None not in (r["tmin"], o["tmin"]) else 0
+                if abs(dt) >= 2 or abs(dtm) >= 2:
+                    parts.append(f"T {f1(o['tmin'])}–{f1(o['tmax'])}° → {f1(r['tmin'])}–{f1(r['tmax'])}°")
+                op, np_ = o.get("pprob") or 0, r.get("pprob") or 0
+                om, nm = o.get("precip_max") or 0, r.get("precip_max") or 0
+                if abs(np_ - op) >= 20 or abs(nm - om) >= 1:
+                    parts.append(f"pluie {op} % / {om} mm → {np_} % / {nm} mm")
+                og, ng = o.get("gust") or 0, r.get("gust") or 0
+                if abs(ng - og) >= 10:
+                    parts.append(f"rafales {f1(og)} → {f1(ng)} km/h")
+                if parts:
+                    dl.append(f"{r['name']} : " + " ; ".join(parts))
+            if dl:
+                out["days"][date] = dl
+                for l in dl: out["lines"].append(f"{DAYS[date]['j']} · {l}")
+        if out["lines"]:
+            print(f"Écarts depuis le briefing du {old['issued']} (données {new['issued']}) :")
+            for l in out["lines"]: print("  - " + l)
+        else:
+            print(f"Aucun écart notable depuis le briefing du {old['issued']} (seuils : 2°, 20 pts ou 1 mm de pluie, 10 km/h de rafales).")
+    json.dump(out, open(os.path.join(HERE, "delta.json"), "w"), ensure_ascii=False, indent=1)
+    return out
+
 # ---------- rendu ----------
 MOOD = {"sun":("☀️","#f2a516"), "hot":("🌞","#e9821b"), "rain":("🌧️","#6b7d8f"), "cloud":("⛅","#8aa4bd"), "wind":("💨","#7a8fa6"), "storm":("⛈️","#5a6b7c")}
 
@@ -187,6 +232,20 @@ def render(data, com):
              f'<div style="opacity:.9;font-size:13px;margin-top:4px">Point du {data["issued"]} · ECMWF + Météo-France AROME, recoupés ICON/GFS</div></div>')
     if com.get("headline"):
         H.append(f'<div style="background:#eef4fa;border-left:5px solid #2f6ea0;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:14px"><b>En résumé :</b> {com["headline"]}</div>')
+    # évolution depuis le dernier briefing envoyé
+    pd = os.path.join(HERE, "delta.json")
+    if os.path.exists(pd):
+        dl = json.load(open(pd))
+        if dl.get("sent_issued"):
+            H.append('<div style="background:#fff8e6;border-left:5px solid #e9a21b;border-radius:8px;padding:10px 14px;margin:10px 0;font-size:13px">'
+                     f'<b>🔄 Ce qui a changé depuis le briefing du {dl["sent_issued"]}</b>')
+            if com.get("changes_note"):
+                H.append(f'<div style="margin-top:4px">{com["changes_note"]}</div>')
+            if dl.get("lines"):
+                H.append('<ul style="margin:6px 0 0 18px;padding:0">' + "".join(f'<li style="margin:2px 0">{l}</li>' for l in dl["lines"]) + '</ul>')
+            else:
+                H.append('<div style="margin-top:4px">Aucun écart notable sur les températures, la pluie ou le vent.</div>')
+            H.append('</div>')
     # vue d'ensemble
     H.append('<table cellpadding="0" cellspacing="6" style="width:100%;border-collapse:separate;margin:8px 0"><tr>')
     for d in days:
@@ -264,6 +323,11 @@ if __name__ == "__main__":
             print("PLUS AUCUNE JOURNÉE À VENIR : rien à faire.")
     elif cmd == "hourly":
         hourly(t)
+    elif cmd == "diff":
+        diff()
+    elif cmd == "mark-sent":
+        shutil.copyfile(os.path.join(HERE, "data.json"), os.path.join(HERE, "data_sent.json"))
+        print("data_sent.json mis à jour.")
     elif cmd == "show":
         data = json.load(open(os.path.join(HERE, "data.json")))
         print_table(data)
