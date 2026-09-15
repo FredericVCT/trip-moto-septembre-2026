@@ -1,76 +1,76 @@
-Détail horaire J2 2026-09-15 · ECMWF | Météo-France  (T°, pluie mm, prob %, vent/raf km/h, dir)
+Détail horaire J3 2026-09-16 · ECMWF | Météo-France  (T°, pluie mm, prob %, vent/raf km/h, dir)
 
--- Départ 9h Lascelle (créneau 08-10h) --
-07h  ECMWF 14.6°  0.0mm   0%   7/ 11 E   | MF 14.6°  0.0mm   5/ 10 NE
-08h  ECMWF 15.2°  0.0mm   0%   7/ 12 E   | MF 14.8°  0.0mm   5/ 11 NE
-09h  ECMWF 17.0°  0.0mm   0%   8/ 15 SE  | MF 17.2°  0.0mm   5/ 12 NE
-10h  ECMWF 19.5°  0.0mm   0%   9/ 18 SE  | MF 21.0°  0.0mm   2/ 10 E 
-11h  ECMWF 21.6°  0.0mm   0%   9/ 22 SE  | MF 22.9°  0.0mm   6/ 17 S 
-12h  ECMWF 22.9°  0.0mm   0%   7/ 24 S   | MF 23.9°  0.0mm   7/ 19 SO
-13h  ECMWF 23.8°  0.0mm   0%   8/ 26 SO  | MF 25.1°  0.0mm   7/ 20 SO
-14h  ECMWF 24.4°  0.0mm   0%  11/ 27 O   | MF 26.0°  0.0mm  12/ 28 O 
-15h  ECMWF 24.9°  0.0mm   0%  12/ 27 O   | MF 26.4°  0.0mm  13/ 30 O 
-16h  ECMWF 25.0°  0.0mm   0%  12/ 27 O   | MF 26.6°  0.0mm  11/ 30 O 
-17h  ECMWF 24.6°  0.0mm   0%  11/ 25 O   | MF 26.8°  0.0mm  10/ 27 O 
-18h  ECMWF 23.4°  0.0mm   0%   7/ 21 O   | MF 26.6°  0.0mm   9/ 26 O 
-19h  ECMWF 21.6°  0.0mm   0%   3/ 15 NO  | MF 25.9°  0.0mm   7/ 23 O 
+-- Départ 9h Laguiole (1 000 m) (créneau 08-10h) --
+07h  ECMWF 11.7°  0.0mm   1%   6/ 14 SO  | MF 10.4°  0.0mm   4/ 10 SO
+08h  ECMWF 11.7°  0.0mm   6%   4/ 12 SO  | MF 11.6°  0.0mm   4/  6 SO
+09h  ECMWF 12.0°  0.2mm  26%   3/ 12 SO  | MF 12.5°  0.0mm   6/ 10 O 
+10h  ECMWF 12.6°  0.2mm  52%   3/ 12 NO  | MF 12.8°  0.0mm   7/ 15 O 
+11h  ECMWF 13.2°  0.2mm  73%   6/ 14 NO  | MF 13.7°  0.0mm   9/ 17 NO
+12h  ECMWF 14.2°  0.2mm  85%   8/ 19 NO  | MF 14.4°  0.0mm   9/ 17 O 
+13h  ECMWF 15.3°  0.2mm  90%  11/ 25 NO  | MF 15.6°  0.0mm  17/ 30 O 
+14h  ECMWF 16.1°  0.2mm  86%  14/ 30 O   | MF 15.2°  0.0mm  16/ 32 NO
+15h  ECMWF 16.5°  0.0mm  65%  15/ 32 O   | MF 15.3°  0.1mm  14/ 28 NO
+16h  ECMWF 16.6°  0.0mm  34%  15/ 32 O   | MF 16.2°  0.0mm  15/ 28 O 
+17h  ECMWF 16.5°  0.0mm  10%  15/ 31 O   | MF 16.4°  0.0mm  11/ 28 O 
+18h  ECMWF 15.9°  0.0mm   1%  13/ 30 NO  | MF 16.3°  0.0mm  12/ 23 O 
+19h  ECMWF 15.1°  0.0mm   0%  11/ 29 NO  | MF 15.5°  0.0mm  12/ 23 NO
 
--- Col de Prat de Bouc (1 392 m) (créneau 09-11h) --
-07h  ECMWF 13.6°  0.0mm   0%   2/  5 N   | MF 13.8°  0.0mm   5/  8 SO
-08h  ECMWF 14.1°  0.0mm   0%   0/  6 NO  | MF 14.4°  0.0mm   7/ 16 SO
-09h  ECMWF 15.6°  0.0mm   0%   2/ 10 SO  | MF 17.0°  0.0mm   8/ 19 SO
-10h  ECMWF 17.6°  0.0mm   0%   6/ 17 S   | MF 19.3°  0.0mm   8/ 21 SO
-11h  ECMWF 19.4°  0.0mm   0%   9/ 22 SO  | MF 20.1°  0.0mm   8/ 21 SO
-12h  ECMWF 20.5°  0.0mm   0%  11/ 28 SO  | MF 20.8°  0.0mm   9/ 27 SO
-13h  ECMWF 21.3°  0.0mm   0%  14/ 33 SO  | MF 21.4°  0.0mm   9/ 27 O 
-14h  ECMWF 21.8°  0.0mm   0%  16/ 36 SO  | MF 21.9°  0.0mm   9/ 26 O 
-15h  ECMWF 22.2°  0.0mm   0%  16/ 37 O   | MF 22.5°  0.0mm  10/ 27 O 
-16h  ECMWF 22.3°  0.0mm   0%  16/ 36 O   | MF 22.5°  0.0mm  10/ 28 O 
-17h  ECMWF 21.8°  0.0mm   0%  15/ 35 O   | MF 22.3°  0.0mm   9/ 29 O 
-18h  ECMWF 20.4°  0.0mm   0%  12/ 33 O   | MF 22.0°  0.0mm   8/ 26 O 
-19h  ECMWF 18.4°  0.0mm   0%   8/ 30 O   | MF 20.9°  0.0mm   8/ 22 O 
+-- Descente D19 · Espalion · Estaing (créneau 10-12h) --
+07h  ECMWF 16.7°  0.0mm   5%   9/ 19 O   | MF 15.7°  0.0mm   8/ 14 O 
+08h  ECMWF 16.9°  0.0mm  12%   9/ 20 O   | MF 16.4°  0.0mm   6/ 14 O 
+09h  ECMWF 17.4°  0.3mm  35%  10/ 23 O   | MF 17.3°  0.0mm   6/ 14 NO
+10h  ECMWF 18.0°  0.3mm  66%  13/ 28 O   | MF 17.9°  0.0mm   6/ 17 O 
+11h  ECMWF 18.7°  0.3mm  86%  15/ 32 O   | MF 19.3°  0.0mm   7/ 16 NO
+12h  ECMWF 19.5°  0.2mm  86%  16/ 34 O   | MF 20.1°  0.0mm  12/ 25 NO
+13h  ECMWF 20.4°  0.2mm  75%  17/ 36 O   | MF 21.6°  0.0mm  17/ 34 O 
+14h  ECMWF 21.1°  0.2mm  61%  17/ 37 O   | MF 22.5°  0.0mm  15/ 34 NO
+15h  ECMWF 21.5°  0.0mm  45%  17/ 37 O   | MF 22.1°  0.0mm  17/ 34 NO
+16h  ECMWF 21.8°  0.0mm  26%  17/ 37 O   | MF 22.0°  0.0mm  19/ 37 NO
+17h  ECMWF 21.7°  0.0mm  12%  16/ 36 O   | MF 21.6°  0.0mm  11/ 36 O 
+18h  ECMWF 21.2°  0.0mm   5%  14/ 34 NO  | MF 21.6°  0.0mm  10/ 24 NO
+19h  ECMWF 20.4°  0.0mm   2%  12/ 31 NO  | MF 21.0°  0.0mm  11/ 22 NO
 
--- Chaudes-Aigues · déjeuner (créneau 11-14h) --
-07h  ECMWF 17.1°  0.0mm   0%   4/  9 S   | MF 11.8°  0.0mm   3/  4 SO
-08h  ECMWF 17.5°  0.0mm   0%   4/ 10 S   | MF 11.7°  0.0mm   2/  3 S 
-09h  ECMWF 19.4°  0.0mm   0%   4/ 12 SO  | MF 14.5°  0.0mm   1/  2 SO
-10h  ECMWF 22.0°  0.0mm   0%   5/ 16 SO  | MF 17.6°  0.0mm   2/  5 N 
-11h  ECMWF 24.1°  0.0mm   0%   7/ 19 SO  | MF 20.7°  0.0mm   3/ 10 N 
-12h  ECMWF 25.3°  0.0mm   0%  10/ 24 O   | MF 24.1°  0.0mm   4/ 13 N 
-13h  ECMWF 26.0°  0.0mm   0%  13/ 30 O   | MF 26.7°  0.0mm  10/ 25 SO
-14h  ECMWF 26.4°  0.0mm   0%  15/ 34 O   | MF 27.4°  0.0mm  10/ 26 O 
-15h  ECMWF 26.5°  0.0mm   0%  16/ 35 O   | MF 27.6°  0.0mm  13/ 30 O 
-16h  ECMWF 26.4°  0.0mm   0%  16/ 35 O   | MF 27.8°  0.0mm  13/ 30 O 
-17h  ECMWF 25.8°  0.0mm   0%  15/ 35 O   | MF 27.7°  0.0mm  11/ 30 O 
-18h  ECMWF 24.5°  0.0mm   0%  13/ 33 O   | MF 27.4°  0.0mm  10/ 26 O 
-19h  ECMWF 22.8°  0.0mm   0%  10/ 30 O   | MF 26.7°  0.0mm   8/ 23 O 
+-- Entraygues · déjeuner (créneau 12-14h) --
+07h  ECMWF 16.0°  0.0mm   0%   5/ 13 SO  | MF 17.2°  0.0mm   7/ 23 O 
+08h  ECMWF 16.4°  0.0mm   6%   4/ 12 SO  | MF 16.9°  0.0mm   5/ 18 SO
+09h  ECMWF 16.8°  0.4mm  24%   5/ 14 O   | MF 17.2°  0.1mm   4/ 14 O 
+10h  ECMWF 17.3°  0.4mm  47%   7/ 18 O   | MF 16.9°  0.3mm   7/ 22 O 
+11h  ECMWF 17.9°  0.4mm  65%  10/ 22 O   | MF 18.4°  0.0mm   3/ 19 S 
+12h  ECMWF 18.5°  0.1mm  73%  12/ 26 O   | MF 20.4°  0.0mm  10/ 26 O 
+13h  ECMWF 19.2°  0.1mm  76%  14/ 30 NO  | MF 21.3°  0.0mm  12/ 34 O 
+14h  ECMWF 19.8°  0.1mm  71%  15/ 33 NO  | MF 20.6°  0.1mm   7/ 32 O 
+15h  ECMWF 20.5°  0.0mm  55%  16/ 34 NO  | MF 20.5°  0.0mm   7/ 31 O 
+16h  ECMWF 21.1°  0.0mm  32%  15/ 33 NO  | MF 20.5°  0.0mm  10/ 27 SO
+17h  ECMWF 21.2°  0.0mm  14%  14/ 31 NO  | MF 21.3°  0.0mm   9/ 28 SO
+18h  ECMWF 20.3°  0.0mm   6%  11/ 28 NO  | MF 20.7°  0.0mm   9/ 24 SO
+19h  ECMWF 18.8°  0.0mm   2%   8/ 24 NO  | MF 20.2°  0.0mm   7/ 24 O 
 
--- Garabit · Truyère (créneau 13-15h) --
-07h  ECMWF 13.6°  0.0mm   0%   3/  6 SE  | MF 10.4°  0.0mm   1/  1 E 
-08h  ECMWF 14.3°  0.0mm   0%   2/  7 SE  | MF 10.2°  0.0mm   1/  2 SE
-09h  ECMWF 16.7°  0.0mm   0%   3/ 10 S   | MF 12.2°  0.0mm   2/  1 E 
-10h  ECMWF 20.0°  0.0mm   0%   6/ 16 SO  | MF 15.8°  0.0mm   0/  1 O 
-11h  ECMWF 22.9°  0.0mm   0%   8/ 22 SO  | MF 20.3°  0.0mm   0/  2 S 
-12h  ECMWF 24.8°  0.0mm   0%  10/ 27 SO  | MF 24.0°  0.0mm   4/ 13 O 
-13h  ECMWF 26.1°  0.0mm   0%  13/ 32 SO  | MF 26.0°  0.0mm  10/ 24 SO
-14h  ECMWF 27.0°  0.0mm   0%  15/ 36 O   | MF 27.2°  0.0mm   9/ 24 SO
-15h  ECMWF 27.4°  0.0mm   0%  16/ 38 O   | MF 28.0°  0.0mm  12/ 29 SO
-16h  ECMWF 27.3°  0.0mm   0%  16/ 38 O   | MF 28.1°  0.0mm  11/ 30 O 
-17h  ECMWF 26.6°  0.0mm   0%  15/ 38 O   | MF 28.0°  0.0mm  13/ 32 O 
-18h  ECMWF 25.3°  0.0mm   0%  14/ 36 O   | MF 27.6°  0.0mm  10/ 30 O 
-19h  ECMWF 23.5°  0.0mm   0%  12/ 33 O   | MF 26.7°  0.0mm   9/ 25 O 
+-- Conques (créneau 14-15h) --
+07h  ECMWF 16.5°  0.0mm   9%  10/ 21 O   | MF 16.7°  0.0mm   5/ 18 O 
+08h  ECMWF 16.9°  0.0mm  18%  10/ 22 O   | MF 16.8°  0.0mm   6/ 16 O 
+09h  ECMWF 17.5°  0.2mm  35%  12/ 24 O   | MF 17.5°  0.0mm   5/ 17 O 
+10h  ECMWF 18.2°  0.2mm  55%  13/ 28 O   | MF 17.3°  0.1mm   6/ 18 NO
+11h  ECMWF 18.9°  0.2mm  67%  15/ 31 O   | MF 18.0°  0.0mm   4/ 19 O 
+12h  ECMWF 19.5°  0.1mm  64%  16/ 34 NO  | MF 20.0°  0.0mm   9/ 25 O 
+13h  ECMWF 20.1°  0.1mm  52%  17/ 37 NO  | MF 20.2°  0.0mm  12/ 31 NO
+14h  ECMWF 20.5°  0.1mm  39%  18/ 38 NO  | MF 19.8°  0.1mm  10/ 31 NO
+15h  ECMWF 20.9°  0.0mm  26%  17/ 38 NO  | MF 19.8°  0.0mm  10/ 32 NO
+16h  ECMWF 21.1°  0.0mm  12%  17/ 37 NO  | MF 20.5°  0.0mm   9/ 27 NO
+17h  ECMWF 21.0°  0.0mm   2%  16/ 35 NO  | MF 20.8°  0.0mm   6/ 25 NO
+18h  ECMWF 20.5°  0.0mm   0%  14/ 33 NO  | MF 20.4°  0.0mm   8/ 21 NO
+19h  ECMWF 19.8°  0.0mm   0%  12/ 31 NO  | MF 19.8°  0.0mm   7/ 23 NO
 
--- Laguiole · arrivée (1 000 m) (créneau 15-18h) --
-07h  ECMWF 13.6°  0.0mm   0%   5/  8 E   | MF 15.6°  0.0mm  10/ 16 SE
-08h  ECMWF 14.1°  0.0mm   0%   4/  9 E   | MF 15.6°  0.0mm  10/ 17 SE
-09h  ECMWF 16.3°  0.0mm   0%   4/ 12 SE  | MF 18.1°  0.0mm  11/ 17 SE
-10h  ECMWF 19.3°  0.0mm   0%   7/ 18 S   | MF 20.9°  0.0mm  12/ 22 S 
-11h  ECMWF 21.8°  0.0mm   0%  10/ 23 S   | MF 22.3°  0.0mm  11/ 22 S 
-12h  ECMWF 23.2°  0.0mm   0%  11/ 26 SO  | MF 23.5°  0.0mm  10/ 22 S 
-13h  ECMWF 24.0°  0.0mm   0%  12/ 28 SO  | MF 24.6°  0.0mm  10/ 22 SO
-14h  ECMWF 24.5°  0.0mm   0%  13/ 29 O   | MF 25.4°  0.0mm  12/ 25 SO
-15h  ECMWF 24.9°  0.0mm   0%  13/ 29 O   | MF 25.9°  0.0mm  14/ 28 O 
-16h  ECMWF 25.1°  0.0mm   0%  12/ 28 O   | MF 26.1°  0.0mm  15/ 30 O 
-17h  ECMWF 24.7°  0.0mm   0%  10/ 26 O   | MF 26.1°  0.0mm  14/ 29 O 
-18h  ECMWF 23.3°  0.0mm   0%   7/ 22 O   | MF 25.9°  0.0mm  12/ 27 O 
-19h  ECMWF 21.4°  0.0mm   0%   4/ 17 NO  | MF 25.3°  0.0mm  12/ 23 O 
+-- Bozouls · Rodez · arrivée (créneau 15-18h) --
+07h  ECMWF 15.4°  0.0mm   4%  12/ 24 O   | MF 15.3°  0.0mm   7/ 16 O 
+08h  ECMWF 15.7°  0.0mm   8%  13/ 25 O   | MF 15.6°  0.0mm   8/ 18 O 
+09h  ECMWF 16.2°  0.1mm  16%  13/ 26 O   | MF 16.5°  0.0mm   9/ 22 O 
+10h  ECMWF 17.0°  0.1mm  27%  14/ 28 O   | MF 16.8°  0.0mm   9/ 22 NO
+11h  ECMWF 17.7°  0.1mm  37%  14/ 30 O   | MF 17.5°  0.0mm   7/ 21 O 
+12h  ECMWF 18.4°  0.1mm  46%  16/ 33 NO  | MF 17.2°  0.0mm  12/ 26 NO
+13h  ECMWF 19.0°  0.1mm  55%  17/ 37 NO  | MF 18.6°  0.0mm  14/ 32 NO
+14h  ECMWF 19.5°  0.1mm  55%  18/ 40 NO  | MF 20.3°  0.0mm  15/ 34 NO
+15h  ECMWF 19.7°  0.0mm  41%  18/ 40 NO  | MF 19.7°  0.0mm  16/ 36 NO
+16h  ECMWF 19.7°  0.0mm  20%  16/ 38 NO  | MF 19.5°  0.0mm  17/ 39 O 
+17h  ECMWF 19.5°  0.0mm   4%  15/ 36 NO  | MF 19.7°  0.0mm  14/ 36 NO
+18h  ECMWF 19.1°  0.0mm   0%  14/ 34 NO  | MF 19.1°  0.0mm  12/ 30 NO
+19h  ECMWF 18.5°  0.0mm   1%  12/ 31 NO  | MF 18.7°  0.0mm  11/ 28 NO
