@@ -1,14 +1,18 @@
 {
  "sent_issued": "13/09/2026 12:00",
- "new_issued": "13/09/2026 20:52",
+ "new_issued": "14/09/2026 19:07",
  "lines": [
-  "J3 · Descente D19 · Espalion · Estaing : pluie 53 % / 2.5 mm → 59 % / 0 mm",
-  "J3 · Conques : pluie 18 % / 0.1 mm → 39 % / 0 mm"
+  "J3 · Départ 9h Laguiole (1 000 m) : pluie 44 % / 0.4 mm → 75 % / 1.1 mm ; rafales 38 → 24 km/h",
+  "J3 · Descente D19 · Espalion · Estaing : pluie 53 % / 2.5 mm → 86 % / 1.0 mm",
+  "J3 · Entraygues · déjeuner : pluie 41 % / 0.6 mm → 62 % / 0.6 mm",
+  "J3 · Bozouls · Rodez · arrivée : T 19–20° → 17–20°"
  ],
  "days": {
   "2026-09-16": [
-   "Descente D19 · Espalion · Estaing : pluie 53 % / 2.5 mm → 59 % / 0 mm",
-   "Conques : pluie 18 % / 0.1 mm → 39 % / 0 mm"
+   "Départ 9h Laguiole (1 000 m) : pluie 44 % / 0.4 mm → 75 % / 1.1 mm ; rafales 38 → 24 km/h",
+   "Descente D19 · Espalion · Estaing : pluie 53 % / 2.5 mm → 86 % / 1.0 mm",
+   "Entraygues · déjeuner : pluie 41 % / 0.6 mm → 62 % / 0.6 mm",
+   "Bozouls · Rodez · arrivée : T 19–20° → 17–20°"
   ]
  }
 }
