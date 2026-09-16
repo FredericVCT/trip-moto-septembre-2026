@@ -1,14 +1,6 @@
 {
- "sent_issued": "14/09/2026 19:07",
- "new_issued": "15/09/2026 19:07",
- "lines": [
-  "J3 · Départ 9h Laguiole (1 000 m) : pluie 75 % / 1.1 mm → 52 % / 0.4 mm",
-  "J3 · Bozouls · Rodez · arrivée : T 17–20° → 19–20°"
- ],
- "days": {
-  "2026-09-16": [
-   "Départ 9h Laguiole (1 000 m) : pluie 75 % / 1.1 mm → 52 % / 0.4 mm",
-   "Bozouls · Rodez · arrivée : T 17–20° → 19–20°"
-  ]
- }
+ "sent_issued": "15/09/2026 19:07",
+ "new_issued": "16/09/2026 19:07",
+ "lines": [],
+ "days": {}
 }
