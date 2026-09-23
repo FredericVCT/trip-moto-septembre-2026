@@ -7,7 +7,7 @@ Chaque soir à 19h15 (Paris), du 23 septembre au 6 octobre, une routine Claude C
 4. envoie `email.html` par Gmail à fvincenot@gmail.com, puis `build_email.py mark-sent` (met à jour `sent.json` et `history.json`) et pousse.
 
 Deux points : le gîte (719 route de la Tâche, 1 240 m) et le sommet du Puy de Sancy (1 886 m, pour les crêtes).
-Créneaux d'activité : lundi 5 de 16h à 20h, mardi 6 de 8h à 19h, mercredi 7 de 10h à 17h.
+Créneaux d'activité : lundi 5 de 14h à 20h, mardi 6 de 8h à 19h, mercredi 7 de 10h à 17h.
 
 - `fetch_buron.py` : récupération Open-Meteo (7 modèles déterministes, ensembles ECMWF IFS, ECMWF AIFS, ICON, GFS), exécuté par l'action GitHub.
 - `build_email.py` : calculs, comparaison avec le dernier briefing (`sent.json`), historique (`history.json`) et rendu du mail. Format de `comments.json` dans l'en-tête du script.

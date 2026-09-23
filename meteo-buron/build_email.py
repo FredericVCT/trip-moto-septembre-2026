@@ -20,7 +20,7 @@ comments.json (rédigé par l'assistant après lecture de `summary`) :
 import json, os, sys, shutil, statistics as st, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 TRIP = {  # jour: (libellé, début et fin du créneau d'activité, programme)
-    "2026-10-05": ("J1 lun 5/10", 16, 20, "Arrivée 16h, balade vers le lac de Guéry"),
+    "2026-10-05": ("J1 lun 5/10", 14, 20, "Arrivée 14h, lac de Guéry puis col de la Croix-Morand"),
     "2026-10-06": ("J2 mar 6/10", 8, 19, "Grande journée : crêtes du Sancy ou VTT"),
     "2026-10-07": ("J3 mer 7/10", 10, 17, "Départ 10h, dernière rando (Banne d'Ordanche)"),
 }
