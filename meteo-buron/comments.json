@@ -1,16 +1,16 @@
 {
- "headline": "à 12 jours de l'arrivée, <b>la tendance est automnale et incertaine</b> : environ une chance sur deux de pluie chaque jour du séjour, sans signal de gros épisode, et des températures fraîches (13 à 15° l'après-midi au gîte, 6° la nuit, ressenti proche de 0° sur les crêtes). Aucun modèle ne voit de neige ni de gel au gîte.",
+ "headline": "À 12 jours de l'arrivée, <b>simple tendance automnale et incertaine</b> : environ une chance sur deux de pluie chaque jour du séjour, sans signal de gros épisode, et des températures fraîches (13 à 15° l'après-midi au gîte, 6° la nuit, ressenti proche de 0° sur les crêtes). Aucun modèle ne voit de neige ni de gelée au gîte.",
  "changes": "",
- "agreement": "À cette échéance, les modèles ne s'accordent pas sur le détail : pour mardi 6, ECMWF donne 13 mm au gîte, GFS 6 mm et l'AIFS (IA d'ECMWF) 0 mm. Les 102 scénarios d'ensemble se partagent à peu près moitié sec, moitié pluvieux. Avant le séjour, un passage pluvieux est bien annoncé mercredi 30 et jeudi 1er octobre. La fiabilité deviendra correcte vers le 1er octobre (J-4) et bonne à partir du 3.",
+ "agreement": "À cette échéance (J+12 à J+14), les modèles divergent : pour mardi 6, ECMWF donne 13 mm au gîte, GFS 6 mm et l'AIFS (IA d'ECMWF) 0 mm ; pour mercredi 7, c'est l'inverse (AIFS 6 mm, ECMWF 0 mm). Les 102 scénarios d'ensemble se partagent à peu près moitié secs, moitié pluvieux, avec des cumuls médians faibles (0,6 à 1,2 mm) mais des scénarios humides jusqu'à 14 à 17 mm. Avant le séjour, un passage pluvieux se dessine mercredi 30 septembre et jeudi 1er octobre (60 à 65 % de risque, ECMWF 16 mm par jour). Fiabilité correcte vers le 1er octobre (J-4), bonne à partir du 3.",
  "trip": {
-  "2026-10-05": ["cloud", "Frais, averses possibles", "Incertain", "🥾 La balade du soir vers le lac de Guéry reste jouable dans presque tous les scénarios (29 % de risque de pluie entre 16h et 20h). Coucher du soleil à 19h21."],
-  "2026-10-06": ["cloud", "Frais, pluie possible", "Incertain", "⛰️ Journée la plus exposée : 46 % de risque de pluie entre 8h et 19h, surtout l'après-midi. Si la tendance se confirme, prévoir le VTT ou les crêtes le matin. Au sommet, ressenti autour de 0° et nuages bas une fois sur deux."],
-  "2026-10-07": ["cloud", "Frais, variable", "Incertain", "🚗 Profil proche de mardi : 42 % de risque de pluie entre 10h et 17h, vent faible. La Banne d'Ordanche reste une bonne option si le ciel est dégagé le matin."]
+  "2026-10-05": ["cloud", "Frais, averses possibles", "Incertain", "🥾 Risque de pluie de 43 % sur le créneau 14h-20h, un peu plus faible le matin (28 %) que l'après-midi (37 %) : trop tôt pour dire s'il vaut mieux faire le lac de Guéry avant ou après 16h. Coucher du soleil à 19h21 ; au col de la Croix-Morand, nuages bas une fois sur deux sur les hauteurs et rafales vers 38 km/h, donc vue incertaine."],
+  "2026-10-06": ["cloud", "Frais, pluie possible", "Incertain", "🚵 Journée la plus discutée : 46 % de risque de pluie entre 8h et 19h, mais le matin (29 %) sort mieux que l'après-midi (40 %), ce qui va dans le sens de la sortie VTT prévue le matin. Vent faible (rafales vers 26 km/h au sommet) ; au col de l'Ouire, nuages bas probables une fois sur deux. État des sentiers à voir selon la pluie du 30/09 et du 1/10."],
+  "2026-10-07": ["cloud", "Frais, variable", "Incertain", "🥾 Profil proche de mardi : 42 % de risque de pluie entre 10h et 17h, vent faible et nuages bas moins fréquents (24 %), plutôt favorable à la vue depuis la Banne d'Ordanche et le belvédère des Roches Tuilière et Sanadoire si le sec l'emporte."]
  },
  "tips": [
-  "Garder de la souplesse entre la rando des crêtes et le VTT pour mardi : on tranchera avec le briefing du samedi 3 ou du dimanche 4.",
-  "Tenue d'automne en montagne : doudoune légère, veste imperméable, bonnet et gants pour les crêtes (ressenti vers 0° avec le vent).",
-  "La pluie annoncée mercredi 30 et jeudi 1er peut rendre les sentiers boueux : chaussures montantes et garde-boue sur les VTT.",
+  "Tenue d'automne en montagne : veste imperméable, doudoune légère, bonnet et gants pour les crêtes et les descentes en VTT électrique (ressenti vers 0° au sommet, 3 à 10° en journée).",
+  "La pluie annoncée le 30/09 et le 1/10 peut laisser des sentiers gras dans les tourbières et sous bois : chaussures montantes, et pneus adaptés côté VTT.",
+  "Garder de la souplesse dans le programme : les horaires fins (Guéry avant ou après 16h, créneau VTT) seront tranchés à partir du vendredi 2 octobre.",
   "Prochain point demain soir vers 19h15."
  ]
 }
