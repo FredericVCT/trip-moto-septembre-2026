@@ -1,0 +1,210 @@
+{
+ "issued": "23/09/2026 12:45",
+ "rows": [
+  {
+   "day": "2026-09-24",
+   "p1": 0,
+   "med": 0.0,
+   "p90": 0.0,
+   "bl": {
+    "nuit": 0,
+    "matin": 0,
+    "après-midi": 0,
+    "soir": 0
+   },
+   "det": [
+    "AROME 0,0",
+    "Météo-France 0,0",
+    "ECMWF 0,0",
+    "AIFS 0,0",
+    "ICON 0,0",
+    "GFS 0,0",
+    "UKMO 0,0"
+   ],
+   "tmin": 14,
+   "tmax": 31,
+   "gust": 26,
+   "n": 173
+  },
+  {
+   "day": "2026-09-25",
+   "p1": 0,
+   "med": 0.0,
+   "p90": 0.0,
+   "bl": {
+    "nuit": 0,
+    "matin": 0,
+    "après-midi": 0,
+    "soir": 0
+   },
+   "det": [
+    "Météo-France 0,0",
+    "ECMWF 0,0",
+    "AIFS 0,0",
+    "ICON 0,0",
+    "GFS 0,0",
+    "UKMO 0,0"
+   ],
+   "tmin": 13,
+   "tmax": 32,
+   "gust": 26,
+   "n": 173
+  },
+  {
+   "day": "2026-09-26",
+   "p1": 0,
+   "med": 0.0,
+   "p90": 0.0,
+   "bl": {
+    "nuit": 0,
+    "matin": 0,
+    "après-midi": 0,
+    "soir": 0
+   },
+   "det": [
+    "Météo-France 0,0",
+    "ECMWF 0,0",
+    "AIFS 0,6",
+    "ICON 0,0",
+    "GFS 0,0",
+    "UKMO 0,6"
+   ],
+   "tmin": 17,
+   "tmax": 25,
+   "gust": 24,
+   "n": 173
+  },
+  {
+   "day": "2026-09-27",
+   "p1": 24,
+   "med": 0.0,
+   "p90": 3.0,
+   "bl": {
+    "nuit": 0,
+    "matin": 2,
+    "après-midi": 4,
+    "soir": 28
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,0",
+    "ICON 0,0",
+    "GFS 0,8",
+    "UKMO 0,0"
+   ],
+   "tmin": 14,
+   "tmax": 29,
+   "gust": 32,
+   "n": 173
+  },
+  {
+   "day": "2026-09-28",
+   "p1": 58,
+   "med": 3.0,
+   "p90": 22.5,
+   "bl": {
+    "nuit": 42,
+    "matin": 45,
+    "après-midi": 42,
+    "soir": 35
+   },
+   "det": [
+    "ECMWF 27,0",
+    "AIFS 2,7",
+    "ICON 0,0",
+    "GFS 12,3",
+    "UKMO 0,0"
+   ],
+   "tmin": 17,
+   "tmax": 24,
+   "gust": 34,
+   "n": 173
+  },
+  {
+   "day": "2026-09-29",
+   "p1": 39,
+   "med": 0.0,
+   "p90": 9.3,
+   "bl": {
+    "nuit": 22,
+    "matin": 13,
+    "après-midi": 24,
+    "soir": 29
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 1,5",
+    "ICON 0,0",
+    "GFS 0,9",
+    "UKMO 0,0"
+   ],
+   "tmin": 20,
+   "tmax": 27,
+   "gust": 45,
+   "n": 173
+  },
+  {
+   "day": "2026-09-30",
+   "p1": 61,
+   "med": 2.7,
+   "p90": 16.2,
+   "bl": {
+    "nuit": 28,
+    "matin": 32,
+    "après-midi": 42,
+    "soir": 48
+   },
+   "det": [
+    "ECMWF 18,9",
+    "AIFS 16,8",
+    "GFS 0,0"
+   ],
+   "tmin": 16,
+   "tmax": 23,
+   "gust": 38,
+   "n": 133
+  },
+  {
+   "day": "2026-10-01",
+   "p1": 50,
+   "med": 1.2,
+   "p90": 16.8,
+   "bl": {
+    "nuit": 38,
+    "matin": 38,
+    "après-midi": 41,
+    "soir": 32
+   },
+   "det": [
+    "ECMWF 8,1",
+    "AIFS 3,6",
+    "GFS 8,1"
+   ],
+   "tmin": 11,
+   "tmax": 17,
+   "gust": 31,
+   "n": 133
+  },
+  {
+   "day": "2026-10-02",
+   "p1": 33,
+   "med": 0.0,
+   "p90": 10.5,
+   "bl": {
+    "nuit": 21,
+    "matin": 21,
+    "après-midi": 26,
+    "soir": 23
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,3",
+    "GFS 0,0"
+   ],
+   "tmin": 8,
+   "tmax": 17,
+   "gust": 15,
+   "n": 133
+  }
+ ]
+}

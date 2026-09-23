@@ -1,0 +1,22 @@
+{
+ "headline": "sec garanti jusqu'à samedi 26 inclus, avec la fin de l'épisode de chaleur (jusqu'à 32° vendredi). La pluie arrive dimanche soir, et <b>lundi 28 est le jour le plus arrosé</b> : environ 6 chances sur 10 de dépasser 1 mm, surtout la nuit et le matin. La semaine prochaine reste humide, avec un deuxième passage pluvieux mercredi 30 et jeudi 1er, et un net rafraîchissement (maxi 17° jeudi).",
+ "agreement": "Unanimité sur le sec jusqu'à samedi : les 10 modèles et les 173 scénarios donnent 0 mm. Pour lundi, tous voient arriver la pluie mais pas en même quantité : ECMWF annonce 27 mm, GFS 12 mm, alors que l'AIFS (IA d'ECMWF) et ICON restent presque secs. Au-delà de mardi, ce sont des tendances, pas des horaires.",
+ "changes": "",
+ "days": {
+  "2026-09-24": ["hot", "Grand beau, très chaud", "Sec garanti"],
+  "2026-09-25": ["hot", "Grand beau, pic de chaleur", "Sec garanti"],
+  "2026-09-26": ["sun", "Beau, un peu plus frais", "Sec"],
+  "2026-09-27": ["cloud", "Sec la journée, pluie le soir", "Rentrer avant 18h"],
+  "2026-09-28": ["rain", "Journée pluvieuse, surtout le matin", "À éviter"],
+  "2026-09-29": ["wind", "Averses éparses et vent", "Incertain"],
+  "2026-09-30": ["rain", "Nouveau passage pluvieux l'après-midi", "Pluie probable"],
+  "2026-10-01": ["rain", "Instable et nettement plus frais", "Pluie probable"],
+  "2026-10-02": ["cloud", "Frais, accalmie possible", "Tendance"]
+ },
+ "tips": [
+  "Sorties moto, tonte, travaux extérieurs : profitez de jeudi à samedi, et de dimanche jusqu'en fin d'après-midi.",
+  "Lundi 28 : journée à éviter pour la moto, surtout le matin. Dans le pire des cas (1 scénario sur 10), plus de 20 mm.",
+  "Arrosage : inutile de prévoir un gros arrosage pour la semaine prochaine, la pluie devrait prendre le relais dès dimanche soir.",
+  "Fin de semaine prochaine : on passe de 32° à 17° en une semaine, ressortir les vêtements de mi-saison."
+ ]
+}
