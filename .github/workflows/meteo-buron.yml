@@ -1,0 +1,21 @@
+name: "Météo Buron de la Tâche (séjour 5 au 7 octobre 2026)"
+on:
+  push:
+    branches: [claude/meteo-buron-octobre-2026]
+    paths: [".github/workflows/meteo-buron.yml", "meteo-buron/trigger"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 meteo-buron/fetch_buron.py
+      - run: |
+          git config user.name "meteo-bot"
+          git config user.email "fvincenot@gmail.com"
+          git add meteo-buron/raw.json
+          git commit -m "Météo Buron : données du $(TZ=Europe/Paris date '+%d/%m %Hh%M')"
+          git pull --rebase
+          git push

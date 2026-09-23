@@ -1,0 +1,16 @@
+{
+ "headline": "à 12 jours de l'arrivée, <b>la tendance est automnale et incertaine</b> : environ une chance sur deux de pluie chaque jour du séjour, sans signal de gros épisode, et des températures fraîches (13 à 15° l'après-midi au gîte, 6° la nuit, ressenti proche de 0° sur les crêtes). Aucun modèle ne voit de neige ni de gel au gîte.",
+ "changes": "",
+ "agreement": "À cette échéance, les modèles ne s'accordent pas sur le détail : pour mardi 6, ECMWF donne 13 mm au gîte, GFS 6 mm et l'AIFS (IA d'ECMWF) 0 mm. Les 102 scénarios d'ensemble se partagent à peu près moitié sec, moitié pluvieux. Avant le séjour, un passage pluvieux est bien annoncé mercredi 30 et jeudi 1er octobre. La fiabilité deviendra correcte vers le 1er octobre (J-4) et bonne à partir du 3.",
+ "trip": {
+  "2026-10-05": ["cloud", "Frais, averses possibles", "Incertain", "🥾 La balade du soir vers le lac de Guéry reste jouable dans presque tous les scénarios (29 % de risque de pluie entre 16h et 20h). Coucher du soleil à 19h21."],
+  "2026-10-06": ["cloud", "Frais, pluie possible", "Incertain", "⛰️ Journée la plus exposée : 46 % de risque de pluie entre 8h et 19h, surtout l'après-midi. Si la tendance se confirme, prévoir le VTT ou les crêtes le matin. Au sommet, ressenti autour de 0° et nuages bas une fois sur deux."],
+  "2026-10-07": ["cloud", "Frais, variable", "Incertain", "🚗 Profil proche de mardi : 42 % de risque de pluie entre 10h et 17h, vent faible. La Banne d'Ordanche reste une bonne option si le ciel est dégagé le matin."]
+ },
+ "tips": [
+  "Garder de la souplesse entre la rando des crêtes et le VTT pour mardi : on tranchera avec le briefing du samedi 3 ou du dimanche 4.",
+  "Tenue d'automne en montagne : doudoune légère, veste imperméable, bonnet et gants pour les crêtes (ressenti vers 0° avec le vent).",
+  "La pluie annoncée mercredi 30 et jeudi 1er peut rendre les sentiers boueux : chaussures montantes et garde-boue sur les VTT.",
+  "Prochain point demain soir vers 19h15."
+ ]
+}
