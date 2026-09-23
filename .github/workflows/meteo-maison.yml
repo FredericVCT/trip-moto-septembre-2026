@@ -1,0 +1,20 @@
+name: "Météo maison, pluie Saint-Cyr-la-Roche"
+on:
+  push:
+    branches: [claude/precipitation-forecast-analysis-dctml0]
+    paths: [".github/workflows/meteo-maison.yml", "meteo-maison/fetch_pluie.py", "meteo-maison/trigger"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 meteo-maison/fetch_pluie.py
+      - run: |
+          git config user.name "meteo-bot"
+          git config user.email "fvincenot@gmail.com"
+          git add meteo-maison/raw.json
+          git commit -m "Météo maison : données du $(TZ=Europe/Paris date '+%d/%m %Hh%M')"
+          git push
