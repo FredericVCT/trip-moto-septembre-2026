@@ -1,22 +1,22 @@
 {
- "headline": "sec garanti jusqu'à samedi 26 inclus, avec la fin de l'épisode de chaleur (jusqu'à 32° vendredi). La pluie arrive dimanche soir, et <b>lundi 28 est le jour le plus arrosé</b> : environ 6 chances sur 10 de dépasser 1 mm, surtout la nuit et le matin. La semaine prochaine reste humide, avec un deuxième passage pluvieux mercredi 30 et jeudi 1er, et un net rafraîchissement (maxi 17° jeudi).",
- "agreement": "Unanimité sur le sec jusqu'à samedi : les 10 modèles et les 173 scénarios donnent 0 mm. Pour lundi, tous voient arriver la pluie mais pas en même quantité : ECMWF annonce 27 mm, GFS 12 mm, alors que l'AIFS (IA d'ECMWF) et ICON restent presque secs. Au-delà de mardi, ce sont des tendances, pas des horaires.",
- "changes": "",
+ "headline": "DEMAIN jeudi 24, grand beau et sec : 0 % de risque pour tous les modèles, avec 31° l'après-midi. Le sec tient jusqu'à samedi inclus (32° vendredi). La pluie arrive dimanche soir, <b>lundi 28 reste le jour à surveiller</b> (6 chances sur 10 de dépasser 1 mm, surtout la nuit et le matin), puis <b>mercredi 30 devient le jour le plus sûrement pluvieux</b> (75 %), avant un net rafraîchissement jeudi 1er (maxi 17°).",
+ "agreement": "Unanimité sur le sec de jeudi à samedi. Pour lundi, les modèles restent partagés : GFS donne 12 mm, l'AIFS 5 mm, ECMWF seulement 1 mm, ICON et UKMO rien. Pour mercredi 30, ils convergent : ECMWF 19 mm, GFS 16 mm, AIFS 10 mm, ICON 6 mm. Au-delà de mardi, ce sont des tendances, pas des horaires.",
+ "changes": "L'épisode de lundi faiblit chez ECMWF (27 mm ce midi, 1 mm ce soir) mais pas chez GFS (12 mm) ni l'AIFS (5 mm) : le risque global ne bouge presque pas (58 % puis 60 %). Lundi sera aussi plus doux (28° au lieu de 24°). Mercredi 30 se renforce : 75 % de risque contre 61 % ce midi, GFS et ICON rejoignant ECMWF. Le sec de jeudi à samedi est confirmé.",
  "days": {
   "2026-09-24": ["hot", "Grand beau, très chaud", "Sec garanti"],
   "2026-09-25": ["hot", "Grand beau, pic de chaleur", "Sec garanti"],
   "2026-09-26": ["sun", "Beau, un peu plus frais", "Sec"],
-  "2026-09-27": ["cloud", "Sec la journée, pluie le soir", "Rentrer avant 18h"],
-  "2026-09-28": ["rain", "Journée pluvieuse, surtout le matin", "À éviter"],
+  "2026-09-27": ["cloud", "Sec la journée, averses le soir", "Rentrer avant 18h"],
+  "2026-09-28": ["rain", "Pluie probable, surtout nuit et matin", "À surveiller"],
   "2026-09-29": ["wind", "Averses éparses et vent", "Incertain"],
-  "2026-09-30": ["rain", "Nouveau passage pluvieux l'après-midi", "Pluie probable"],
+  "2026-09-30": ["rain", "Pluie l'après-midi et le soir", "Pluie probable"],
   "2026-10-01": ["rain", "Instable et nettement plus frais", "Pluie probable"],
   "2026-10-02": ["cloud", "Frais, accalmie possible", "Tendance"]
  },
  "tips": [
-  "Sorties moto, tonte, travaux extérieurs : profitez de jeudi à samedi, et de dimanche jusqu'en fin d'après-midi.",
-  "Lundi 28 : journée à éviter pour la moto, surtout le matin. Dans le pire des cas (1 scénario sur 10), plus de 20 mm.",
-  "Arrosage : inutile de prévoir un gros arrosage pour la semaine prochaine, la pluie devrait prendre le relais dès dimanche soir.",
-  "Fin de semaine prochaine : on passe de 32° à 17° en une semaine, ressortir les vêtements de mi-saison."
+  "Sorties moto et travaux extérieurs : jeudi, vendredi et samedi sont parfaits, dimanche aussi jusqu'en fin d'après-midi.",
+  "Lundi 28 : incertain, garder la tenue de pluie à portée pour une sortie le matin. Mercredi 30 après-midi est le créneau le plus sûrement mouillé.",
+  "Jardin : un dernier arrosage vendredi ou samedi suffit, la pluie devrait prendre le relais à partir de dimanche soir.",
+  "Linge : à étendre de jeudi à samedi. À partir de jeudi 1er, maxi 17° et 8° au petit matin vendredi : ressortir les vêtements de mi-saison."
  ]
 }
