@@ -22,7 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TRIP = {  # jour: (libellé, début et fin du créneau d'activité, programme)
     "2026-10-05": ("J1 lun 5/10", 14, 20, "Arrivée 14h, lac de Guéry puis col de la Croix-Morand"),
     "2026-10-06": ("J2 mar 6/10", 8, 19, "VTT 28 km 9h30-13h30 (Guéry, Servières, Pessade, point haut 1 470 m), repos l'après-midi"),
-    "2026-10-07": ("J3 mer 7/10", 10, 17, "Départ 10h, dernière rando (Banne d'Ordanche)"),
+    "2026-10-07": ("J3 mer 7/10", 10, 17, "Départ 10h, belvédère des Roches puis boucle de 9 km à la Banne d'Ordanche (1 513 m) depuis le col de Guéry, 10h30-14h, puis 2h de route"),
 }
 LAST = max(TRIP)
 JOURS = ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"]
