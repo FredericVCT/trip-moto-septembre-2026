@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN jeudi 24, grand beau et sec : 0 % de risque pour tous les modèles, avec 31° l'après-midi. Le sec tient jusqu'à samedi inclus (32° vendredi). La pluie arrive dimanche soir, <b>lundi 28 reste le jour à surveiller</b> (6 chances sur 10 de dépasser 1 mm, surtout la nuit et le matin), puis <b>mercredi 30 devient le jour le plus sûrement pluvieux</b> (75 %), avant un net rafraîchissement jeudi 1er (maxi 17°).",
- "agreement": "Unanimité sur le sec de jeudi à samedi. Pour lundi, les modèles restent partagés : GFS donne 12 mm, l'AIFS 5 mm, ECMWF seulement 1 mm, ICON et UKMO rien. Pour mercredi 30, ils convergent : ECMWF 19 mm, GFS 16 mm, AIFS 10 mm, ICON 6 mm. Au-delà de mardi, ce sont des tendances, pas des horaires.",
- "changes": "L'épisode de lundi faiblit chez ECMWF (27 mm ce midi, 1 mm ce soir) mais pas chez GFS (12 mm) ni l'AIFS (5 mm) : le risque global ne bouge presque pas (58 % puis 60 %). Lundi sera aussi plus doux (28° au lieu de 24°). Mercredi 30 se renforce : 75 % de risque contre 61 % ce midi, GFS et ICON rejoignant ECMWF. Le sec de jeudi à samedi est confirmé.",
+ "headline": "DEMAIN vendredi 25, grand beau et sec : 0 % de risque pour tous les modèles, avec un pic de chaleur à 32°. Le week-end reste sec, dimanche compris. <b>Lundi 28 devient plutôt sec</b> (37 %, faibles quantités). <b>Le vrai épisode pluvieux se décale à mercredi 30 en soirée et surtout jeudi 1er octobre</b> (83 % de risque, 8 mm en médiane, jusqu'à 24 mm), la nuit et le matin en priorité.",
+ "agreement": "Unanimité sur le sec de vendredi à dimanche. Lundi, seul GFS donne encore un peu de pluie (3 mm), ECMWF, AIFS, ICON et UKMO sont à 0. Pour jeudi 1er, tous voient de la pluie mais en quantités variables : ECMWF 37 mm, AIFS 22 mm, GFS 16 mm, ICON 5 mm. ICON signale un risque d'orage mercredi en soirée (18h à 21h), seul modèle à le faire. Au-delà de jeudi, ce sont des tendances.",
+ "changes": "Grosse évolution depuis hier soir : lundi s'assèche nettement (60 % puis 37 %, cumul médian de 3 mm à 0,3 mm), et la pluie se concentre sur jeudi 1er (59 % puis 83 %, ECMWF passe de 8 à 37 mm). Mercredi 30 reste pluvieux mais seulement en fin de journée, et il fera bien plus chaud qu'annoncé (30° au lieu de 23°). Le sec de vendredi à dimanche est confirmé.",
  "days": {
-  "2026-09-24": ["hot", "Grand beau, très chaud", "Sec garanti"],
   "2026-09-25": ["hot", "Grand beau, pic de chaleur", "Sec garanti"],
-  "2026-09-26": ["sun", "Beau, un peu plus frais", "Sec"],
-  "2026-09-27": ["cloud", "Sec la journée, averses le soir", "Rentrer avant 18h"],
-  "2026-09-28": ["rain", "Pluie probable, surtout nuit et matin", "À surveiller"],
-  "2026-09-29": ["wind", "Averses éparses et vent", "Incertain"],
-  "2026-09-30": ["rain", "Pluie l'après-midi et le soir", "Pluie probable"],
-  "2026-10-01": ["rain", "Instable et nettement plus frais", "Pluie probable"],
-  "2026-10-02": ["cloud", "Frais, accalmie possible", "Tendance"]
+  "2026-09-26": ["sun", "Beau, un peu plus frais", "Sec garanti"],
+  "2026-09-27": ["sun", "Beau et chaud", "Sec"],
+  "2026-09-28": ["cloud", "Nuageux, faible risque d'averse", "Plutôt sec"],
+  "2026-09-29": ["wind", "Sec mais venteux", "Plutôt sec"],
+  "2026-09-30": ["storm", "Chaud, averses orageuses le soir", "Pluie le soir"],
+  "2026-10-01": ["rain", "Journée pluvieuse, surtout le matin", "À éviter"],
+  "2026-10-02": ["cloud", "Plus frais, averses résiduelles", "Incertain"],
+  "2026-10-03": ["cloud", "Frais, plutôt sec", "Tendance"]
  },
  "tips": [
-  "Sorties moto et travaux extérieurs : jeudi, vendredi et samedi sont parfaits, dimanche aussi jusqu'en fin d'après-midi.",
-  "Lundi 28 : incertain, garder la tenue de pluie à portée pour une sortie le matin. Mercredi 30 après-midi est le créneau le plus sûrement mouillé.",
-  "Jardin : un dernier arrosage vendredi ou samedi suffit, la pluie devrait prendre le relais à partir de dimanche soir.",
-  "Linge : à étendre de jeudi à samedi. À partir de jeudi 1er, maxi 17° et 8° au petit matin vendredi : ressortir les vêtements de mi-saison."
+  "Sorties moto : fenêtre sèche de vendredi à mardi, lundi compris désormais. Mercredi, rentrer avant la fin d'après-midi.",
+  "Jeudi 1er octobre : journée à éviter pour la moto, pluie probable dès la nuit et toute la matinée.",
+  "Jardin : un arrosage ce week-end reste utile, la vraie pluie n'arrive plus avant mercredi soir.",
+  "Linge : à étendre de vendredi à mardi. Rafales jusqu'à 44 km/h mardi, bien fixer ce qui traîne dehors."
  ]
 }
