@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN samedi 26, beau et sec : 1 % de risque, 24° l'après-midi, AROME et Météo-France à 0 mm. Dimanche reste sec et chaud (30°), lundi et mardi plutôt secs. <b>L'épisode pluvieux se confirme de mercredi 30 après-midi à jeudi 1er octobre</b> : 72 % mercredi (surtout le soir), puis <b>90 % jeudi avec 13 mm en médiane et jusqu'à 30 mm</b>, la nuit et le matin surtout. Retour au sec dès vendredi 2.",
- "agreement": "Unanimité sur le sec samedi et dimanche. Pour jeudi 1er, quatre modèles sur cinq donnent de la pluie : ICON 41 mm, UKMO 37 mm, AIFS 14 mm, ECMWF 13 mm. GFS est le seul à rester sec jeudi, car il place l'essentiel de la pluie mercredi (11 mm). Aucun modèle ne signale d'orage. Au-delà de vendredi, ce sont des tendances.",
- "changes": "Prévisions globalement stables depuis hier soir, avec un épisode de jeudi qui se renforce : cumul médian de 8 à 13 mm, et 10 % des scénarios au-delà de 30 mm (contre 24 hier). Le risque de jeudi monte à 90 % (83 % hier), celui de mercredi à 72 % (63 %). Vendredi 2 s'assèche. Le risque d'orage que voyait ICON mercredi soir a disparu.",
+ "headline": "DEMAIN dimanche 27, beau, chaud et sec : 2 % de risque, 30° l'après-midi, AROME et Météo-France à 0 mm. Lundi reste sec, mardi quelques gouttes possibles avec du vent (rafales à 49 km/h). <b>La pluie arrive mercredi 30</b> (91 %, surtout l'après-midi et le soir) et se poursuit <b>la nuit de mercredi à jeudi 1er</b> (77 %). <b>Risque d'orage faible mais à surveiller mercredi en fin de journée</b> : ICON prévoit de l'orage de 18h à minuit, avec une atmosphère instable en début d'après-midi (CAPE de 1 200 J/kg chez ECMWF).",
+ "agreement": "Unanimité sur le sec dimanche et lundi. Mercredi, tous les modèles voient de la pluie : ICON 11 mm, AIFS 11 mm, GFS 8 mm, ECMWF 7,5 mm, UKMO 2 mm. Jeudi, ECMWF (12 mm) et UKMO (11 mm) sont les plus arrosés, ICON et GFS presque secs. Pour l'orage, seul ICON en prévoit explicitement mercredi soir, et 7 % des scénarios d'ensemble combinent forte instabilité et pluie. Au-delà de jeudi, ce sont des tendances.",
+ "changes": "L'épisode pluvieux avance d'une demi-journée : mercredi 30 devient le jour le plus arrosé (91 % contre 72 % hier, cumul médian de 3 à 6 mm), et il sera nettement moins chaud (23° au lieu de 29°). Jeudi 1er faiblit (77 % contre 90 %, cumul médian de 13 à 5 mm), la pluie se limitant surtout à la nuit et au début de matinée. Lundi s'assèche encore (13 % contre 35 %). Nouveau : ICON annonce de l'orage mercredi soir.",
  "days": {
-  "2026-09-26": ["sun", "Beau, un peu plus frais", "Sec garanti"],
-  "2026-09-27": ["hot", "Beau et chaud", "Sec"],
-  "2026-09-28": ["cloud", "Nuageux, faible risque d'averse", "Plutôt sec"],
-  "2026-09-29": ["wind", "Sec mais venteux", "Plutôt sec"],
-  "2026-09-30": ["rain", "Chaud, pluie l'après-midi et le soir", "Pluie probable"],
-  "2026-10-01": ["rain", "Journée pluvieuse, surtout le matin", "À éviter"],
-  "2026-10-02": ["cloud", "Retour au sec, plus frais", "Plutôt sec"],
-  "2026-10-03": ["sun", "Frais le matin, sec", "Tendance"],
-  "2026-10-04": ["cloud", "Frais et venteux", "Tendance"]
+  "2026-09-27": ["hot", "Beau et chaud", "Sec garanti"],
+  "2026-09-28": ["sun", "Beau, quelques nuages", "Sec"],
+  "2026-09-29": ["wind", "Venteux, rares gouttes", "Plutôt sec"],
+  "2026-09-30": ["rain", "Pluie l'après-midi, orageux le soir", "Pluie probable"],
+  "2026-10-01": ["rain", "Pluie la nuit et le matin", "Matin mouillé"],
+  "2026-10-02": ["cloud", "Retour au sec", "Sec"],
+  "2026-10-03": ["cloud", "Frais le matin, plutôt sec", "Tendance"],
+  "2026-10-04": ["cloud", "Plus doux, averses possibles", "Tendance"],
+  "2026-10-05": ["cloud", "Averses possibles", "Tendance"]
  },
  "tips": [
-  "Sorties moto : samedi et dimanche sont parfaits, lundi et mardi restent jouables. Mercredi, rentrer avant le milieu d'après-midi.",
-  "Jeudi 1er octobre : journée à éviter pour la moto, pluie probable toute la matinée, 13 mm en médiane.",
-  "Jardin : un arrosage ce week-end reste utile, la pluie de jeudi devrait ensuite bien recharger le sol.",
-  "Linge : à étendre de samedi à mardi. Rafales jusqu'à 44 km/h mardi, bien fixer ce qui traîne dehors."
+  "Sorties moto : dimanche, lundi et mardi sont bons (mardi, attention au vent). Mercredi, rouler seulement le matin et éviter la fin de journée à cause du risque d'orage.",
+  "Orage mercredi soir : rentrer le mobilier de jardin et les coussins dans l'après-midi, et débrancher les appareils sensibles si l'orage se rapproche.",
+  "Jardin : un arrosage dimanche ou lundi reste utile, la pluie de mercredi et de la nuit suivante devrait ensuite prendre le relais.",
+  "Linge : à étendre de dimanche à mardi (bien fixé mardi à cause des rafales). Jeudi matin, prévoir la veste de pluie."
  ]
 }
