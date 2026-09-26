@@ -22,11 +22,15 @@ def get(url):
 out = {"issued_utc": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), "lat": LAT, "lon": LON, "det": {}, "ens": {}}
 for m in DET:
     q = dict(latitude=LAT, longitude=LON, models=m, timezone="Europe/Paris", forecast_days=10,
-             hourly="precipitation,precipitation_probability,rain,showers,weather_code,cloud_cover,temperature_2m,wind_gusts_10m")
+             hourly="precipitation,precipitation_probability,rain,showers,weather_code,cloud_cover,temperature_2m,wind_gusts_10m,cape,lifted_index")
     out["det"][m] = get("https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(q))
 for m in ENS:
-    q = dict(latitude=LAT, longitude=LON, models=m, timezone="Europe/Paris", forecast_days=10, hourly="precipitation")
-    out["ens"][m] = get("https://ensemble-api.open-meteo.com/v1/ensemble?" + urllib.parse.urlencode(q))
+    q = dict(latitude=LAT, longitude=LON, models=m, timezone="Europe/Paris", forecast_days=10, hourly="precipitation,cape")
+    r = get("https://ensemble-api.open-meteo.com/v1/ensemble?" + urllib.parse.urlencode(q))
+    if "error" in r:  # modèle sans CAPE : on garde au moins la pluie
+        q["hourly"] = "precipitation"
+        r = get("https://ensemble-api.open-meteo.com/v1/ensemble?" + urllib.parse.urlencode(q))
+    out["ens"][m] = r
 json.dump(out, open(os.path.join(HERE, "raw.json"), "w"))
 for k in ("det", "ens"):
     for m, d in out[k].items():
