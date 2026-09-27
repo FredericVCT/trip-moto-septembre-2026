@@ -1,16 +1,16 @@
 {
- "issued": "26/09/2026 19:16",
- "today": "2026-09-26",
+ "issued": "27/09/2026 19:15",
+ "today": "2026-09-27",
  "rows": [
   {
-   "day": "2026-09-27",
+   "day": "2026-09-28",
    "lead": 1,
    "n": 173,
    "p1": 1,
    "med": 0.0,
    "p90": 0.0,
-   "tmin": 11.5,
-   "tmax": 23.1,
+   "tmin": 12.0,
+   "tmax": 20.5,
    "det": {
     "AROME": 0.0,
     "Météo-France": 0.0,
@@ -22,256 +22,241 @@
    }
   },
   {
-   "day": "2026-09-28",
+   "day": "2026-09-29",
    "lead": 2,
    "n": 173,
-   "p1": 3,
+   "p1": 10,
    "med": 0.0,
-   "p90": 0.0,
-   "tmin": 11.7,
-   "tmax": 21.0,
+   "p90": 0.9,
+   "tmin": 11.8,
+   "tmax": 19.8,
    "det": {
     "Météo-France": 0.0,
-    "ECMWF": 0.0,
-    "AIFS": 0.0,
+    "ECMWF": 0.6,
+    "AIFS": 1.8,
     "ICON": 0.0,
     "GFS": 0.4,
     "UKMO": 0.0
    }
   },
   {
-   "day": "2026-09-29",
+   "day": "2026-09-30",
    "lead": 3,
    "n": 173,
-   "p1": 10,
-   "med": 0.0,
-   "p90": 0.9,
-   "tmin": 11.5,
-   "tmax": 20.7,
-   "det": {
-    "Météo-France": 0.0,
-    "ECMWF": 1.8,
-    "AIFS": 0.0,
-    "ICON": 1.2,
-    "GFS": 0.5,
-    "UKMO": 0.0
-   }
-  },
-  {
-   "day": "2026-09-30",
-   "lead": 4,
-   "n": 173,
    "p1": 87,
-   "med": 6.6,
-   "p90": 16.5,
-   "tmin": 13.0,
-   "tmax": 18.2,
+   "med": 4.8,
+   "p90": 12.9,
+   "tmin": 13.2,
+   "tmax": 19.1,
    "det": {
-    "ECMWF": 15.9,
-    "AIFS": 7.2,
-    "ICON": 6.6,
-    "GFS": 1.7,
-    "UKMO": 0.0
+    "Météo-France": 0.3,
+    "ECMWF": 2.1,
+    "AIFS": 6.0,
+    "ICON": 7.1,
+    "GFS": 1.6,
+    "UKMO": 0.6
    }
   },
   {
    "day": "2026-10-01",
-   "lead": 5,
+   "lead": 4,
    "n": 173,
-   "p1": 90,
-   "med": 9.9,
-   "p90": 26.1,
-   "tmin": 11.3,
-   "tmax": 14.7,
+   "p1": 97,
+   "med": 12.9,
+   "p90": 21.9,
+   "tmin": 12.2,
+   "tmax": 14.3,
    "det": {
-    "ECMWF": 12.6,
-    "AIFS": 10.2,
-    "ICON": 3.0,
-    "GFS": 4.2,
-    "UKMO": 16.2
+    "ECMWF": 13.2,
+    "AIFS": 11.4,
+    "ICON": 12.0,
+    "GFS": 7.6,
+    "UKMO": 33.6
    }
   },
   {
    "day": "2026-10-02",
-   "lead": 6,
+   "lead": 5,
    "n": 173,
-   "p1": 22,
+   "p1": 31,
    "med": 0.0,
-   "p90": 2.7,
-   "tmin": 8.6,
-   "tmax": 15.7,
+   "p90": 5.1,
+   "tmin": 8.7,
+   "tmax": 16.2,
    "det": {
-    "ECMWF": 0.3,
+    "ECMWF": 3.9,
     "AIFS": 0.0,
     "ICON": 0.0,
-    "GFS": 0.3,
+    "GFS": 0.0,
     "UKMO": 0.0
    }
   },
   {
    "day": "2026-10-03",
-   "lead": 7,
+   "lead": 6,
    "n": 173,
-   "p1": 19,
+   "p1": 35,
    "med": 0.0,
-   "p90": 3.0,
-   "tmin": 8.1,
-   "tmax": 16.8,
+   "p90": 5.7,
+   "tmin": 9.3,
+   "tmax": 17.2,
    "det": {
     "ECMWF": 0.0,
-    "AIFS": 0.6,
+    "AIFS": 0.0,
     "ICON": 0.0,
-    "GFS": 0.0
+    "GFS": 4.2,
+    "UKMO": 0.0
    }
   },
   {
    "day": "2026-10-04",
-   "lead": 8,
-   "n": 133,
-   "p1": 29,
-   "med": 0.0,
-   "p90": 5.7,
-   "tmin": 7.9,
-   "tmax": 16.6,
+   "lead": 7,
+   "n": 173,
+   "p1": 45,
+   "med": 0.6,
+   "p90": 7.2,
+   "tmin": 9.4,
+   "tmax": 16.4,
    "det": {
-    "ECMWF": 0.0,
+    "ECMWF": 6.0,
     "AIFS": 0.6,
-    "GFS": 0.0
+    "ICON": 9.3,
+    "GFS": 3.3
    }
   },
   {
    "day": "2026-10-05",
-   "lead": 9,
+   "lead": 8,
    "n": 133,
-   "p1": 37,
-   "med": 0.0,
-   "p90": 6.6,
-   "tmin": 7.8,
+   "p1": 43,
+   "med": 0.6,
+   "p90": 9.3,
+   "tmin": 8.3,
    "tmax": 15.5,
    "det": {
-    "ECMWF": 0.0,
+    "ECMWF": 22.8,
     "AIFS": 0.0,
-    "GFS": 0.0
+    "GFS": 0.3
    },
-   "pwin": 35,
+   "pwin": 38,
    "blocks": {
-    "matin 8-12h": 17,
-    "après-midi 12-18h": 32,
-    "soir 18-22h": 23
+    "matin 8-12h": 20,
+    "après-midi 12-18h": 34,
+    "soir 18-22h": 27
    },
-   "s_tmin": 5.1,
+   "s_tmin": 5.5,
    "s_tmax": 11.3,
-   "s_gust": 14,
+   "s_gust": 30,
    "s_gust_det": {
-    "ECMWF": 18,
-    "GFS": 9
+    "ECMWF": 47,
+    "GFS": 13
    },
-   "s_wind": 6,
-   "s_feel": 4,
+   "s_wind": 9,
+   "s_feel": 2,
    "s_feel_det": {
-    "ECMWF": 4,
-    "AIFS": 5,
-    "GFS": 3
+    "ECMWF": 2,
+    "AIFS": 4,
+    "GFS": 2
    },
-   "s_low": 0,
-   "g_low": 0,
-   "g_gust": 15,
-   "frost": 9,
-   "iso0": 3860,
+   "s_low": 28,
+   "g_low": 47,
+   "g_gust": 29,
+   "frost": 8,
+   "iso0": 3420,
    "snow": 0,
    "sunrise": "07:51",
    "sunset": "19:21"
   },
   {
    "day": "2026-10-06",
-   "lead": 10,
-   "n": 102,
-   "p1": 32,
-   "med": 0.0,
+   "lead": 9,
+   "n": 133,
+   "p1": 40,
+   "med": 0.3,
    "p90": 7.8,
-   "tmin": 7.0,
-   "tmax": 14.1,
+   "tmin": 6.7,
+   "tmax": 14.8,
    "det": {
-    "ECMWF": 0.0,
+    "ECMWF": 18.6,
     "AIFS": 0.0,
     "GFS": 0.0
    },
-   "pwin": 30,
+   "pwin": 41,
    "blocks": {
-    "matin 8-12h": 24,
-    "après-midi 12-18h": 28,
-    "soir 18-22h": 23
+    "matin 8-12h": 20,
+    "après-midi 12-18h": 32,
+    "soir 18-22h": 26
    },
-   "s_tmin": 3.7,
-   "s_tmax": 10.0,
-   "s_gust": 20,
+   "s_tmin": 4.0,
+   "s_tmax": 10.7,
+   "s_gust": 28,
    "s_gust_det": {
-    "ECMWF": 22,
-    "GFS": 18
+    "ECMWF": 44,
+    "GFS": 12
    },
    "s_wind": 9,
-   "s_feel": 2,
+   "s_feel": 3,
    "s_feel_det": {
-    "ECMWF": 5,
-    "AIFS": 2,
-    "GFS": 2
+    "ECMWF": 2,
+    "AIFS": 3,
+    "GFS": 4
    },
-   "s_low": 0,
-   "g_low": 0,
-   "g_gust": 20,
-   "frost": 7,
-   "iso0": 3250,
+   "s_low": 1,
+   "g_low": 1,
+   "g_gust": 28,
+   "frost": 9,
+   "iso0": 3480,
    "snow": 0,
    "sunrise": "07:53",
    "sunset": "19:19"
   },
   {
    "day": "2026-10-07",
-   "lead": 11,
+   "lead": 10,
    "n": 102,
-   "p1": 30,
-   "med": 0.0,
-   "p90": 9.3,
-   "tmin": 5.7,
-   "tmax": 14.6,
+   "p1": 44,
+   "med": 0.5,
+   "p90": 8.4,
+   "tmin": 6.6,
+   "tmax": 13.9,
    "det": {
-    "ECMWF": 0.0,
+    "ECMWF": 18.9,
     "AIFS": 0.0,
     "GFS": 0.0
    },
-   "pwin": 30,
+   "pwin": 34,
    "blocks": {
-    "matin 8-12h": 18,
-    "après-midi 12-18h": 27,
-    "soir 18-22h": 20
+    "matin 8-12h": 25,
+    "après-midi 12-18h": 32,
+    "soir 18-22h": 26
    },
-   "s_tmin": 3.0,
-   "s_tmax": 10.4,
-   "s_gust": 19,
+   "s_tmin": 3.2,
+   "s_tmax": 9.7,
+   "s_gust": 28,
    "s_gust_det": {
-    "ECMWF": 26,
-    "GFS": 12
+    "ECMWF": 34,
+    "GFS": 23
    },
    "s_wind": 8,
-   "s_feel": -3,
+   "s_feel": 3,
    "s_feel_det": {
     "ECMWF": 3,
-    "AIFS": -3,
-    "GFS": -3
+    "AIFS": 2,
+    "GFS": 3
    },
-   "s_low": 1,
-   "g_low": 0,
-   "g_gust": 19,
-   "frost": 3,
-   "iso0": 2430,
+   "s_low": 4,
+   "g_low": 3,
+   "g_gust": 26,
+   "frost": 10,
+   "iso0": 3410,
    "snow": 0,
    "sunrise": "07:54",
    "sunset": "19:17"
   }
  ],
- "prev_issued": "25/09/2026 19:16",
+ "prev_issued": "26/09/2026 19:16",
  "changes": [
-  "J1 lun 5/10 : ressenti au sommet 0° → 4°",
-  "J3 mer 7/10 : risque de pluie 49 % → 30 % ; ressenti au sommet 1° → -3°"
+  "J1 lun 5/10 : rafales au sommet 14 km/h → 30 km/h",
+  "J3 mer 7/10 : ressenti au sommet -3° → 3°"
  ]
 }
