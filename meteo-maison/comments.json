@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mardi 29, venteux avec une averse possible l'après-midi : 39 % de risque, rafales jusqu'à 49 km/h, 28°. AROME et Météo-France placent une courte averse vers 16h (2 à 3 mm), dans une atmosphère un peu instable (CAPE de 1 380 J/kg chez UKMO), sans orage annoncé. Mercredi 30, la pluie arrive surtout en soirée (79 %). <b>Jeudi 1er est la journée pluvieuse de la semaine</b> : 96 % de risque, 10 mm en médiane et jusqu'à 21 mm, <b>de la nuit jusqu'en fin de matinée</b>, avec un <b>risque d'orage entre 5h et 7h</b> selon ICON.",
- "agreement": "Mardi, AROME (3 mm), Météo-France (2 mm) et UKMO (5 mm) voient une averse l'après-midi, ECMWF et ICON presque rien. Jeudi, tous les modèles sont d'accord sur la pluie : ECMWF 19 mm, Météo-France 15 mm, ICON 13 mm, AIFS 11 mm, UKMO 8 mm, GFS 5 mm. Seul ICON prévoit de l'orage (jeudi 5h à 7h). Au-delà de vendredi, ce sont des tendances.",
- "changes": "L'orage que voyait UKMO mercredi de 16h à 18h a disparu : mercredi reste pluvieux, mais surtout en soirée. Jeudi 1er se renforce nettement : 96 % de risque (86 % hier), cumul médian de 7 à 10 mm, et ICON annonce désormais de l'orage au petit matin. L'orage que voyait ICON dimanche 4 a lui aussi disparu. Début de semaine prochaine plus doux qu'annoncé (24 à 25° au lieu de 19 à 21°).",
+ "headline": "DEMAIN mercredi 30, journée plutôt sèche en fait : AROME et Météo-France ne donnent que 0,1 mm, 27° l'après-midi. Le risque monte en fin d'après-midi et surtout <b>le soir (82 %)</b>. <b>La pluie tombe surtout la nuit de mercredi à jeudi 1er</b> : 99 % de risque jeudi, 8 mm en médiane et jusqu'à 20 mm, avec le plus fort <b>entre 1h et 3h</b> (5 mm par heure selon AROME), puis une pluie plus faible jusqu'en fin de matinée. Aucun orage n'est plus annoncé. Vendredi 2 sera sec.",
+ "agreement": "Pour jeudi, les modèles fins sont d'accord sur une pluie nocturne : Météo-France et AROME 14 mm, ECMWF 19 mm, AIFS 12 mm ; ICON, GFS et UKMO sont plus secs (2 à 4 mm). Mercredi en journée, seul l'AIFS est nettement arrosé (10 mm). Aucun modèle ne prévoit d'orage cette semaine. Au-delà de vendredi, ce sont des tendances.",
+ "changes": "L'orage que voyait ICON jeudi au petit matin a disparu : la pluie de jeudi reste certaine (99 %) mais sans orage, et elle arrive plus tôt, dès la nuit (le plus fort entre 1h et 3h au lieu de la matinée). Vendredi 2 devient franchement sec (6 % contre 22 %). Samedi 3 sera plus doux (26°). Mercredi 7 octobre s'annonce plus pluvieux et plus frais.",
  "days": {
-  "2026-09-29": ["wind", "Venteux, averse possible vers 16h", "Incertain"],
-  "2026-09-30": ["rain", "Pluie surtout le soir", "Pluie probable"],
-  "2026-10-01": ["rain", "Pluie la nuit et le matin, orageux vers 6h", "À éviter le matin"],
-  "2026-10-02": ["cloud", "Retour au sec", "Plutôt sec"],
-  "2026-10-03": ["cloud", "Averses possibles l'après-midi", "Incertain"],
+  "2026-09-30": ["cloud", "Sec en journée, pluie le soir", "Pluie le soir"],
+  "2026-10-01": ["rain", "Pluie la nuit, faible le matin", "Matin mouillé"],
+  "2026-10-02": ["sun", "Sec et agréable", "Sec"],
+  "2026-10-03": ["cloud", "Doux, averses possibles le soir", "Incertain"],
   "2026-10-04": ["cloud", "Averses possibles", "Tendance"],
-  "2026-10-05": ["cloud", "Plutôt sec, doux", "Tendance"],
-  "2026-10-06": ["cloud", "Averses possibles le soir", "Tendance"],
-  "2026-10-07": ["cloud", "Averses possibles", "Tendance"]
+  "2026-10-05": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-10-06": ["cloud", "Averses possibles", "Tendance"],
+  "2026-10-07": ["rain", "Plus frais, pluie possible", "Tendance"],
+  "2026-10-08": ["cloud", "Frais, averses possibles", "Tendance"]
  },
  "tips": [
-  "Sorties moto : mardi, rouler le matin et se méfier du vent de travers (rafales à 49 km/h). Mercredi, possible en journée, rentrer avant la soirée.",
-  "Jeudi 1er : pas de moto avant midi, pluie soutenue de la nuit à la fin de matinée et orage possible vers 6h. Débrancher les appareils sensibles la nuit de mercredi à jeudi si l'orage se confirme.",
-  "Jardin : pas d'arrosage nécessaire, jeudi devrait apporter 10 mm ou plus. Rentrer le mobilier léger dès mardi à cause du vent.",
-  "Linge : étendre mardi matin ou mercredi en journée, et le rentrer avant la soirée de mercredi."
+  "Sorties moto : mercredi est jouable en journée, rentrer avant 18h. Jeudi, attendre midi que la route sèche. Vendredi est la meilleure journée.",
+  "Jardin : pas d'arrosage, jeudi devrait apporter 8 à 20 mm. Vider les soucoupes et vérifier les gouttières mercredi.",
+  "Linge : étendre mercredi en journée et le rentrer avant le soir, puis vendredi.",
+  "Pas d'orage annoncé : pas besoin de débrancher les appareils cette semaine."
  ]
 }
