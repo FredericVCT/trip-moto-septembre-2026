@@ -1699,5 +1699,242 @@
   ],
   "prev_issued": "27/09/2026 19:15",
   "changes": []
+ },
+ {
+  "issued": "29/09/2026 19:16",
+  "today": "2026-09-29",
+  "rows": [
+   {
+    "day": "2026-09-30",
+    "lead": 1,
+    "n": 173,
+    "p1": 80,
+    "med": 3.3,
+    "p90": 10.8,
+    "tmin": 13.2,
+    "tmax": 19.2,
+    "det": {
+     "AROME": 6.6,
+     "Météo-France": 7.0,
+     "ECMWF": 0.6,
+     "AIFS": 4.2,
+     "ICON": 1.3,
+     "GFS": 0.8,
+     "UKMO": 0.7
+    }
+   },
+   {
+    "day": "2026-10-01",
+    "lead": 2,
+    "n": 173,
+    "p1": 99,
+    "med": 9.6,
+    "p90": 17.4,
+    "tmin": 11.8,
+    "tmax": 13.8,
+    "det": {
+     "Météo-France": 15.9,
+     "ECMWF": 8.7,
+     "AIFS": 9.0,
+     "ICON": 3.9,
+     "GFS": 9.2,
+     "UKMO": 7.0
+    }
+   },
+   {
+    "day": "2026-10-02",
+    "lead": 3,
+    "n": 173,
+    "p1": 12,
+    "med": 0.0,
+    "p90": 1.2,
+    "tmin": 7.6,
+    "tmax": 16.6,
+    "det": {
+     "Météo-France": 0.0,
+     "ECMWF": 0.0,
+     "AIFS": 0.0,
+     "ICON": 0.0,
+     "GFS": 0.0,
+     "UKMO": 0.0
+    }
+   },
+   {
+    "day": "2026-10-03",
+    "lead": 4,
+    "n": 173,
+    "p1": 47,
+    "med": 0.6,
+    "p90": 8.7,
+    "tmin": 9.1,
+    "tmax": 18.1,
+    "det": {
+     "ECMWF": 2.7,
+     "AIFS": 2.1,
+     "ICON": 0.0,
+     "GFS": 0.2,
+     "UKMO": 1.2
+    }
+   },
+   {
+    "day": "2026-10-04",
+    "lead": 5,
+    "n": 173,
+    "p1": 41,
+    "med": 0.6,
+    "p90": 9.5,
+    "tmin": 10.0,
+    "tmax": 17.3,
+    "det": {
+     "ECMWF": 6.0,
+     "AIFS": 1.5,
+     "ICON": 0.0,
+     "GFS": 0.3,
+     "UKMO": 3.0
+    }
+   },
+   {
+    "day": "2026-10-05",
+    "lead": 6,
+    "n": 173,
+    "p1": 31,
+    "med": 0.0,
+    "p90": 4.8,
+    "tmin": 9.4,
+    "tmax": 16.9,
+    "det": {
+     "ECMWF": 3.3,
+     "AIFS": 0.0,
+     "ICON": 0.0,
+     "GFS": 0.0,
+     "UKMO": 0.6
+    },
+    "pwin": 30,
+    "blocks": {
+     "matin 8-12h": 11,
+     "après-midi 12-18h": 24,
+     "soir 18-22h": 22
+    },
+    "s_tmin": 6.7,
+    "s_tmax": 12.7,
+    "s_gust": 20,
+    "s_gust_det": {
+     "ECMWF": 23,
+     "ICON": 35,
+     "GFS": 4,
+     "UKMO": 17
+    },
+    "s_wind": 6,
+    "s_feel": 5,
+    "s_feel_det": {
+     "ECMWF": 6,
+     "AIFS": 5,
+     "ICON": 1,
+     "GFS": 5,
+     "UKMO": 6
+    },
+    "s_low": 21,
+    "g_low": 25,
+    "g_gust": 20,
+    "frost": 10,
+    "iso0": 3520,
+    "snow": 0,
+    "sunrise": "07:51",
+    "sunset": "19:21"
+   },
+   {
+    "day": "2026-10-06",
+    "lead": 7,
+    "n": 173,
+    "p1": 48,
+    "med": 0.9,
+    "p90": 9.6,
+    "tmin": 9.3,
+    "tmax": 16.7,
+    "det": {
+     "ECMWF": 9.3,
+     "AIFS": 0.9,
+     "ICON": 0.0,
+     "GFS": 4.2
+    },
+    "pwin": 42,
+    "blocks": {
+     "matin 8-12h": 17,
+     "après-midi 12-18h": 38,
+     "soir 18-22h": 37
+    },
+    "s_tmin": 6.9,
+    "s_tmax": 12.6,
+    "s_gust": 18,
+    "s_gust_det": {
+     "ECMWF": 18,
+     "ICON": 21,
+     "GFS": 14
+    },
+    "s_wind": 7,
+    "s_feel": 4,
+    "s_feel_det": {
+     "ECMWF": 5,
+     "AIFS": 4,
+     "ICON": 2,
+     "GFS": 3
+    },
+    "s_low": 24,
+    "g_low": 22,
+    "g_gust": 15,
+    "frost": 8,
+    "iso0": 3500,
+    "snow": 0,
+    "sunrise": "07:53",
+    "sunset": "19:19"
+   },
+   {
+    "day": "2026-10-07",
+    "lead": 8,
+    "n": 133,
+    "p1": 59,
+    "med": 1.8,
+    "p90": 12.3,
+    "tmin": 9.0,
+    "tmax": 15.4,
+    "det": {
+     "ECMWF": 5.7,
+     "AIFS": 9.3,
+     "GFS": 1.8
+    },
+    "pwin": 53,
+    "blocks": {
+     "matin 8-12h": 29,
+     "après-midi 12-18h": 50,
+     "soir 18-22h": 40
+    },
+    "s_tmin": 6.1,
+    "s_tmax": 11.2,
+    "s_gust": 22,
+    "s_gust_det": {
+     "ECMWF": 29,
+     "GFS": 14
+    },
+    "s_wind": 8,
+    "s_feel": 6,
+    "s_feel_det": {
+     "ECMWF": 6,
+     "AIFS": 7,
+     "GFS": 1
+    },
+    "s_low": 40,
+    "g_low": 43,
+    "g_gust": 22,
+    "frost": 12,
+    "iso0": 1890,
+    "snow": 0,
+    "sunrise": "07:54",
+    "sunset": "19:17"
+   }
+  ],
+  "prev_issued": "28/09/2026 19:16",
+  "changes": [
+   "J3 mer 7/10 : risque de pluie 41 % → 59 % ; risque sur le créneau d'activité 38 % → 53 %"
+  ]
  }
 ]
