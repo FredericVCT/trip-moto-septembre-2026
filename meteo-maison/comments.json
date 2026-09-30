@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mercredi 30, journée plutôt sèche en fait : AROME et Météo-France ne donnent que 0,1 mm, 27° l'après-midi. Le risque monte en fin d'après-midi et surtout <b>le soir (82 %)</b>. <b>La pluie tombe surtout la nuit de mercredi à jeudi 1er</b> : 99 % de risque jeudi, 8 mm en médiane et jusqu'à 20 mm, avec le plus fort <b>entre 1h et 3h</b> (5 mm par heure selon AROME), puis une pluie plus faible jusqu'en fin de matinée. Aucun orage n'est plus annoncé. Vendredi 2 sera sec.",
- "agreement": "Pour jeudi, les modèles fins sont d'accord sur une pluie nocturne : Météo-France et AROME 14 mm, ECMWF 19 mm, AIFS 12 mm ; ICON, GFS et UKMO sont plus secs (2 à 4 mm). Mercredi en journée, seul l'AIFS est nettement arrosé (10 mm). Aucun modèle ne prévoit d'orage cette semaine. Au-delà de vendredi, ce sont des tendances.",
- "changes": "L'orage que voyait ICON jeudi au petit matin a disparu : la pluie de jeudi reste certaine (99 %) mais sans orage, et elle arrive plus tôt, dès la nuit (le plus fort entre 1h et 3h au lieu de la matinée). Vendredi 2 devient franchement sec (6 % contre 22 %). Samedi 3 sera plus doux (26°). Mercredi 7 octobre s'annonce plus pluvieux et plus frais.",
+ "headline": "DEMAIN jeudi 1er, <b>forte pluie cette nuit</b> : elle commence vers 22h ce soir et culmine <b>entre minuit et 2h</b> (jusqu'à 10 mm en une heure selon AROME), pour un total de 11 mm en médiane et jusqu'à 20 mm (AROME et Météo-France 22 mm). <b>Orage possible vers 3h-4h</b> selon ICON, le plus arrosé (39 mm). La pluie cesse en début de matinée : quelques gouttes le matin (58 %), <b>après-midi plutôt sec</b> (22 %), 22°. Vendredi 2 sera sec et ensoleillé (24°).",
+ "agreement": "Tous les modèles s'accordent sur une nuit pluvieuse : ICON 39 mm, Météo-France et AROME 22 mm, UKMO 12 mm, AIFS 11 mm, ECMWF et GFS 8 mm. Seul ICON prévoit de l'orage (jeudi 3h à 4h, avec 21 mm en une heure), ce qui reste isolé. ICON annonce aussi un épisode orageux dans la nuit du mardi 6 au mercredi 7. Au-delà de vendredi, ce sont des tendances.",
+ "changes": "La pluie de cette nuit se renforce : cumul médian de 8 à 11 mm, et les modèles fins AROME et Météo-France passent à 22 mm. Un orage refait son apparition chez ICON vers 3h-4h. Nouveau : un épisode pluvieux et peut-être orageux se dessine pour mercredi 7 octobre (61 %), suivi d'un net rafraîchissement jeudi 8 et vendredi 9 (maxi 16 à 17°, rafales à 40 km/h).",
  "days": {
-  "2026-09-30": ["cloud", "Sec en journée, pluie le soir", "Pluie le soir"],
-  "2026-10-01": ["rain", "Pluie la nuit, faible le matin", "Matin mouillé"],
-  "2026-10-02": ["sun", "Sec et agréable", "Sec"],
+  "2026-10-01": ["storm", "Forte pluie la nuit, orageux vers 3h", "Nuit arrosée"],
+  "2026-10-02": ["sun", "Sec et ensoleillé", "Sec"],
   "2026-10-03": ["cloud", "Doux, averses possibles le soir", "Incertain"],
-  "2026-10-04": ["cloud", "Averses possibles", "Tendance"],
-  "2026-10-05": ["cloud", "Plutôt sec", "Tendance"],
-  "2026-10-06": ["cloud", "Averses possibles", "Tendance"],
-  "2026-10-07": ["rain", "Plus frais, pluie possible", "Tendance"],
-  "2026-10-08": ["cloud", "Frais, averses possibles", "Tendance"]
+  "2026-10-04": ["cloud", "Averses possibles", "Incertain"],
+  "2026-10-05": ["sun", "Plutôt sec et doux", "Tendance"],
+  "2026-10-06": ["cloud", "Averses possibles le soir", "Tendance"],
+  "2026-10-07": ["rain", "Pluie, orageux la nuit précédente", "Tendance"],
+  "2026-10-08": ["wind", "Frais et venteux", "Tendance"],
+  "2026-10-09": ["wind", "Froid le matin, venteux", "Tendance"]
  },
  "tips": [
-  "Sorties moto : mercredi est jouable en journée, rentrer avant 18h. Jeudi, attendre midi que la route sèche. Vendredi est la meilleure journée.",
-  "Jardin : pas d'arrosage, jeudi devrait apporter 8 à 20 mm. Vider les soucoupes et vérifier les gouttières mercredi.",
-  "Linge : étendre mercredi en journée et le rentrer avant le soir, puis vendredi.",
-  "Pas d'orage annoncé : pas besoin de débrancher les appareils cette semaine."
+  "Ce soir : rentrer le mobilier de jardin et les coussins, vérifier les gouttières et les regards, la pluie peut être forte entre minuit et 2h. Débrancher les appareils sensibles pour la nuit si l'orage se confirme.",
+  "Sorties moto : jeudi, attendre la fin de matinée que les routes sèchent (feuilles et boue possibles). Vendredi est la meilleure journée de la semaine.",
+  "Jardin : pas d'arrosage pour plusieurs jours, 10 à 20 mm attendus cette nuit.",
+  "Vêtements : profiter de la douceur jusqu'à mardi, puis sortir les vestes à partir de jeudi 8 (8° au petit matin vendredi 9)."
  ]
 }

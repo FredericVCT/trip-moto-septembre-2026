@@ -1,71 +1,46 @@
 {
- "issued": "29/09/2026 19:10",
+ "issued": "30/09/2026 19:10",
  "rows": [
-  {
-   "day": "2026-09-30",
-   "p1": 79,
-   "med": 3.6,
-   "p90": 10.2,
-   "bl": {
-    "nuit": 3,
-    "matin": 15,
-    "après-midi": 50,
-    "soir": 82
-   },
-   "det": [
-    "AROME 0,1",
-    "Météo-France 0,1",
-    "ECMWF 0,3",
-    "AIFS 10,5",
-    "ICON 1,3",
-    "GFS 3,4",
-    "UKMO 4,0"
-   ],
-   "tmin": 19,
-   "tmax": 27,
-   "gust": 31,
-   "n": 173,
-   "storm": 4,
-   "tsm": [],
-   "cape": 390
-  },
   {
    "day": "2026-10-01",
    "p1": 99,
-   "med": 8.4,
-   "p90": 19.8,
+   "med": 10.8,
+   "p90": 19.9,
    "bl": {
-    "nuit": 99,
-    "matin": 65,
-    "après-midi": 19,
-    "soir": 3
+    "nuit": 100,
+    "matin": 58,
+    "après-midi": 22,
+    "soir": 2
    },
    "det": [
-    "Météo-France 13,9",
-    "ECMWF 18,6",
-    "AIFS 11,7",
-    "ICON 1,4",
-    "GFS 3,9",
-    "UKMO 1,8"
+    "AROME 22,4",
+    "Météo-France 22,7",
+    "ECMWF 8,4",
+    "AIFS 10,8",
+    "ICON 39,2",
+    "GFS 8,1",
+    "UKMO 11,8"
    ],
-   "tmin": 16,
+   "tmin": 15,
    "tmax": 22,
-   "gust": 27,
+   "gust": 33,
    "n": 173,
    "storm": 2,
-   "tsm": [],
-   "cape": 400
+   "tsm": [
+    "ICON 3h-4h"
+   ],
+   "cape": 860
   },
   {
    "day": "2026-10-02",
-   "p1": 6,
+   "p1": 4,
    "med": 0.0,
-   "p90": 0.3,
+   "p90": 0.0,
    "bl": {
-    "nuit": 0,
+    "nuit": 1,
     "matin": 1,
-    "après-midi": 2,
-    "soir": 8
+    "après-midi": 3,
+    "soir": 4
    },
    "det": [
     "Météo-France 0,0",
@@ -75,171 +50,201 @@
     "GFS 0,0",
     "UKMO 0,0"
    ],
-   "tmin": 14,
+   "tmin": 12,
    "tmax": 24,
    "gust": 19,
    "n": 173,
    "storm": 0,
    "tsm": [],
-   "cape": 10
+   "cape": 40
   },
   {
    "day": "2026-10-03",
-   "p1": 44,
-   "med": 0.6,
-   "p90": 7.5,
+   "p1": 41,
+   "med": 0.3,
+   "p90": 7.8,
    "bl": {
-    "nuit": 11,
-    "matin": 13,
-    "après-midi": 23,
-    "soir": 43
+    "nuit": 8,
+    "matin": 12,
+    "après-midi": 20,
+    "soir": 39
    },
    "det": [
-    "ECMWF 3,3",
-    "AIFS 0,9",
+    "Météo-France 0,9",
+    "ECMWF 2,1",
+    "AIFS 0,3",
     "ICON 0,0",
-    "GFS 1,1",
-    "UKMO 5,7"
+    "GFS 1,9",
+    "UKMO 0,0"
    ],
-   "tmin": 15,
+   "tmin": 13,
    "tmax": 26,
-   "gust": 36,
+   "gust": 18,
    "n": 173,
-   "storm": 2,
+   "storm": 5,
    "tsm": [],
-   "cape": 600
+   "cape": 320
   },
   {
    "day": "2026-10-04",
-   "p1": 37,
+   "p1": 40,
    "med": 0.3,
-   "p90": 7.5,
+   "p90": 9.3,
    "bl": {
-    "nuit": 29,
-    "matin": 20,
-    "après-midi": 21,
-    "soir": 24
-   },
-   "det": [
-    "ECMWF 0,9",
-    "AIFS 0,3",
-    "ICON 0,0",
-    "GFS 0,0",
-    "UKMO 5,7"
-   ],
-   "tmin": 16,
-   "tmax": 24,
-   "gust": 27,
-   "n": 173,
-   "storm": 4,
-   "tsm": [],
-   "cape": 520
-  },
-  {
-   "day": "2026-10-05",
-   "p1": 21,
-   "med": 0.0,
-   "p90": 3.9,
-   "bl": {
-    "nuit": 13,
-    "matin": 12,
-    "après-midi": 16,
-    "soir": 14
-   },
-   "det": [
-    "ECMWF 0,6",
-    "AIFS 0,0",
-    "ICON 0,0",
-    "GFS 0,3",
-    "UKMO 0,3"
-   ],
-   "tmin": 14,
-   "tmax": 23,
-   "gust": 27,
-   "n": 173,
-   "storm": 0,
-   "tsm": [],
-   "cape": 460
-  },
-  {
-   "day": "2026-10-06",
-   "p1": 45,
-   "med": 0.3,
-   "p90": 8.4,
-   "bl": {
-    "nuit": 17,
-    "matin": 24,
-    "après-midi": 34,
-    "soir": 37
-   },
-   "det": [
-    "ECMWF 3,9",
-    "AIFS 3,9",
-    "ICON 0,0",
-    "GFS 0,9"
-   ],
-   "tmin": 16,
-   "tmax": 23,
-   "gust": 26,
-   "n": 173,
-   "storm": 4,
-   "tsm": [],
-   "cape": 700
-  },
-  {
-   "day": "2026-10-07",
-   "p1": 53,
-   "med": 1.2,
-   "p90": 15.3,
-   "bl": {
-    "nuit": 34,
-    "matin": 37,
-    "après-midi": 43,
-    "soir": 37
-   },
-   "det": [
-    "ECMWF 2,7",
-    "AIFS 13,5",
-    "GFS 0,6"
-   ],
-   "tmin": 16,
-   "tmax": 20,
-   "gust": 27,
-   "n": 133,
-   "storm": 7,
-   "tsm": [],
-   "cape": 740
-  },
-  {
-   "day": "2026-10-08",
-   "p1": 38,
-   "med": 0.0,
-   "p90": 6.0,
-   "bl": {
-    "nuit": 22,
-    "matin": 22,
-    "après-midi": 23,
-    "soir": 20
+    "nuit": 27,
+    "matin": 25,
+    "après-midi": 19,
+    "soir": 25
    },
    "det": [
     "ECMWF 0,0",
-    "AIFS 2,4",
+    "AIFS 1,8",
+    "ICON 0,0",
+    "GFS 1,2",
+    "UKMO 0,0"
+   ],
+   "tmin": 14,
+   "tmax": 25,
+   "gust": 22,
+   "n": 173,
+   "storm": 0,
+   "tsm": [],
+   "cape": 430
+  },
+  {
+   "day": "2026-10-05",
+   "p1": 17,
+   "med": 0.0,
+   "p90": 2.1,
+   "bl": {
+    "nuit": 10,
+    "matin": 6,
+    "après-midi": 11,
+    "soir": 12
+   },
+   "det": [
+    "ECMWF 0,6",
+    "AIFS 0,3",
+    "ICON 0,0",
+    "GFS 4,0",
+    "UKMO 0,9"
+   ],
+   "tmin": 13,
+   "tmax": 25,
+   "gust": 28,
+   "n": 173,
+   "storm": 4,
+   "tsm": [],
+   "cape": 830
+  },
+  {
+   "day": "2026-10-06",
+   "p1": 37,
+   "med": 0.0,
+   "p90": 6.6,
+   "bl": {
+    "nuit": 8,
+    "matin": 9,
+    "après-midi": 27,
+    "soir": 38
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,9",
+    "ICON 1,5",
+    "GFS 5,1",
+    "UKMO 3,0"
+   ],
+   "tmin": 13,
+   "tmax": 25,
+   "gust": 22,
+   "n": 173,
+   "storm": 5,
+   "tsm": [],
+   "cape": 160
+  },
+  {
+   "day": "2026-10-07",
+   "p1": 61,
+   "med": 3.3,
+   "p90": 17.7,
+   "bl": {
+    "nuit": 43,
+    "matin": 47,
+    "après-midi": 51,
+    "soir": 43
+   },
+   "det": [
+    "ECMWF 3,0",
+    "AIFS 5,4",
+    "ICON 20,7",
     "GFS 0,0"
    ],
+   "tmin": 15,
+   "tmax": 24,
+   "gust": 24,
+   "n": 173,
+   "storm": 11,
+   "tsm": [
+    "ICON 0h-6h"
+   ],
+   "cape": 1050
+  },
+  {
+   "day": "2026-10-08",
+   "p1": 26,
+   "med": 0.0,
+   "p90": 3.0,
+   "bl": {
+    "nuit": 23,
+    "matin": 14,
+    "après-midi": 11,
+    "soir": 10
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,3",
+    "GFS 0,3"
+   ],
    "tmin": 12,
-   "tmax": 19,
-   "gust": 35,
+   "tmax": 17,
+   "gust": 40,
+   "n": 133,
+   "storm": 0,
+   "tsm": [
+    "ICON 0h-3h"
+   ],
+   "cape": 270
+  },
+  {
+   "day": "2026-10-09",
+   "p1": 10,
+   "med": 0.0,
+   "p90": 0.6,
+   "bl": {
+    "nuit": 6,
+    "matin": 6,
+    "après-midi": 5,
+    "soir": 3
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,0",
+    "GFS 0,0"
+   ],
+   "tmin": 8,
+   "tmax": 16,
+   "gust": 42,
    "n": 133,
    "storm": 0,
    "tsm": [],
    "cape": 0
   }
  ],
- "prev_issued": "28/09/2026 19:10",
+ "prev_issued": "29/09/2026 19:10",
  "changes": [
-  "2026-10-01 : orage prévu par plus aucun modèle",
-  "2026-10-02 : cumul 0.0 (p90 6.0) → 0.0 (p90 0.3) mm",
-  "2026-10-03 : T max 23 → 26°",
-  "2026-10-07 : cumul 0.3 (p90 8.1) → 1.2 (p90 15.3) mm ; T max 23 → 20°"
+  "2026-10-01 : cumul 8.4 (p90 19.8) → 10.8 (p90 19.9) mm ; orage prévu par ICON 3h-4h",
+  "2026-10-07 : cumul 1.2 (p90 15.3) → 3.3 (p90 17.7) mm ; orage prévu par ICON 0h-6h ; T max 20 → 24°",
+  "2026-10-08 : orage prévu par ICON 0h-3h"
  ]
 }
