@@ -2374,5 +2374,202 @@
   ],
   "prev_issued": "30/09/2026 19:16",
   "changes": []
+ },
+ {
+  "issued": "02/10/2026 19:17",
+  "today": "2026-10-02",
+  "rows": [
+   {
+    "day": "2026-10-03",
+    "lead": 1,
+    "n": 173,
+    "p1": 80,
+    "med": 3.0,
+    "p90": 9.0,
+    "tmin": 10.8,
+    "tmax": 17.1,
+    "det": {
+     "AROME": 3.8,
+     "Météo-France": 4.1,
+     "ECMWF": 7.2,
+     "AIFS": 5.1,
+     "ICON": 0.9,
+     "GFS": 0.9,
+     "UKMO": 0.0
+    }
+   },
+   {
+    "day": "2026-10-04",
+    "lead": 2,
+    "n": 173,
+    "p1": 33,
+    "med": 0.3,
+    "p90": 3.6,
+    "tmin": 10.2,
+    "tmax": 18.0,
+    "det": {
+     "Météo-France": 0.9,
+     "ECMWF": 0.0,
+     "AIFS": 0.9,
+     "ICON": 4.5,
+     "GFS": 3.0,
+     "UKMO": 0.5
+    }
+   },
+   {
+    "day": "2026-10-05",
+    "lead": 3,
+    "n": 173,
+    "p1": 21,
+    "med": 0.0,
+    "p90": 4.5,
+    "tmin": 9.8,
+    "tmax": 19.1,
+    "det": {
+     "Météo-France": 0.0,
+     "ECMWF": 0.0,
+     "AIFS": 0.0,
+     "ICON": 0.0,
+     "GFS": 44.4,
+     "UKMO": 0.0
+    },
+    "pwin": 23,
+    "blocks": {
+     "matin 8-12h": 6,
+     "après-midi 12-18h": 20,
+     "soir 18-22h": 13
+    },
+    "s_tmin": 7.4,
+    "s_tmax": 14.9,
+    "s_gust": 20,
+    "s_gust_det": {
+     "Météo-France": 24,
+     "ECMWF": 16,
+     "ICON": 20,
+     "GFS": 9,
+     "UKMO": 21
+    },
+    "s_wind": 5,
+    "s_feel": 4,
+    "s_feel_det": {
+     "Météo-France": 4,
+     "ECMWF": 6,
+     "AIFS": 5,
+     "ICON": 5,
+     "GFS": 4,
+     "UKMO": 3
+    },
+    "s_low": 14,
+    "g_low": 16,
+    "g_gust": 20,
+    "frost": 10,
+    "iso0": 3405,
+    "snow": 0,
+    "sunrise": "07:51",
+    "sunset": "19:21"
+   },
+   {
+    "day": "2026-10-06",
+    "lead": 4,
+    "n": 173,
+    "p1": 36,
+    "med": 0.3,
+    "p90": 7.2,
+    "tmin": 9.5,
+    "tmax": 18.5,
+    "det": {
+     "ECMWF": 0.0,
+     "AIFS": 0.3,
+     "ICON": 0.0,
+     "GFS": 8.3,
+     "UKMO": 0.0
+    },
+    "pwin": 34,
+    "blocks": {
+     "matin 8-12h": 6,
+     "après-midi 12-18h": 32,
+     "soir 18-22h": 32
+    },
+    "s_tmin": 7.2,
+    "s_tmax": 14.3,
+    "s_gust": 17,
+    "s_gust_det": {
+     "Météo-France": 21,
+     "ECMWF": 19,
+     "ICON": 17,
+     "GFS": 17,
+     "UKMO": 17
+    },
+    "s_wind": 5,
+    "s_feel": 4,
+    "s_feel_det": {
+     "Météo-France": 4,
+     "ECMWF": 6,
+     "AIFS": 5,
+     "ICON": 2,
+     "GFS": 6,
+     "UKMO": 3
+    },
+    "s_low": 14,
+    "g_low": 11,
+    "g_gust": 17,
+    "frost": 9,
+    "iso0": 3405,
+    "snow": 0,
+    "sunrise": "07:53",
+    "sunset": "19:19"
+   },
+   {
+    "day": "2026-10-07",
+    "lead": 5,
+    "n": 173,
+    "p1": 83,
+    "med": 6.0,
+    "p90": 16.2,
+    "tmin": 10.2,
+    "tmax": 14.7,
+    "det": {
+     "ECMWF": 14.4,
+     "AIFS": 10.5,
+     "ICON": 0.0,
+     "GFS": 12.8,
+     "UKMO": 6.3
+    },
+    "pwin": 77,
+    "blocks": {
+     "matin 8-12h": 40,
+     "après-midi 12-18h": 78,
+     "soir 18-22h": 72
+    },
+    "s_tmin": 7.0,
+    "s_tmax": 10.6,
+    "s_gust": 16,
+    "s_gust_det": {
+     "ECMWF": 32,
+     "ICON": 24,
+     "GFS": 9,
+     "UKMO": 9
+    },
+    "s_wind": 4,
+    "s_feel": 5,
+    "s_feel_det": {
+     "ECMWF": 5,
+     "AIFS": 7,
+     "ICON": 4,
+     "GFS": 6,
+     "UKMO": 4
+    },
+    "s_low": 38,
+    "g_low": 39,
+    "g_gust": 16,
+    "frost": 10,
+    "iso0": 3175,
+    "snow": 0,
+    "sunrise": "07:54",
+    "sunset": "19:17"
+   }
+  ],
+  "prev_issued": "01/10/2026 19:16",
+  "changes": []
  }
 ]
