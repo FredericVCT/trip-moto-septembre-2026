@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN vendredi 2, sec et ensoleillé : 7 % de risque, tous les modèles à 0 mm, 24° l'après-midi. <b>Le week-end se gâte</b> : samedi 3 devient pluvieux (77 %, 4 mm en médiane et jusqu'à 13 mm), avec une première averse vers 11h-12h puis de la pluie en soirée. Dimanche 4 reste incertain (54 %), avec un <b>risque d'orage le matin entre 7h et 9h</b> selon ICON. Lundi sec, puis nouvel épisode mardi soir (orage possible de 19h à 23h selon UKMO) et mercredi 7.",
- "agreement": "Vendredi, unanimité sur le sec. Samedi, la plupart des modèles voient de la pluie : ECMWF 10 mm, AIFS 8 mm, Météo-France 8 mm, AROME 4 mm, UKMO 3 mm ; GFS reste presque sec. Dimanche, AIFS (9 mm) et ICON (8 mm) sont les plus arrosés. Orages : ICON dimanche matin, UKMO mardi soir, chacun seul de son avis. Au-delà de lundi, ce sont des tendances.",
- "changes": "Samedi 3 bascule : 77 % de risque contre 41 % hier, cumul médian de 0,3 à 4 mm, et il sera un peu moins chaud (23° au lieu de 26°). Les orages changent de jour : ICON en voit désormais dimanche matin, UKMO mardi soir, alors que celui annoncé dans la nuit de mardi à mercredi a disparu. Mercredi 7 reste pluvieux mais plus frais (20°).",
+ "headline": "DEMAIN samedi 3, journée sèche selon les modèles fins (AROME, Météo-France et ICON à 0,1 mm), 24°. Le risque grimpe surtout <b>en soirée, après 18h</b> (59 %), quand ECMWF et AIFS voient 6 à 7 mm. Dimanche 4 reste incertain (46 %) mais plutôt sec, lundi 5 sec et doux (26°). <b>Le prochain vrai épisode pluvieux arrive mercredi 7</b> (79 %, 7 mm en médiane et jusqu'à 19 mm), avec un risque d'orage possible (18 % des scénarios), avant un net rafraîchissement.",
+ "agreement": "Samedi, les modèles fins (AROME, Météo-France, ICON) restent secs, alors que les globaux voient de la pluie le soir : AIFS 7,5 mm, ECMWF 6 mm, GFS 4 mm, UKMO 3 mm. Mercredi 7, ECMWF, AIFS et UKMO s'accordent sur 12 à 14 mm. Aucun modèle ne prévoit explicitement d'orage cette semaine. Au-delà de lundi, ce sont des tendances.",
+ "changes": "Le week-end s'améliore un peu : samedi passe de 77 % à 70 % et la pluie se concentre en soirée, dimanche s'assèche (cumul médian de 1,5 à 0,9 mm). Les orages annoncés hier (ICON dimanche matin, UKMO mardi soir) ont disparu. Mercredi 7 se confirme comme la journée pluvieuse de la semaine prochaine.",
  "days": {
-  "2026-10-02": ["sun", "Sec et ensoleillé", "Sec garanti"],
-  "2026-10-03": ["rain", "Averse vers midi, pluie le soir", "Pluie probable"],
-  "2026-10-04": ["rain", "Averses, orageux le matin", "Incertain"],
-  "2026-10-05": ["sun", "Plutôt sec et doux", "Plutôt sec"],
-  "2026-10-06": ["cloud", "Pluie le soir, orageux possible", "Tendance"],
-  "2026-10-07": ["rain", "Pluvieux et plus frais", "Tendance"],
+  "2026-10-03": ["cloud", "Sec en journée, pluie le soir", "Pluie le soir"],
+  "2026-10-04": ["cloud", "Plutôt sec, averse possible", "Incertain"],
+  "2026-10-05": ["sun", "Sec et doux", "Sec"],
+  "2026-10-06": ["cloud", "Averses possibles le soir", "Incertain"],
+  "2026-10-07": ["rain", "Pluvieux, orage possible", "Pluie probable"],
   "2026-10-08": ["wind", "Frais et venteux", "Tendance"],
-  "2026-10-09": ["wind", "Froid le matin, très venteux", "Tendance"],
-  "2026-10-10": ["cloud", "Froid le matin (6°)", "Tendance"]
+  "2026-10-09": ["sun", "Sec, froid le matin", "Tendance"],
+  "2026-10-10": ["cloud", "Froid le matin (6°)", "Tendance"],
+  "2026-10-11": ["cloud", "Averses possibles", "Tendance"]
  },
  "tips": [
-  "Sorties moto : vendredi est la journée à saisir. Samedi, rouler tôt le matin seulement. Dimanche, éviter la matinée (orage possible entre 7h et 9h).",
-  "Jardin : rentrer le mobilier et les coussins vendredi soir avant le week-end pluvieux. Pas d'arrosage nécessaire.",
-  "Linge : à étendre vendredi, puis éventuellement lundi.",
-  "Vêtements : fin de la douceur la semaine prochaine, 6 à 8° au petit matin à partir de vendredi 9, avec un vent soutenu (rafales à 46 km/h)."
+  "Sorties moto : samedi en journée et lundi sont les bons créneaux. Samedi, rentrer avant 18h. Mercredi 7, à éviter.",
+  "Linge : étendre samedi matin et lundi.",
+  "Jardin : pas d'arrosage nécessaire, la pluie de mercredi prendra le relais.",
+  "Vêtements : dernière douceur jusqu'à mardi (25 à 26°), puis 6 à 8° au petit matin à partir de vendredi 9."
  ]
 }
