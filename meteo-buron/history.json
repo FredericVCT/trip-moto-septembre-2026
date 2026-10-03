@@ -2754,5 +2754,192 @@
    "J2 mar 6/10 : risque de pluie 36 % → 58 % ; risque sur le créneau d'activité 34 % → 54 %",
    "J3 mer 7/10 : risque sur le créneau d'activité 77 % → 92 % ; cumul médian 6.0 mm → 10.2 mm ; cumul p90 16.2 mm → 22.5 mm"
   ]
+ },
+ {
+  "issued": "03/10/2026 19:16",
+  "today": "2026-10-03",
+  "rows": [
+   {
+    "day": "2026-10-04",
+    "lead": 1,
+    "n": 173,
+    "p1": 3,
+    "med": 0.0,
+    "p90": 0.6,
+    "tmin": 10.8,
+    "tmax": 18.4,
+    "det": {
+     "AROME": 1.5,
+     "Météo-France": 1.4,
+     "ECMWF": 0.0,
+     "AIFS": 0.3,
+     "ICON": 0.0,
+     "GFS": 0.0,
+     "UKMO": 0.0
+    }
+   },
+   {
+    "day": "2026-10-05",
+    "lead": 2,
+    "n": 173,
+    "p1": 14,
+    "med": 0.0,
+    "p90": 1.5,
+    "tmin": 10.3,
+    "tmax": 19.5,
+    "det": {
+     "Météo-France": 0.0,
+     "ECMWF": 0.0,
+     "AIFS": 0.0,
+     "ICON": 0.0,
+     "GFS": 0.0,
+     "UKMO": 0.0
+    },
+    "pwin": 16,
+    "blocks": {
+     "matin 8-12h": 5,
+     "après-midi 12-18h": 11,
+     "soir 18-22h": 11
+    },
+    "s_tmin": 7.7,
+    "s_tmax": 15.3,
+    "s_gust": 32,
+    "s_gust_det": {
+     "AROME": 31,
+     "Météo-France": 34,
+     "ECMWF": 24,
+     "ICON": 36,
+     "GFS": 14,
+     "UKMO": 34
+    },
+    "s_wind": 12,
+    "s_feel": 5,
+    "s_feel_det": {
+     "AROME": 5,
+     "Météo-France": 4,
+     "ECMWF": 5,
+     "AIFS": 5,
+     "ICON": 6,
+     "GFS": 5,
+     "UKMO": 5
+    },
+    "s_low": 2,
+    "g_low": 4,
+    "g_gust": 28,
+    "frost": 11,
+    "iso0": 3500,
+    "snow": 0,
+    "sunrise": "07:51",
+    "sunset": "19:21"
+   },
+   {
+    "day": "2026-10-06",
+    "lead": 3,
+    "n": 173,
+    "p1": 61,
+    "med": 1.8,
+    "p90": 6.3,
+    "tmin": 9.9,
+    "tmax": 18.7,
+    "det": {
+     "Météo-France": 5.7,
+     "ECMWF": 4.2,
+     "AIFS": 4.8,
+     "ICON": 5.4,
+     "GFS": 2.3,
+     "UKMO": 0.3
+    },
+    "pwin": 7,
+    "blocks": {
+     "matin 8-12h": 4,
+     "après-midi 12-18h": 50,
+     "soir 18-22h": 57
+    },
+    "s_tmin": 7.7,
+    "s_tmax": 14.3,
+    "s_gust": 24,
+    "s_gust_det": {
+     "Météo-France": 24,
+     "ECMWF": 27,
+     "ICON": 32,
+     "GFS": 16,
+     "UKMO": 21
+    },
+    "s_wind": 8,
+    "s_feel": 6,
+    "s_feel_det": {
+     "Météo-France": 4,
+     "ECMWF": 6,
+     "AIFS": 5,
+     "ICON": 7,
+     "GFS": 6,
+     "UKMO": 5
+    },
+    "s_low": 19,
+    "g_low": 2,
+    "g_gust": 17,
+    "frost": 10,
+    "iso0": 3545,
+    "snow": 0,
+    "sunrise": "07:53",
+    "sunset": "19:19"
+   },
+   {
+    "day": "2026-10-07",
+    "lead": 4,
+    "n": 173,
+    "p1": 97,
+    "med": 11.1,
+    "p90": 20.4,
+    "tmin": 10.7,
+    "tmax": 13.5,
+    "det": {
+     "ECMWF": 10.2,
+     "AIFS": 12.9,
+     "ICON": 10.2,
+     "GFS": 34.7,
+     "UKMO": 9.3
+    },
+    "pwin": 74,
+    "blocks": {
+     "matin 8-12h": 71,
+     "après-midi 12-18h": 92,
+     "soir 18-22h": 87
+    },
+    "s_tmin": 7.2,
+    "s_tmax": 9.2,
+    "s_gust": 29,
+    "s_gust_det": {
+     "Météo-France": 29,
+     "ECMWF": 32,
+     "ICON": 32,
+     "GFS": 11,
+     "UKMO": 23
+    },
+    "s_wind": 8,
+    "s_feel": 5,
+    "s_feel_det": {
+     "Météo-France": 5,
+     "ECMWF": 4,
+     "AIFS": 7,
+     "ICON": 7,
+     "GFS": 5,
+     "UKMO": 6
+    },
+    "s_low": 82,
+    "g_low": 66,
+    "g_gust": 29,
+    "frost": 11,
+    "iso0": 3185,
+    "snow": 0,
+    "sunrise": "07:54",
+    "sunset": "19:17"
+   }
+  ],
+  "prev_issued": "03/10/2026 10:50",
+  "changes": [
+   "J2 mar 6/10 : risque sur le créneau d'activité 54 % → 7 %",
+   "J3 mer 7/10 : risque sur le créneau d'activité 92 % → 74 %"
+  ]
  }
 ]
