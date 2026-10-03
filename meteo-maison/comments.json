@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN samedi 3, journée sèche selon les modèles fins (AROME, Météo-France et ICON à 0,1 mm), 24°. Le risque grimpe surtout <b>en soirée, après 18h</b> (59 %), quand ECMWF et AIFS voient 6 à 7 mm. Dimanche 4 reste incertain (46 %) mais plutôt sec, lundi 5 sec et doux (26°). <b>Le prochain vrai épisode pluvieux arrive mercredi 7</b> (79 %, 7 mm en médiane et jusqu'à 19 mm), avec un risque d'orage possible (18 % des scénarios), avant un net rafraîchissement.",
- "agreement": "Samedi, les modèles fins (AROME, Météo-France, ICON) restent secs, alors que les globaux voient de la pluie le soir : AIFS 7,5 mm, ECMWF 6 mm, GFS 4 mm, UKMO 3 mm. Mercredi 7, ECMWF, AIFS et UKMO s'accordent sur 12 à 14 mm. Aucun modèle ne prévoit explicitement d'orage cette semaine. Au-delà de lundi, ce sont des tendances.",
- "changes": "Le week-end s'améliore un peu : samedi passe de 77 % à 70 % et la pluie se concentre en soirée, dimanche s'assèche (cumul médian de 1,5 à 0,9 mm). Les orages annoncés hier (ICON dimanche matin, UKMO mardi soir) ont disparu. Mercredi 7 se confirme comme la journée pluvieuse de la semaine prochaine.",
+ "headline": "DEMAIN dimanche 4, sec et doux : 29 % de risque mais AROME, Météo-France et ECMWF à 0 mm, 25°. Seul ICON voit une averse dans la nuit, vers minuit. Lundi 5 reste sec (26°). <b>La dégradation arrive mardi 6 en soirée</b> (76 %, 83 % de risque le soir) avec un <b>orage possible vers 19h-20h</b> (ICON, 25 % des scénarios). <b>Mercredi 7 sera franchement pluvieux</b> : 97 % de risque, 14 mm en médiane et jusqu'à 26 mm, avec un orage possible dans la nuit de mardi à mercredi selon ICON. Ensuite, <b>coup de froid</b> : maxi 11 à 14° de vendredi à dimanche, 6° au petit matin.",
+ "agreement": "Dimanche et lundi, accord général sur le sec (seul ICON voit 10 mm cette nuit). Mardi soir, les modèles divergent fortement : GFS 38 mm, AIFS 8 mm, ECMWF 6 mm, ICON 5 mm, Météo-France 3 mm. Mercredi, tous voient de la pluie : ECMWF 38 mm, GFS 18 mm, ICON 14 mm, UKMO 14 mm, AIFS 11 mm. Seul ICON prévoit de l'orage (mardi 19h-20h, puis mercredi de minuit à 6h). Au-delà de mercredi, ce sont des tendances.",
+ "changes": "Le temps se dégrade plus tôt et plus fort : mardi 6 passe de 43 % à 76 % (pluie le soir), mercredi 7 double son cumul médian (de 7 à 14 mm) et ECMWF y voit désormais 38 mm. ICON annonce de l'orage mardi soir et la nuit suivante. Le rafraîchissement de la fin de semaine s'accentue nettement : 11° de maxi samedi 10 au lieu de 17°.",
  "days": {
-  "2026-10-03": ["cloud", "Sec en journée, pluie le soir", "Pluie le soir"],
-  "2026-10-04": ["cloud", "Plutôt sec, averse possible", "Incertain"],
+  "2026-10-04": ["sun", "Sec et doux", "Sec"],
   "2026-10-05": ["sun", "Sec et doux", "Sec"],
-  "2026-10-06": ["cloud", "Averses possibles le soir", "Incertain"],
-  "2026-10-07": ["rain", "Pluvieux, orage possible", "Pluie probable"],
-  "2026-10-08": ["wind", "Frais et venteux", "Tendance"],
-  "2026-10-09": ["sun", "Sec, froid le matin", "Tendance"],
-  "2026-10-10": ["cloud", "Froid le matin (6°)", "Tendance"],
-  "2026-10-11": ["cloud", "Averses possibles", "Tendance"]
+  "2026-10-06": ["rain", "Pluie le soir, orageux vers 19h", "Pluie le soir"],
+  "2026-10-07": ["rain", "Pluvieux toute la journée, orageux la nuit", "À éviter"],
+  "2026-10-08": ["wind", "Venteux, averses le matin", "Incertain"],
+  "2026-10-09": ["wind", "Froid et venteux", "Tendance"],
+  "2026-10-10": ["cloud", "Froid (11° maxi)", "Tendance"],
+  "2026-10-11": ["wind", "Frais et venteux", "Tendance"],
+  "2026-10-12": ["cloud", "Frais, averses possibles", "Tendance"]
  },
  "tips": [
-  "Sorties moto : samedi en journée et lundi sont les bons créneaux. Samedi, rentrer avant 18h. Mercredi 7, à éviter.",
-  "Linge : étendre samedi matin et lundi.",
-  "Jardin : pas d'arrosage nécessaire, la pluie de mercredi prendra le relais.",
-  "Vêtements : dernière douceur jusqu'à mardi (25 à 26°), puis 6 à 8° au petit matin à partir de vendredi 9."
+  "Sorties moto : dimanche et lundi sont les deux dernières belles journées douces. Mardi, rentrer avant 18h. Mercredi 7, pas de moto.",
+  "Orage mardi soir : rentrer le mobilier de jardin et les coussins mardi après-midi, débrancher les appareils sensibles pour la nuit de mardi à mercredi.",
+  "Linge : à étendre dimanche et lundi, ce sera ensuite difficile jusqu'au week-end.",
+  "Vêtements : sortir la tenue d'hiver pour la fin de semaine, 6° le matin et 11 à 14° l'après-midi, avec un vent soutenu (rafales à 46 km/h jeudi)."
  ]
 }
