@@ -7,6 +7,10 @@ Usage :
   python3 build_email.py render     -> meteo-maison/email.html à partir de summary.json + comments.json
   python3 build_email.py mark-sent  -> copie summary.json vers sent.json (après l'envoi du mail)
 
+Vent : `gmed` = médiane, sur les scénarios d'ensemble, de la rafale maximale du jour ; `w60` / `w80` = part des
+scénarios avec une rafale >= 60 / >= 80 km/h ; `wdet` = rafale maximale de chaque modèle déterministe (avec l'heure)
+et `wdir` = direction du vent (ECMWF) à l'heure de la rafale la plus forte.
+
 Orages : `storm` = part des scénarios d'ensemble dotés du CAPE (énergie convective) où une même heure
 combine CAPE >= 800 J/kg et pluie >= 0,5 mm ; `tsm` = modèles déterministes prévoyant de l'orage
 (weather_code 95 à 99) avec les heures ; `cape` = CAPE maximal du jour (ECMWF, sinon GFS).
@@ -32,6 +36,19 @@ MOOD = {"storm": ("⛈️", "#5a6b7c"), "sun": ("☀️", "#f2a516"), "hot": ("�
 def pill(txt, p):
     bg, fg = ("#e2f5e6", "#1b7a34") if p < 20 else (("#fff1cf", "#9a6300") if p < 50 else ("#ffe0e0", "#b52323"))
     return f'<span style="display:inline-block;border-radius:20px;padding:2px 9px;font-weight:700;font-size:12px;background:{bg};color:{fg};white-space:nowrap">{txt}</span>'
+def vent(r):
+    g = r.get("gmed") if r.get("gmed") is not None else r["gust"]
+    bg, fg = ("#e2f5e6", "#1b7a34") if g < 50 else (("#fff1cf", "#9a6300") if g < 70 else ("#ffe0e0", "#b52323"))
+    txt = f'<span style="display:inline-block;border-radius:20px;padding:2px 9px;font-weight:700;font-size:12px;background:{bg};color:{fg};white-space:nowrap">{"💨 " if g >= 50 else ""}{g:.0f} km/h</span>'
+    extra = []
+    if r.get("wdir"): extra.append(r["wdir"])
+    if r.get("w60"): extra.append(f"≥ 60 : {r['w60']} %")
+    if r.get("w80"): extra.append(f"≥ 80 : {r['w80']} %")
+    if extra: txt += f'<div style="font-size:10.5px;color:#5a6b7c">{" · ".join(extra)}</div>'
+    return txt
+def wline(r):
+    if not r.get("wdet") or (r.get("gmed") or r["gust"]) < 45: return ""
+    return '<div style="color:#5a6b7c">💨 rafales : ' + " · ".join(r["wdet"]) + " km/h</div>"
 def orage(r):
     p = r.get("storm")
     if p is None and not r.get("tsm"): return '<span style="color:#8a99a8">n.d.</span>'
@@ -46,13 +63,17 @@ def compute():
     today = datetime.datetime.strptime(issued_local(), "%d/%m/%Y %H:%M").date().isoformat()
     for day in sorted(set(t[:10] for t in T)):
         if day <= today: continue  # le briefing du soir commence à demain
-        tots, blocks, stm = [], {n: [] for n in ("nuit", "matin", "après-midi", "soir")}, []
+        tots, blocks, stm, gmax = [], {n: [] for n in ("nuit", "matin", "après-midi", "soir")}, [], []
         for m, v in d["ens"].items():
             h = v["hourly"]
             for k in h:
                 if not k.startswith("precipitation") or m == "meteofrance_arpege_world": continue
                 s = daysum(h[k], day)
                 if s is not None: tots.append(s)
+                gk = k.replace("precipitation", "wind_gusts_10m")
+                if gk in h:
+                    gv = [x for t, x in zip(T, h[gk]) if t[:10] == day and x is not None]
+                    if len(gv) >= 20: gmax.append(max(gv))
                 ck = k.replace("precipitation", "cape")
                 if ck in h:
                     pairs = [(p, c) for t, p, c in zip(T, h[k], h[ck]) if t[:10] == day and p is not None and c is not None]
@@ -78,10 +99,26 @@ def compute():
             cv = [x for t, x in zip(T, d["det"][m]["hourly"].get("cape", [])) if t[:10] == day and x is not None]
             if cv: cape = round(max(cv)); break
         storm = round(100 * sum(stm) / len(stm)) if stm else None
+        wdet = []
+        for m, lab in LAB.items():
+            hm = d["det"][m]["hourly"]
+            gv = [(x, int(t[11:13])) for t, x in zip(T, hm.get("wind_gusts_10m", [])) if t[:10] == day and x is not None]
+            if gv:
+                x, hr = max(gv)
+                wdet.append(f"{lab} {x:.0f} ({hr}h)")
+        he = d["det"]["ecmwf_ifs025"]["hourly"]
+        gv = [(x, i) for i, (t, x) in enumerate(zip(T, he.get("wind_gusts_10m", []))) if t[:10] == day and x is not None]
+        wdir = None
+        if gv and he.get("wind_direction_10m"):
+            dg = he["wind_direction_10m"][max(gv)[1]]
+            if dg is not None: wdir = ["N", "NE", "E", "SE", "S", "SO", "O", "NO"][int((dg + 22.5) // 45) % 8]
+        gmed = round(st.median(gmax)) if gmax else None
+        w60 = round(100 * sum(x >= 60 for x in gmax) / len(gmax)) if gmax else None
+        w80 = round(100 * sum(x >= 80 for x in gmax) / len(gmax)) if gmax else None
         h = d["det"]["ecmwf_ifs025"]["hourly"]
         tt = [x for t, x in zip(T, h["temperature_2m"]) if t[:10] == day]
         g = max(x for t, x in zip(T, h["wind_gusts_10m"]) if t[:10] == day and x is not None)
-        rows.append(dict(day=day, p1=p1, med=round(med, 1), p90=round(p90, 1), bl=bl, det=det, tmin=round(min(tt)), tmax=round(max(tt)), gust=round(g), n=len(tots), storm=storm, tsm=tsm, cape=cape))
+        rows.append(dict(day=day, p1=p1, med=round(med, 1), p90=round(p90, 1), bl=bl, det=det, tmin=round(min(tt)), tmax=round(max(tt)), gust=round(g), n=len(tots), storm=storm, tsm=tsm, cape=cape, gmed=gmed, w60=w60, w80=w80, wdet=wdet, wdir=wdir))
     return rows
 
 def render():
@@ -106,23 +143,23 @@ def render():
         H.append(f'<td style="background:{c};color:#fff;border-radius:12px;padding:8px 4px;text-align:center;width:20%"><div style="font-size:26px">{e}</div><div style="font-weight:700;font-size:13px">{JOURS[dd.weekday()]} {dd.day}</div><div style="font-size:11px">{C[r["day"]][2]}</div><div style="font-size:15px;font-weight:800">{r["tmin"]:.0f} → {r["tmax"]:.0f}°</div></td>')
     H.append('</tr></table>')
     th = 'style="font-size:11px;color:#5a6b7c;padding:6px 4px 2px"'
-    H.append(f'<div style="border:2px solid #dde5ee;border-radius:14px;margin:10px 0;overflow:hidden"><div style="background:#1A3A5C;color:#fff;padding:9px 14px;font-weight:800;font-size:15px">📅 Jour par jour</div><table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse"><tr><th style="text-align:left;font-size:11px;color:#5a6b7c;padding:6px 10px 2px">JOUR</th><th {th}>🌡️ TEMP.</th><th {th}>🌧️ RISQUE ≥ 1 mm</th><th {th}>CUMUL</th><th {th}>⚡ ORAGE</th><th {th}>💨 RAF.</th></tr>')
+    H.append(f'<div style="border:2px solid #dde5ee;border-radius:14px;margin:10px 0;overflow:hidden"><div style="background:#1A3A5C;color:#fff;padding:9px 14px;font-weight:800;font-size:15px">📅 Jour par jour</div><table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse"><tr><th style="text-align:left;font-size:11px;color:#5a6b7c;padding:6px 10px 2px">JOUR</th><th {th}>🌡️ TEMP.</th><th {th}>🌧️ RISQUE ≥ 1 mm</th><th {th}>CUMUL</th><th {th}>⚡ ORAGE</th><th {th}>💨 RAFALES</th></tr>')
     td = 'style="padding:6px 4px;border-top:1px solid #eef2f6;text-align:center;white-space:nowrap"'
     for r in rows:
         dd = datetime.date.fromisoformat(r["day"])
         cum = "0 mm" if r["p90"] < .2 else f'{f(r["med"])} mm <span style="font-size:11px;color:#5a6b7c">(jusqu\'à {r["p90"]:.0f})</span>'
-        H.append(f'<tr><td style="padding:6px 10px;border-top:1px solid #eef2f6"><b>{JOURS[dd.weekday()]} {dd.day:02d}/{dd.month:02d}</b><div style="font-size:11.5px;color:#5a6b7c">{C[r["day"]][1]}</div></td><td {td}><b>{r["tmin"]:.0f} à {r["tmax"]:.0f}°</b></td><td {td}>{pill(str(r["p1"]) + " %", r["p1"])}</td><td {td}>{cum}</td><td {td}>{orage(r)}</td><td {td}>{r["gust"]:.0f} km/h</td></tr>')
-    H.append('</table><div style="font-size:11px;color:#5a6b7c;padding:6px 10px 8px">Risque : part des scénarios d\'ensemble (ECMWF, AIFS, ICON, GFS) qui donnent au moins 1 mm dans la journée. Cumul : valeur médiane, et entre parenthèses le cumul atteint dans les 10 % de scénarios les plus pluvieux. Orage : part des scénarios où une même heure combine forte énergie convective (CAPE ≥ 800 J/kg) et pluie, relevée à 20 % au moins si un modèle prévoit explicitement de l\'orage.</div></div>')
+        H.append(f'<tr><td style="padding:6px 10px;border-top:1px solid #eef2f6"><b>{JOURS[dd.weekday()]} {dd.day:02d}/{dd.month:02d}</b><div style="font-size:11.5px;color:#5a6b7c">{C[r["day"]][1]}</div></td><td {td}><b>{r["tmin"]:.0f} à {r["tmax"]:.0f}°</b></td><td {td}>{pill(str(r["p1"]) + " %", r["p1"])}</td><td {td}>{cum}</td><td {td}>{orage(r)}</td><td {td}>{vent(r)}</td></tr>')
+    H.append('</table><div style="font-size:11px;color:#5a6b7c;padding:6px 10px 8px">Risque : part des scénarios d\'ensemble (ECMWF, AIFS, ICON, GFS) qui donnent au moins 1 mm dans la journée. Cumul : valeur médiane, et entre parenthèses le cumul atteint dans les 10 % de scénarios les plus pluvieux. Orage : part des scénarios où une même heure combine forte énergie convective (CAPE ≥ 800 J/kg) et pluie, relevée à 20 % au moins si un modèle prévoit explicitement de l\'orage. Rafales : rafale maximale du jour (médiane des scénarios), avec la direction du vent et la part des scénarios dépassant 60 et 80 km/h.</div></div>')
     H.append('<div style="border:2px solid #dde5ee;border-radius:14px;margin:10px 0;overflow:hidden"><div style="background:#6b7d8f;color:#fff;padding:9px 14px;font-weight:800;font-size:15px">⏰ Quand pleut-il ? Risque d\'au moins 0,5 mm par tranche de 6 h</div><table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse">')
     H.append(f'<tr><th style="text-align:left;font-size:11px;color:#5a6b7c;padding:6px 10px 2px">JOUR</th><th {th}>NUIT 0-6h</th><th {th}>MATIN 6-12h</th><th {th}>APRÈS-MIDI 12-18h</th><th {th}>SOIR 18-24h</th></tr>')
     for r in rows[:7]:
         dd = datetime.date.fromisoformat(r["day"])
         H.append(f'<tr><td style="padding:6px 10px;border-top:1px solid #eef2f6;font-weight:600">{JOURS[dd.weekday()]} {dd.day:02d}/{dd.month:02d}</td>' + "".join(f'<td {td}>{pill(str(v) + " %", v)}</td>' for v in r["bl"].values()) + "</tr>")
     H.append('</table></div>')
-    H.append('<div style="border:2px solid #dde5ee;border-radius:14px;margin:10px 0;overflow:hidden"><div style="background:#8aa4bd;color:#fff;padding:9px 14px;font-weight:800;font-size:15px">🔬 Détail des modèles (cumul du jour en mm)</div><table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse">')
-    for r in [x for x in rows if x["p90"] >= .2 or x.get("tsm")]:
+    H.append('<div style="border:2px solid #dde5ee;border-radius:14px;margin:10px 0;overflow:hidden"><div style="background:#8aa4bd;color:#fff;padding:9px 14px;font-weight:800;font-size:15px">🔬 Détail des modèles (cumul du jour en mm, rafales si vent notable)</div><table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse">')
+    for r in [x for x in rows if x["p90"] >= .2 or x.get("tsm") or (x.get("gmed") or x["gust"]) >= 45]:
         dd = datetime.date.fromisoformat(r["day"])
-        H.append(f'<tr><td style="padding:5px 10px;border-top:1px solid #eef2f6;font-weight:600;white-space:nowrap">{JOURS[dd.weekday()]} {dd.day:02d}</td><td style="padding:5px 10px;border-top:1px solid #eef2f6;font-size:12px">{" · ".join(r["det"])}{(" · <b>⚡ orage : " + ", ".join(r["tsm"]) + "</b>") if r.get("tsm") else ""}</td></tr>')
+        H.append(f'<tr><td style="padding:5px 10px;border-top:1px solid #eef2f6;font-weight:600;white-space:nowrap">{JOURS[dd.weekday()]} {dd.day:02d}</td><td style="padding:5px 10px;border-top:1px solid #eef2f6;font-size:12px">{" · ".join(r["det"])}{(" · <b>⚡ orage : " + ", ".join(r["tsm"]) + "</b>") if r.get("tsm") else ""}{wline(r)}</td></tr>')
     H.append('</table><div style="font-size:11px;color:#5a6b7c;padding:6px 10px 8px">AROME couvre 2 jours, Météo-France 4, ICON et UKMO 7, ECMWF et GFS 10.</div></div>')
     H.append('<div style="background:#eef7ee;border-left:5px solid #1b7a34;border-radius:8px;padding:10px 14px;margin:10px 0;font-size:13px"><b>🧰 Conseils pratiques</b><ul style="margin:6px 0 0 18px;padding:0">' + "".join(f"<li>{t}</li>" for t in com["tips"]) + '</ul></div>')
     H.append('<div style="font-size:11px;color:#8a99a8;text-align:center;margin:14px 0 4px">Données Open-Meteo · analyse Claude Code · <a href="https://github.com/FredericVCT/trip-moto-septembre-2026/tree/claude/precipitation-forecast-analysis-dctml0/meteo-maison" style="color:#8a99a8">sources et scripts</a></div></div>')
@@ -142,9 +179,9 @@ def summary():
     out = {"issued": issued_local(), "rows": rows}
     ps = os.path.join(HERE, "sent.json")
     print(f"Données émises le {out['issued']} (heure de Paris)")
-    print("jour        T°      P>=1mm  médiane  p90   rafales  orage  CAPE | nuit/matin/aprem/soir (P>=0,5mm)  | modèles (mm) | orage prévu par")
+    print("jour        T°      P>=1mm  médiane  p90   rafales  orage  CAPE | rafales méd/≥60/≥80 dir | nuit/matin/aprem/soir (P>=0,5mm)  | modèles (mm) | orage prévu par")
     for r in rows:
-        print(f"{r['day']}  {r['tmin']:>2}/{r['tmax']:<2}°  {r['p1']:>4} %  {r['med']:>5}   {r['p90']:>5}  {r['gust']:>3} km/h  {(str(r.get('storm')) + ' %') if r.get('storm') is not None else 'n.d.':>5}  {r.get('cape') if r.get('cape') is not None else '-':>4} | " + "/".join(str(v) for v in r['bl'].values()) + " | " + " · ".join(r['det']) + " | " + (", ".join(r.get('tsm') or []) or "aucun"))
+        print(f"{r['day']}  {r['tmin']:>2}/{r['tmax']:<2}°  {r['p1']:>4} %  {r['med']:>5}   {r['p90']:>5}  {r['gust']:>3} km/h  {(str(r.get('storm')) + ' %') if r.get('storm') is not None else 'n.d.':>5}  {r.get('cape') if r.get('cape') is not None else '-':>4} | {'-' if r.get('gmed') is None else r['gmed']}/{'-' if r.get('w60') is None else r['w60']}%/{'-' if r.get('w80') is None else r['w80']}% {r.get('wdir') or ''} | " + "/".join(str(v) for v in r['bl'].values()) + " | " + " · ".join(r['det']) + " | " + (", ".join(r.get('tsm') or []) or "aucun") + " | rafales " + " · ".join(r.get('wdet') or []))
     if os.path.exists(ps):
         old = json.load(open(ps)); out["prev_issued"] = old["issued"]
         orow = {r["day"]: r for r in old["rows"]}
@@ -157,10 +194,12 @@ def summary():
             if abs(r["med"] - o["med"]) >= 2 or abs(r["p90"] - o["p90"]) >= 5: parts.append(f"cumul {o['med']} (p90 {o['p90']}) → {r['med']} (p90 {r['p90']}) mm")
             if r.get("storm") is not None and o.get("storm") is not None and abs(r["storm"] - o["storm"]) >= 20: parts.append(f"orage {o['storm']} % → {r['storm']} %")
             if bool(r.get("tsm")) != bool(o.get("tsm")): parts.append("orage prévu par " + (", ".join(r["tsm"]) if r.get("tsm") else "plus aucun modèle"))
+            if r.get("gmed") is not None and o.get("gmed") is not None and abs(r["gmed"] - o["gmed"]) >= 15: parts.append(f"rafales {o['gmed']} → {r['gmed']} km/h")
+            if r.get("w60") is not None and o.get("w60") is not None and abs(r["w60"] - o["w60"]) >= 20: parts.append(f"vent fort ≥ 60 km/h {o['w60']} % → {r['w60']} %")
             if abs(r["tmax"] - o["tmax"]) >= 3: parts.append(f"T max {o['tmax']} → {r['tmax']}°")
             if parts: lines.append(f"{r['day']} : " + " ; ".join(parts))
         out["changes"] = lines
-        print(f"\nÉcarts depuis le briefing du {old['issued']} (seuils : 20 pts de pluie ou d'orage, 2 mm, 3°) :")
+        print(f"\nÉcarts depuis le briefing du {old['issued']} (seuils : 20 pts de pluie, d'orage ou de vent fort, 2 mm, 15 km/h de rafales, 3°) :")
         print("\n".join("  - " + l for l in lines) if lines else "  aucun écart notable")
     else:
         print("\nPas de briefing précédent (sent.json absent).")

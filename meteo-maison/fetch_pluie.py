@@ -22,14 +22,14 @@ def get(url):
 out = {"issued_utc": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M"), "lat": LAT, "lon": LON, "det": {}, "ens": {}}
 for m in DET:
     q = dict(latitude=LAT, longitude=LON, models=m, timezone="Europe/Paris", forecast_days=10,
-             hourly="precipitation,precipitation_probability,rain,showers,weather_code,cloud_cover,temperature_2m,wind_gusts_10m,cape,lifted_index")
+             hourly="precipitation,precipitation_probability,rain,showers,weather_code,cloud_cover,temperature_2m,wind_gusts_10m,wind_speed_10m,wind_direction_10m,cape,lifted_index")
     out["det"][m] = get("https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(q))
 for m in ENS:
-    q = dict(latitude=LAT, longitude=LON, models=m, timezone="Europe/Paris", forecast_days=10, hourly="precipitation,cape")
-    r = get("https://ensemble-api.open-meteo.com/v1/ensemble?" + urllib.parse.urlencode(q))
-    if "error" in r:  # modèle sans CAPE : on garde au moins la pluie
-        q["hourly"] = "precipitation"
+    for hv in ("precipitation,cape,wind_gusts_10m", "precipitation,cape", "precipitation"):
+        # on retire les variables qu'un modèle ne fournit pas, en gardant au moins la pluie
+        q = dict(latitude=LAT, longitude=LON, models=m, timezone="Europe/Paris", forecast_days=10, hourly=hv)
         r = get("https://ensemble-api.open-meteo.com/v1/ensemble?" + urllib.parse.urlencode(q))
+        if "error" not in r: break
     out["ens"][m] = r
 json.dump(out, open(os.path.join(HERE, "raw.json"), "w"))
 for k in ("det", "ens"):
