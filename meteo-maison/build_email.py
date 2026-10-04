@@ -42,8 +42,8 @@ def vent(r):
     txt = f'<span style="display:inline-block;border-radius:20px;padding:2px 9px;font-weight:700;font-size:12px;background:{bg};color:{fg};white-space:nowrap">{"💨 " if g >= 50 else ""}{g:.0f} km/h</span>'
     extra = []
     if r.get("wdir"): extra.append(r["wdir"])
-    if r.get("w60"): extra.append(f"≥ 60 : {r['w60']} %")
-    if r.get("w80"): extra.append(f"≥ 80 : {r['w80']} %")
+    if (r.get("w60") or 0) >= 5: extra.append(f"≥ 60 : {r['w60']} %")
+    if (r.get("w80") or 0) >= 5: extra.append(f"≥ 80 : {r['w80']} %")
     if extra: txt += f'<div style="font-size:10.5px;color:#5a6b7c">{" · ".join(extra)}</div>'
     return txt
 def wline(r):

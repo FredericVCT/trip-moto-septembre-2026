@@ -10,3 +10,4 @@ Chaque soir à 19h (Paris), une routine Claude Code cloud :
 - `build_email.py` : calcul des probabilités, comparaison avec le dernier briefing (`sent.json`) et rendu du mail. Format de `comments.json` dans l'en-tête du script.
 
 - Orages : colonne ⚡ ORAGE du tableau jour par jour = part des scénarios d'ensemble où une même heure combine CAPE ≥ 800 J/kg et pluie ≥ 0,5 mm, relevée à 20 % au moins si un modèle déterministe prévoit de l'orage (codes 95 à 99, heures indiquées dans le détail des modèles).
+- Vent : colonne 💨 RAFALES = rafale maximale du jour (médiane des scénarios d'ensemble), direction du vent (ECMWF) et part des scénarios dépassant 60 et 80 km/h ; le détail des modèles donne la rafale maximale de chacun avec l'heure dès que le vent devient notable (45 km/h et plus).
