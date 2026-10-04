@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN dimanche 4, sec et doux : 29 % de risque mais AROME, Météo-France et ECMWF à 0 mm, 25°. Seul ICON voit une averse dans la nuit, vers minuit. Lundi 5 reste sec (26°). <b>La dégradation arrive mardi 6 en soirée</b> (76 %, 83 % de risque le soir) avec un <b>orage possible vers 19h-20h</b> (ICON, 25 % des scénarios). <b>Mercredi 7 sera franchement pluvieux</b> : 97 % de risque, 14 mm en médiane et jusqu'à 26 mm, avec un orage possible dans la nuit de mardi à mercredi selon ICON. Ensuite, <b>coup de froid</b> : maxi 11 à 14° de vendredi à dimanche, 6° au petit matin.",
- "agreement": "Dimanche et lundi, accord général sur le sec (seul ICON voit 10 mm cette nuit). Mardi soir, les modèles divergent fortement : GFS 38 mm, AIFS 8 mm, ECMWF 6 mm, ICON 5 mm, Météo-France 3 mm. Mercredi, tous voient de la pluie : ECMWF 38 mm, GFS 18 mm, ICON 14 mm, UKMO 14 mm, AIFS 11 mm. Seul ICON prévoit de l'orage (mardi 19h-20h, puis mercredi de minuit à 6h). Au-delà de mercredi, ce sont des tendances.",
- "changes": "Le temps se dégrade plus tôt et plus fort : mardi 6 passe de 43 % à 76 % (pluie le soir), mercredi 7 double son cumul médian (de 7 à 14 mm) et ECMWF y voit désormais 38 mm. ICON annonce de l'orage mardi soir et la nuit suivante. Le rafraîchissement de la fin de semaine s'accentue nettement : 11° de maxi samedi 10 au lieu de 17°.",
+ "headline": "DEMAIN lundi 5, sec et doux : 18 % de risque, AROME, Météo-France et ECMWF à 0 mm, 26°, vent faible (rafales 25 km/h). <b>Mardi 6, la pluie arrive en soirée</b> (84 %, surtout après 18h) avec un <b>orage possible entre 19h et 21h</b> selon UKMO. <b>Mercredi 7 est la journée pluvieuse de la semaine</b> : 99 % de risque, 16 mm en médiane et jusqu'à 28 mm, de la nuit jusqu'au soir, avec un <b>risque d'orage probable</b> (32 % des scénarios, ICON en voit de 2h à 17h). Jeudi 8, fin des pluies le matin et vent de nord-ouest plus sensible (rafales vers 45 km/h), puis net rafraîchissement vendredi (6° au petit matin).",
+ "agreement": "Lundi, unanimité sur le sec. Mardi soir, UKMO est le plus arrosé (18 mm) devant Météo-France (8 mm) et ECMWF (7 mm). Mercredi, tous voient de la pluie : GFS 26 mm, ICON 25 mm, Météo-France 22 mm, ECMWF 20 mm, AIFS 15 mm, UKMO 7 mm. Orages : UKMO mardi soir, ICON mercredi. Vent : rien de fort, au plus 44 à 46 km/h jeudi chez Météo-France et ECMWF. Au-delà de jeudi, ce sont des tendances.",
+ "changes": "Mercredi 7 se renforce encore (cumul médian de 14 à 16 mm, risque d'orage désormais probable). Jeudi 8 devient plus humide (70 % contre 49 % hier), surtout la nuit et le matin. Le coup de froid du week-end s'atténue nettement : 17 à 19° de maxi au lieu de 11 à 14°. L'orage de mardi soir passe d'ICON à UKMO, vers 19h-21h.",
  "days": {
-  "2026-10-04": ["sun", "Sec et doux", "Sec"],
   "2026-10-05": ["sun", "Sec et doux", "Sec"],
-  "2026-10-06": ["rain", "Pluie le soir, orageux vers 19h", "Pluie le soir"],
-  "2026-10-07": ["rain", "Pluvieux toute la journée, orageux la nuit", "À éviter"],
-  "2026-10-08": ["wind", "Venteux, averses le matin", "Incertain"],
-  "2026-10-09": ["wind", "Froid et venteux", "Tendance"],
-  "2026-10-10": ["cloud", "Froid (11° maxi)", "Tendance"],
-  "2026-10-11": ["wind", "Frais et venteux", "Tendance"],
-  "2026-10-12": ["cloud", "Frais, averses possibles", "Tendance"]
+  "2026-10-06": ["rain", "Pluie le soir, orageux vers 19h-21h", "Pluie le soir"],
+  "2026-10-07": ["storm", "Pluvieux et orageux toute la journée", "À éviter"],
+  "2026-10-08": ["wind", "Averses le matin, venteux", "Incertain"],
+  "2026-10-09": ["cloud", "Sec, froid le matin", "Tendance"],
+  "2026-10-10": ["cloud", "Averses possibles", "Tendance"],
+  "2026-10-11": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-10-12": ["cloud", "Plutôt sec, doux", "Tendance"],
+  "2026-10-13": ["cloud", "Plutôt sec, doux", "Tendance"]
  },
  "tips": [
-  "Sorties moto : dimanche et lundi sont les deux dernières belles journées douces. Mardi, rentrer avant 18h. Mercredi 7, pas de moto.",
-  "Orage mardi soir : rentrer le mobilier de jardin et les coussins mardi après-midi, débrancher les appareils sensibles pour la nuit de mardi à mercredi.",
-  "Linge : à étendre dimanche et lundi, ce sera ensuite difficile jusqu'au week-end.",
-  "Vêtements : sortir la tenue d'hiver pour la fin de semaine, 6° le matin et 11 à 14° l'après-midi, avec un vent soutenu (rafales à 46 km/h jeudi)."
+  "Sorties moto : lundi est la journée à saisir. Mardi, rentrer avant 18h. Mercredi 7, pas de moto (pluie et orages toute la journée).",
+  "Orages : rentrer le mobilier de jardin et les coussins mardi après-midi, débrancher les appareils sensibles mardi soir et mercredi.",
+  "Linge : à étendre lundi, puis pas avant vendredi.",
+  "Vêtements : prévoir une veste chaude vendredi matin (6°), le week-end restera ensuite assez doux l'après-midi."
  ]
 }
