@@ -1,98 +1,44 @@
 {
- "issued": "04/10/2026 19:15",
- "today": "2026-10-04",
+ "issued": "05/10/2026 19:17",
+ "today": "2026-10-05",
  "rows": [
   {
-   "day": "2026-10-05",
+   "day": "2026-10-06",
    "lead": 1,
    "n": 173,
-   "p1": 9,
-   "med": 0.0,
-   "p90": 0.9,
-   "tmin": 10.3,
+   "p1": 45,
+   "med": 0.9,
+   "p90": 4.5,
+   "tmin": 9.7,
    "tmax": 19.3,
    "det": {
-    "AROME": 0.0,
-    "Météo-France": 0.0,
-    "ECMWF": 0.0,
-    "AIFS": 0.0,
-    "ICON": 0.0,
-    "GFS": 0.0,
-    "UKMO": 0.0
+    "AROME": 0.3,
+    "Météo-France": 0.3,
+    "ECMWF": 1.2,
+    "AIFS": 0.9,
+    "ICON": 2.5,
+    "GFS": 2.9,
+    "UKMO": 5.4
    },
-   "pwin": 16,
+   "pwin": 2,
    "blocks": {
-    "matin 8-12h": 2,
-    "après-midi 12-18h": 11,
-    "soir 18-22h": 8
+    "matin 8-12h": 0,
+    "après-midi 12-18h": 23,
+    "soir 18-22h": 47
    },
-   "s_tmin": 7.6,
-   "s_tmax": 15.1,
-   "s_gust": 33,
+   "s_tmin": 7.9,
+   "s_tmax": 14.7,
+   "s_gust": 24,
    "s_gust_det": {
-    "AROME": 36,
-    "Météo-France": 36,
-    "ECMWF": 23,
-    "ICON": 44,
-    "GFS": 13,
-    "UKMO": 30
-   },
-   "s_wind": 12,
-   "s_feel": 5,
-   "s_feel_det": {
-    "AROME": 4,
-    "Météo-France": 4,
-    "ECMWF": 6,
-    "AIFS": 5,
-    "ICON": 6,
-    "GFS": 5,
-    "UKMO": 5
-   },
-   "s_low": 0,
-   "g_low": 1,
-   "g_gust": 28,
-   "frost": 12,
-   "iso0": 3470,
-   "snow": 0,
-   "sunrise": "07:51",
-   "sunset": "19:21"
-  },
-  {
-   "day": "2026-10-06",
-   "lead": 2,
-   "n": 173,
-   "p1": 77,
-   "med": 3.0,
-   "p90": 9.9,
-   "tmin": 9.9,
-   "tmax": 18.8,
-   "det": {
-    "Météo-France": 4.4,
-    "ECMWF": 4.2,
-    "AIFS": 2.4,
-    "ICON": 8.5,
-    "GFS": 8.9,
-    "UKMO": 0.5
-   },
-   "pwin": 13,
-   "blocks": {
-    "matin 8-12h": 3,
-    "après-midi 12-18h": 57,
-    "soir 18-22h": 77
-   },
-   "s_tmin": 7.6,
-   "s_tmax": 14.6,
-   "s_gust": 25,
-   "s_gust_det": {
-    "AROME": 29,
-    "Météo-France": 29,
+    "AROME": 28,
+    "Météo-France": 28,
     "ECMWF": 26,
-    "ICON": 25,
-    "GFS": 11,
-    "UKMO": 23
+    "ICON": 22,
+    "GFS": 12,
+    "UKMO": 22
    },
    "s_wind": 9,
-   "s_feel": 6,
+   "s_feel": 5,
    "s_feel_det": {
     "AROME": 5,
     "Météo-France": 5,
@@ -100,72 +46,74 @@
     "AIFS": 5,
     "ICON": 8,
     "GFS": 6,
-    "UKMO": 6
+    "UKMO": 5
    },
-   "s_low": 38,
-   "g_low": 2,
-   "g_gust": 20,
-   "frost": 11,
-   "iso0": 3445,
+   "s_low": 16,
+   "g_low": 0,
+   "g_gust": 19,
+   "frost": 10,
+   "iso0": 3310,
    "snow": 0,
    "sunrise": "07:53",
    "sunset": "19:19"
   },
   {
    "day": "2026-10-07",
-   "lead": 3,
+   "lead": 2,
    "n": 173,
-   "p1": 98,
+   "p1": 100,
    "med": 9.9,
-   "p90": 19.2,
+   "p90": 18.6,
    "tmin": 10.6,
    "tmax": 13.7,
    "det": {
-    "Météo-France": 2.5,
-    "ECMWF": 11.1,
-    "AIFS": 9.3,
-    "ICON": 0.6,
-    "GFS": 16.0,
-    "UKMO": 2.1
+    "Météo-France": 8.4,
+    "ECMWF": 10.8,
+    "AIFS": 10.2,
+    "ICON": 2.3,
+    "GFS": 9.0,
+    "UKMO": 1.6
    },
-   "pwin": 76,
+   "pwin": 72,
    "blocks": {
     "matin 8-12h": 72,
-    "après-midi 12-18h": 95,
-    "soir 18-22h": 91
+    "après-midi 12-18h": 97,
+    "soir 18-22h": 79
    },
-   "s_tmin": 7.0,
+   "s_tmin": 6.9,
    "s_tmax": 9.5,
-   "s_gust": 31,
+   "s_gust": 38,
    "s_gust_det": {
-    "Météo-France": 31,
+    "AROME": 46,
+    "Météo-France": 43,
     "ECMWF": 31,
-    "ICON": 59,
-    "GFS": 19,
-    "UKMO": 27
+    "ICON": 40,
+    "GFS": 23,
+    "UKMO": 36
    },
-   "s_wind": 11,
+   "s_wind": 14,
    "s_feel": 5,
    "s_feel_det": {
-    "Météo-France": 5,
+    "AROME": 3,
+    "Météo-France": 4,
     "ECMWF": 4,
     "AIFS": 7,
     "ICON": 6,
-    "GFS": 4,
+    "GFS": 5,
     "UKMO": 5
    },
-   "s_low": 72,
-   "g_low": 75,
-   "g_gust": 27,
-   "frost": 12,
-   "iso0": 3135,
+   "s_low": 82,
+   "g_low": 80,
+   "g_gust": 29,
+   "frost": 11,
+   "iso0": 3195,
    "snow": 0,
    "sunrise": "07:54",
    "sunset": "19:17"
   }
  ],
- "prev_issued": "03/10/2026 19:16",
+ "prev_issued": "04/10/2026 19:15",
  "changes": [
-  "J2 mar 6/10 : risque de pluie 61 % → 77 %"
+  "J2 mar 6/10 : risque de pluie 77 % → 45 % ; cumul médian 3.0 mm → 0.9 mm ; cumul p90 9.9 mm → 4.5 mm"
  ]
 }

@@ -3112,5 +3112,124 @@
   "changes": [
    "J2 mar 6/10 : risque de pluie 61 % → 77 %"
   ]
+ },
+ {
+  "issued": "05/10/2026 19:17",
+  "today": "2026-10-05",
+  "rows": [
+   {
+    "day": "2026-10-06",
+    "lead": 1,
+    "n": 173,
+    "p1": 45,
+    "med": 0.9,
+    "p90": 4.5,
+    "tmin": 9.7,
+    "tmax": 19.3,
+    "det": {
+     "AROME": 0.3,
+     "Météo-France": 0.3,
+     "ECMWF": 1.2,
+     "AIFS": 0.9,
+     "ICON": 2.5,
+     "GFS": 2.9,
+     "UKMO": 5.4
+    },
+    "pwin": 2,
+    "blocks": {
+     "matin 8-12h": 0,
+     "après-midi 12-18h": 23,
+     "soir 18-22h": 47
+    },
+    "s_tmin": 7.9,
+    "s_tmax": 14.7,
+    "s_gust": 24,
+    "s_gust_det": {
+     "AROME": 28,
+     "Météo-France": 28,
+     "ECMWF": 26,
+     "ICON": 22,
+     "GFS": 12,
+     "UKMO": 22
+    },
+    "s_wind": 9,
+    "s_feel": 5,
+    "s_feel_det": {
+     "AROME": 5,
+     "Météo-France": 5,
+     "ECMWF": 6,
+     "AIFS": 5,
+     "ICON": 8,
+     "GFS": 6,
+     "UKMO": 5
+    },
+    "s_low": 16,
+    "g_low": 0,
+    "g_gust": 19,
+    "frost": 10,
+    "iso0": 3310,
+    "snow": 0,
+    "sunrise": "07:53",
+    "sunset": "19:19"
+   },
+   {
+    "day": "2026-10-07",
+    "lead": 2,
+    "n": 173,
+    "p1": 100,
+    "med": 9.9,
+    "p90": 18.6,
+    "tmin": 10.6,
+    "tmax": 13.7,
+    "det": {
+     "Météo-France": 8.4,
+     "ECMWF": 10.8,
+     "AIFS": 10.2,
+     "ICON": 2.3,
+     "GFS": 9.0,
+     "UKMO": 1.6
+    },
+    "pwin": 72,
+    "blocks": {
+     "matin 8-12h": 72,
+     "après-midi 12-18h": 97,
+     "soir 18-22h": 79
+    },
+    "s_tmin": 6.9,
+    "s_tmax": 9.5,
+    "s_gust": 38,
+    "s_gust_det": {
+     "AROME": 46,
+     "Météo-France": 43,
+     "ECMWF": 31,
+     "ICON": 40,
+     "GFS": 23,
+     "UKMO": 36
+    },
+    "s_wind": 14,
+    "s_feel": 5,
+    "s_feel_det": {
+     "AROME": 3,
+     "Météo-France": 4,
+     "ECMWF": 4,
+     "AIFS": 7,
+     "ICON": 6,
+     "GFS": 5,
+     "UKMO": 5
+    },
+    "s_low": 82,
+    "g_low": 80,
+    "g_gust": 29,
+    "frost": 11,
+    "iso0": 3195,
+    "snow": 0,
+    "sunrise": "07:54",
+    "sunset": "19:17"
+   }
+  ],
+  "prev_issued": "04/10/2026 19:15",
+  "changes": [
+   "J2 mar 6/10 : risque de pluie 77 % → 45 % ; cumul médian 3.0 mm → 0.9 mm ; cumul p90 9.9 mm → 4.5 mm"
+  ]
  }
 ]
