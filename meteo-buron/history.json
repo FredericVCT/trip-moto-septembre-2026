@@ -3231,5 +3231,68 @@
   "changes": [
    "J2 mar 6/10 : risque de pluie 77 % → 45 % ; cumul médian 3.0 mm → 0.9 mm ; cumul p90 9.9 mm → 4.5 mm"
   ]
+ },
+ {
+  "issued": "06/10/2026 19:16",
+  "today": "2026-10-06",
+  "rows": [
+   {
+    "day": "2026-10-07",
+    "lead": 1,
+    "n": 173,
+    "p1": 88,
+    "med": 9.0,
+    "p90": 18.9,
+    "tmin": 10.4,
+    "tmax": 14.4,
+    "det": {
+     "AROME": 23.4,
+     "Météo-France": 22.5,
+     "ECMWF": 11.4,
+     "AIFS": 9.6,
+     "ICON": 2.0,
+     "GFS": 8.1,
+     "UKMO": 1.8
+    },
+    "pwin": 60,
+    "blocks": {
+     "matin 8-12h": 63,
+     "après-midi 12-18h": 85,
+     "soir 18-22h": 76
+    },
+    "s_tmin": 7.0,
+    "s_tmax": 9.9,
+    "s_gust": 44,
+    "s_gust_det": {
+     "AROME": 46,
+     "Météo-France": 45,
+     "ECMWF": 34,
+     "ICON": 59,
+     "GFS": 21,
+     "UKMO": 43
+    },
+    "s_wind": 14,
+    "s_feel": 4,
+    "s_feel_det": {
+     "AROME": 4,
+     "Météo-France": 4,
+     "ECMWF": 4,
+     "AIFS": 7,
+     "ICON": 4,
+     "GFS": 5,
+     "UKMO": 5
+    },
+    "s_low": 77,
+    "g_low": 68,
+    "g_gust": 31,
+    "frost": 12,
+    "iso0": 3230,
+    "snow": 0,
+    "sunrise": "07:54",
+    "sunset": "19:17"
+   }
+  ],
+  "prev_issued": "05/10/2026 19:17",
+  "changes": []
  }
 ]
