@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mardi 6, journée sèche puis <b>pluie en fin de soirée</b> : 90 % de risque, mais AROME et Météo-France ne la font arriver que vers 22h-23h (près de 9 mm d'un coup), ECMWF dès 18h. 26° l'après-midi, rafales jusqu'à 45 km/h vers 23h. <b>Orage possible en fin de soirée</b> (ICON vers 23h). <b>Mercredi 7 reste la journée pluvieuse de la semaine</b> : 100 % de risque, 17 mm en médiane et jusqu'à 27 mm, toute la journée, avec un risque d'orage possible (27 % des scénarios, mais plus aucun modèle n'en prévoit explicitement). Jeudi 8, encore des pluies la nuit et le matin (84 %), vent de nord plus sensible (rafales vers 43 km/h). Ensuite retour au sec à partir de vendredi, frais le matin (6 à 7°) et doux l'après-midi.",
- "agreement": "Mardi, AROME 9 mm, Météo-France 9 mm, ICON 10 mm, ECMWF 6 mm, UKMO 8 mm, AIFS 5 mm ; GFS est isolé à 47 mm. Mercredi, tous voient de la pluie : Météo-France 37 mm, ECMWF 23 mm, GFS 17 mm, AIFS 16 mm, ICON 13 mm, UKMO 11 mm. Jeudi, UKMO est le plus arrosé (15 mm) contre 4 à 6 mm ailleurs. Orage : seul ICON en prévoit, mardi vers 23h. Vent : rien de fort, au plus 44 à 45 km/h mardi soir (AROME, Météo-France) et jeudi (UKMO, Météo-France). Au-delà de jeudi, ce sont des tendances.",
- "changes": "La pluie de mardi soir est un peu plus nette (90 % contre 84 %) mais plus tardive chez les modèles fins. L'orage de mardi passe de UKMO (19h-21h) à ICON (vers 23h). Mercredi, plus aucun modèle ne prévoit explicitement d'orage, le risque reste possible (27 %). Samedi 10 s'assèche nettement (21 % contre 45 % hier).",
+ "headline": "DEMAIN mercredi 7, <b>journée de pluie du matin au soir</b> : 100 % de risque, 18 mm en médiane et jusqu'à 27 mm (AROME 26 mm, Météo-France 24 mm). <b>Orage possible en début de nuit</b> (ICON vers 0h-1h, 24 % des scénarios). 15 à 20°, vent faible (rafales 30 à 34 km/h). Jeudi 8, fin de la pluie dans la nuit et le matin (73 %), vent de nord-ouest plus sensible (rafales vers 41 à 44 km/h). Vendredi sec et frais (6° au réveil). <b>Samedi 10 redevient incertain</b> (50 %), puis temps sec et doux à partir de dimanche.",
+ "agreement": "Mercredi, tous les modèles sont d'accord sur une journée arrosée : ICON 36 mm, AROME 26 mm, Météo-France 24 mm, UKMO 21 mm, ECMWF 20 mm, AIFS 17 mm, GFS 13 mm. Jeudi, petits cumuls (0,5 à 3,6 mm, AIFS le plus humide). Samedi, UKMO (10 mm) et ECMWF (4,5 mm) font revenir la pluie, GFS et ICON restent secs. Orage : seul ICON en prévoit, vers 0h-1h mercredi. Vent : rien de fort, au plus 44 km/h jeudi (ECMWF). Au-delà de jeudi, ce sont des tendances.",
+ "changes": "Mercredi se renforce légèrement (18 mm en médiane contre 17 mm hier) et un orage réapparaît chez ICON en tout début de journée. Samedi 10 devient nettement plus incertain (50 % contre 21 % hier), avec UKMO et ECMWF qui ramènent de la pluie. Le reste est stable.",
  "days": {
-  "2026-10-06": ["rain", "Sec en journée, pluie en fin de soirée, orageux vers 23h", "Sec jusqu'au soir"],
-  "2026-10-07": ["rain", "Pluvieux toute la journée", "À éviter"],
+  "2026-10-07": ["rain", "Pluvieux toute la journée, orageux vers 0h-1h", "À éviter"],
   "2026-10-08": ["rain", "Pluie la nuit et le matin", "Pluie le matin"],
-  "2026-10-09": ["sun", "Sec, froid le matin", "Tendance"],
-  "2026-10-10": ["cloud", "Plutôt sec", "Tendance"],
-  "2026-10-11": ["sun", "Plutôt sec, doux", "Tendance"],
-  "2026-10-12": ["sun", "Plutôt sec, doux", "Tendance"],
+  "2026-10-09": ["sun", "Sec, froid le matin", "Sec"],
+  "2026-10-10": ["cloud", "Averses possibles", "Tendance"],
+  "2026-10-11": ["sun", "Plutôt sec", "Tendance"],
+  "2026-10-12": ["sun", "Plutôt sec", "Tendance"],
   "2026-10-13": ["sun", "Plutôt sec, doux", "Tendance"],
-  "2026-10-14": ["sun", "Plutôt sec, doux", "Tendance"]
+  "2026-10-14": ["sun", "Plutôt sec, doux", "Tendance"],
+  "2026-10-15": ["sun", "Plutôt sec, doux", "Tendance"]
  },
  "tips": [
-  "Sorties moto : mardi est encore jouable jusqu'en fin d'après-midi, rentrer avant 18h par prudence (ECMWF fait arriver la pluie dès 18h). Pas de moto mercredi, ni jeudi matin.",
-  "Jardin : rentrer coussins et mobilier léger mardi en fin d'après-midi (averse forte et orage possible vers 23h), débrancher les appareils sensibles pour la nuit.",
-  "Linge : à étendre mardi en journée et à rentrer avant 18h, puis pas avant vendredi.",
-  "Arrosage : inutile cette semaine, la pluie de mardi soir à jeudi matin suffira largement."
+  "Sorties moto : pas de moto mercredi, ni jeudi matin. Vendredi est la meilleure journée (sec), avec un départ pas trop tôt car il fera 6° au réveil.",
+  "Orage de la nuit : rentrer coussins et mobilier léger ce soir et débrancher les appareils sensibles pour la nuit.",
+  "Linge : rien à étendre avant jeudi après-midi, vendredi est idéal.",
+  "Arrosage : inutile pour au moins une semaine."
  ]
 }
