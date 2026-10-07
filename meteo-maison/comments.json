@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mercredi 7, <b>journée de pluie du matin au soir</b> : 100 % de risque, 18 mm en médiane et jusqu'à 27 mm (AROME 26 mm, Météo-France 24 mm). <b>Orage possible en début de nuit</b> (ICON vers 0h-1h, 24 % des scénarios). 15 à 20°, vent faible (rafales 30 à 34 km/h). Jeudi 8, fin de la pluie dans la nuit et le matin (73 %), vent de nord-ouest plus sensible (rafales vers 41 à 44 km/h). Vendredi sec et frais (6° au réveil). <b>Samedi 10 redevient incertain</b> (50 %), puis temps sec et doux à partir de dimanche.",
- "agreement": "Mercredi, tous les modèles sont d'accord sur une journée arrosée : ICON 36 mm, AROME 26 mm, Météo-France 24 mm, UKMO 21 mm, ECMWF 20 mm, AIFS 17 mm, GFS 13 mm. Jeudi, petits cumuls (0,5 à 3,6 mm, AIFS le plus humide). Samedi, UKMO (10 mm) et ECMWF (4,5 mm) font revenir la pluie, GFS et ICON restent secs. Orage : seul ICON en prévoit, vers 0h-1h mercredi. Vent : rien de fort, au plus 44 km/h jeudi (ECMWF). Au-delà de jeudi, ce sont des tendances.",
- "changes": "Mercredi se renforce légèrement (18 mm en médiane contre 17 mm hier) et un orage réapparaît chez ICON en tout début de journée. Samedi 10 devient nettement plus incertain (50 % contre 21 % hier), avec UKMO et ECMWF qui ramènent de la pluie. Le reste est stable.",
+ "headline": "DEMAIN jeudi 8, <b>fin de la pluie en début de matinée</b> : 90 % de risque sur la journée, mais l'essentiel tombe entre minuit et 5h (AROME et Météo-France 11 mm), puis quelques gouttes possibles en matinée (47 %) et un après-midi sec. <b>Orage possible vers 0h-1h</b> (ICON). Vent de nord-ouest sensible, rafales vers 40 à 44 km/h, 11 à 16°. Vendredi 9 sec et frais (6° au réveil). <b>Samedi 10, retour de petites pluies</b> (63 %, 2 à 5 mm, surtout en journée), puis temps sec et doux de dimanche à mercredi.",
+ "agreement": "Jeudi, les modèles fins sont les plus arrosés pour la nuit : AROME 11 mm, Météo-France 11 mm, ICON 9 mm, contre 2 à 4 mm pour ECMWF, AIFS, GFS et UKMO. Samedi, ECMWF, UKMO et AIFS donnent 4 à 5 mm, Météo-France et ICON 1 mm, GFS reste sec. Orage : seul ICON en prévoit, jeudi vers 0h-1h. Vent : rien de fort, au plus 44 km/h jeudi (AROME, Météo-France, UKMO). Au-delà de samedi, ce sont des tendances.",
+ "changes": "Jeudi, la pluie nocturne est plus marquée chez les modèles fins (90 % contre 73 % hier) mais s'arrête toujours en matinée. L'orage de début de nuit chez ICON se décale de mercredi à jeudi 0h-1h. Samedi se confirme un peu plus humide (63 % contre 50 %). La suite est stable et un peu plus fraîche le matin (6 à 8°).",
  "days": {
-  "2026-10-07": ["rain", "Pluvieux toute la journée, orageux vers 0h-1h", "À éviter"],
-  "2026-10-08": ["rain", "Pluie la nuit et le matin", "Pluie le matin"],
+  "2026-10-08": ["rain", "Pluie la nuit, orageux vers 0h-1h, sec l'après-midi", "Sec l'après-midi"],
   "2026-10-09": ["sun", "Sec, froid le matin", "Sec"],
-  "2026-10-10": ["cloud", "Averses possibles", "Tendance"],
-  "2026-10-11": ["sun", "Plutôt sec", "Tendance"],
-  "2026-10-12": ["sun", "Plutôt sec", "Tendance"],
-  "2026-10-13": ["sun", "Plutôt sec, doux", "Tendance"],
-  "2026-10-14": ["sun", "Plutôt sec, doux", "Tendance"],
-  "2026-10-15": ["sun", "Plutôt sec, doux", "Tendance"]
+  "2026-10-10": ["rain", "Petites pluies en journée", "Incertain"],
+  "2026-10-11": ["sun", "Sec", "Tendance"],
+  "2026-10-12": ["sun", "Sec, frais le matin", "Tendance"],
+  "2026-10-13": ["sun", "Sec, doux", "Tendance"],
+  "2026-10-14": ["sun", "Sec, doux", "Tendance"],
+  "2026-10-15": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-10-16": ["cloud", "Averses possibles", "Tendance"]
  },
  "tips": [
-  "Sorties moto : pas de moto mercredi, ni jeudi matin. Vendredi est la meilleure journée (sec), avec un départ pas trop tôt car il fera 6° au réveil.",
+  "Sorties moto : jeudi après-midi est jouable (sec, mais routes encore humides le matin et vent de nord-ouest vers 40 km/h). Vendredi est la meilleure journée, départ pas trop tôt (6° au réveil).",
   "Orage de la nuit : rentrer coussins et mobilier léger ce soir et débrancher les appareils sensibles pour la nuit.",
-  "Linge : rien à étendre avant jeudi après-midi, vendredi est idéal.",
-  "Arrosage : inutile pour au moins une semaine."
+  "Linge : à étendre jeudi après-midi ou vendredi, pas samedi.",
+  "Vêtements : prévoir une veste chaude vendredi et lundi matin (6°)."
  ]
 }
