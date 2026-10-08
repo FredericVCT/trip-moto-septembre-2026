@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN jeudi 8, <b>fin de la pluie en début de matinée</b> : 90 % de risque sur la journée, mais l'essentiel tombe entre minuit et 5h (AROME et Météo-France 11 mm), puis quelques gouttes possibles en matinée (47 %) et un après-midi sec. <b>Orage possible vers 0h-1h</b> (ICON). Vent de nord-ouest sensible, rafales vers 40 à 44 km/h, 11 à 16°. Vendredi 9 sec et frais (6° au réveil). <b>Samedi 10, retour de petites pluies</b> (63 %, 2 à 5 mm, surtout en journée), puis temps sec et doux de dimanche à mercredi.",
- "agreement": "Jeudi, les modèles fins sont les plus arrosés pour la nuit : AROME 11 mm, Météo-France 11 mm, ICON 9 mm, contre 2 à 4 mm pour ECMWF, AIFS, GFS et UKMO. Samedi, ECMWF, UKMO et AIFS donnent 4 à 5 mm, Météo-France et ICON 1 mm, GFS reste sec. Orage : seul ICON en prévoit, jeudi vers 0h-1h. Vent : rien de fort, au plus 44 km/h jeudi (AROME, Météo-France, UKMO). Au-delà de samedi, ce sont des tendances.",
- "changes": "Jeudi, la pluie nocturne est plus marquée chez les modèles fins (90 % contre 73 % hier) mais s'arrête toujours en matinée. L'orage de début de nuit chez ICON se décale de mercredi à jeudi 0h-1h. Samedi se confirme un peu plus humide (63 % contre 50 %). La suite est stable et un peu plus fraîche le matin (6 à 8°).",
+ "headline": "DEMAIN vendredi 9, <b>journée sèche et fraîche</b> : 6 % de risque, tous les modèles à 0 mm, 5° au réveil et 14° l'après-midi, vent faible (rafales vers 20 km/h). <b>Samedi 10, pluie probable</b> (87 %) de la nuit jusqu'en milieu d'après-midi, mais faible : 3 mm en médiane, jusqu'à 6 mm (UKMO 7 mm, ECMWF 6 mm). Pas d'orage ni de vent fort. Ensuite, temps sec de dimanche à jeudi, frais le matin (8°) et doux l'après-midi (20 à 22°).",
+ "agreement": "Vendredi, unanimité sur le sec. Samedi, UKMO (7 mm) et ECMWF (6 mm) sont les plus arrosés, AIFS 4 mm, Météo-France 3 mm, ICON et GFS moins de 1 mm. Orage : aucun modèle n'en prévoit. Vent : rien de notable, au plus 32 km/h samedi (ECMWF). Au-delà de dimanche, ce sont des tendances, avec un peu plus de vent en fin de période chez ECMWF (46 à 49 km/h les 16 et 17).",
+ "changes": "Samedi 10 devient plus franchement pluvieux (87 % contre 63 % hier) mais les cumuls restent faibles, et un peu plus doux (18° au lieu de 15°). Plus d'orage prévu : celui d'ICON cette nuit est passé. Le reste est stable.",
  "days": {
-  "2026-10-08": ["rain", "Pluie la nuit, orageux vers 0h-1h, sec l'après-midi", "Sec l'après-midi"],
   "2026-10-09": ["sun", "Sec, froid le matin", "Sec"],
-  "2026-10-10": ["rain", "Petites pluies en journée", "Incertain"],
-  "2026-10-11": ["sun", "Sec", "Tendance"],
-  "2026-10-12": ["sun", "Sec, frais le matin", "Tendance"],
+  "2026-10-10": ["rain", "Pluie faible jusqu'en milieu d'après-midi", "Pluie"],
+  "2026-10-11": ["sun", "Sec", "Sec"],
+  "2026-10-12": ["sun", "Plutôt sec, doux", "Tendance"],
   "2026-10-13": ["sun", "Sec, doux", "Tendance"],
   "2026-10-14": ["sun", "Sec, doux", "Tendance"],
-  "2026-10-15": ["cloud", "Plutôt sec", "Tendance"],
-  "2026-10-16": ["cloud", "Averses possibles", "Tendance"]
+  "2026-10-15": ["sun", "Plutôt sec, doux", "Tendance"],
+  "2026-10-16": ["cloud", "Averses possibles", "Tendance"],
+  "2026-10-17": ["cloud", "Averses possibles, plus frais", "Tendance"]
  },
  "tips": [
-  "Sorties moto : jeudi après-midi est jouable (sec, mais routes encore humides le matin et vent de nord-ouest vers 40 km/h). Vendredi est la meilleure journée, départ pas trop tôt (6° au réveil).",
-  "Orage de la nuit : rentrer coussins et mobilier léger ce soir et débrancher les appareils sensibles pour la nuit.",
-  "Linge : à étendre jeudi après-midi ou vendredi, pas samedi.",
-  "Vêtements : prévoir une veste chaude vendredi et lundi matin (6°)."
+  "Sorties moto : vendredi est la journée à saisir, en partant après 10h (5° au réveil). Dimanche aussi, samedi plutôt à éviter.",
+  "Linge : à étendre vendredi, puis dimanche.",
+  "Vêtements : veste chaude et gants pour vendredi matin.",
+  "Arrosage : inutile, la pluie de samedi et la fraîcheur suffisent."
  ]
 }
