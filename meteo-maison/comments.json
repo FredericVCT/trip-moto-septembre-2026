@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN samedi 10, <b>petite pluie de la nuit jusqu'à midi</b> : 90 % de risque mais seulement 3 à 4 mm (AROME et Météo-France), surtout vers 5h-6h puis de la bruine jusqu'en début d'après-midi. Éclaircies probables en fin d'après-midi, 18°, vent faible (rafales 28 à 35 km/h d'ouest). Pas d'orage ni de vent fort. Ensuite, <b>longue période sèche et douce</b> de dimanche à jeudi, avec 22 à 24° en milieu de semaine.",
- "agreement": "Samedi, tous les modèles donnent un peu de pluie : UKMO 7 mm, Météo-France et AIFS 4 mm, AROME 4 mm, ICON et ECMWF 2 mm, GFS 1 mm. Dimanche et lundi, unanimité sur le sec. Orage : aucun modèle n'en prévoit. Vent : rien de notable, au plus 35 km/h samedi (ECMWF). Au-delà de mardi, ce sont des tendances.",
- "changes": "Prévisions stables par rapport à hier soir pour samedi et dimanche. La fin de période se réchauffe nettement : 22° vendredi 16 et 20° samedi 17 au lieu de 16 et 13°, le coup de frais annoncé hier disparaît.",
+ "headline": "DEMAIN dimanche 11, <b>journée sèche</b> : 1 % de risque, tous les modèles à 0 mm, 10 à 16°, vent très faible (rafales 10 à 17 km/h). <b>Belle période sèche jusqu'à jeudi</b>, de plus en plus douce (22 à 23° de mardi à jeudi). Pas d'orage ni de vent fort. <b>Vendredi 16, pluie possible</b> (39 %, surtout ECMWF) puis <b>net rafraîchissement le week-end prochain</b> (12 à 14° l'après-midi, 7 à 8° le matin).",
+ "agreement": "Dimanche et lundi, unanimité sur le sec. Mardi, seul AIFS donne un peu de pluie (2 mm). Mercredi et jeudi, tous les modèles sont secs. Vendredi, seul ECMWF fait pleuvoir (4,5 mm), les autres restent secs. Orage : aucun modèle n'en prévoit. Vent : rien de notable, au plus 40 km/h samedi 17 (ECMWF). Au-delà de mardi, ce sont des tendances.",
+ "changes": "La semaine reste sèche comme prévu hier. Le changement concerne la fin de période : le coup de frais revient pour le week-end du 17-18 (12 à 14° de maxi au lieu de 20 à 21°), et vendredi 16 devient un peu plus incertain côté pluie.",
  "days": {
-  "2026-10-10": ["rain", "Petite pluie jusqu'à midi", "Pluie le matin"],
   "2026-10-11": ["sun", "Sec", "Sec"],
   "2026-10-12": ["sun", "Sec, doux", "Sec"],
-  "2026-10-13": ["sun", "Sec, doux", "Tendance"],
+  "2026-10-13": ["sun", "Sec, doux", "Sec"],
   "2026-10-14": ["sun", "Sec, doux", "Tendance"],
   "2026-10-15": ["sun", "Sec, doux", "Tendance"],
-  "2026-10-16": ["cloud", "Plutôt sec, doux", "Tendance"],
-  "2026-10-17": ["sun", "Plutôt sec", "Tendance"],
-  "2026-10-18": ["cloud", "Averses possibles", "Tendance"]
+  "2026-10-16": ["cloud", "Averses possibles, plus frais", "Tendance"],
+  "2026-10-17": ["cloud", "Plutôt sec, frais", "Tendance"],
+  "2026-10-18": ["cloud", "Plutôt sec, frais", "Tendance"],
+  "2026-10-19": ["cloud", "Incertain", "Tendance"]
  },
  "tips": [
-  "Sorties moto : samedi après-midi est envisageable sur routes encore humides. Dimanche et lundi sont les meilleures journées.",
-  "Linge : à étendre à partir de dimanche, toute la semaine s'annonce sèche.",
-  "Arrosage : à prévoir en milieu de semaine pour les pots, après plusieurs jours secs et 22 à 24°.",
-  "Vêtements : frais le matin (8 à 9°), doux l'après-midi."
+  "Sorties moto : toute la semaine jusqu'à jeudi est favorable, avec les journées les plus douces mardi, mercredi et jeudi (22 à 23°).",
+  "Linge : à étendre sans souci de dimanche à jeudi.",
+  "Arrosage : pots et jeunes plantations à arroser en milieu de semaine, après 5 jours secs et doux.",
+  "Vêtements : frais le matin (8 à 13°), et prévoir plus chaud à partir du week-end prochain."
  ]
 }
