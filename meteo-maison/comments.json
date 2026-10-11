@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN dimanche 11, <b>journée sèche</b> : 1 % de risque, tous les modèles à 0 mm, 10 à 16°, vent très faible (rafales 10 à 17 km/h). <b>Belle période sèche jusqu'à jeudi</b>, de plus en plus douce (22 à 23° de mardi à jeudi). Pas d'orage ni de vent fort. <b>Vendredi 16, pluie possible</b> (39 %, surtout ECMWF) puis <b>net rafraîchissement le week-end prochain</b> (12 à 14° l'après-midi, 7 à 8° le matin).",
- "agreement": "Dimanche et lundi, unanimité sur le sec. Mardi, seul AIFS donne un peu de pluie (2 mm). Mercredi et jeudi, tous les modèles sont secs. Vendredi, seul ECMWF fait pleuvoir (4,5 mm), les autres restent secs. Orage : aucun modèle n'en prévoit. Vent : rien de notable, au plus 40 km/h samedi 17 (ECMWF). Au-delà de mardi, ce sont des tendances.",
- "changes": "La semaine reste sèche comme prévu hier. Le changement concerne la fin de période : le coup de frais revient pour le week-end du 17-18 (12 à 14° de maxi au lieu de 20 à 21°), et vendredi 16 devient un peu plus incertain côté pluie.",
+ "headline": "DEMAIN lundi 12, <b>journée sèche et douce</b> : 9 % de risque, AROME, Météo-France et ECMWF à 0 mm, 12 à 19°, vent très faible (rafales 10 à 17 km/h). <b>Temps sec jusqu'à jeudi</b>, avec 22 à 23° de mardi à jeudi. Pas d'orage. Vendredi 16, quelques gouttes possibles (23 %). <b>Samedi 17, vent de nord-est plus soutenu</b> : rafales vers 50 km/h l'après-midi selon ECMWF et ICON (54 km/h), à confirmer, puis week-end frais (12 à 16°).",
+ "agreement": "Lundi, unanimité sur le sec (seul AIFS donne 1 mm). Mardi, petites traces chez AIFS (2 mm) et ECMWF (1 mm), les autres secs. Mercredi et jeudi, tous secs. Orage : aucun modèle n'en prévoit. Vent : rien de notable jusqu'à vendredi ; samedi 17, ECMWF 50 km/h vers 18h et ICON 54 km/h vers 16h, mais la médiane des scénarios reste à 35 km/h et aucun ne dépasse 60 km/h. Au-delà de mardi, ce sont des tendances.",
+ "changes": "Prévisions stables par rapport à hier soir. Seule nouveauté : un peu plus de vent de nord-est samedi 17 chez ECMWF et ICON.",
  "days": {
-  "2026-10-11": ["sun", "Sec", "Sec"],
   "2026-10-12": ["sun", "Sec, doux", "Sec"],
   "2026-10-13": ["sun", "Sec, doux", "Sec"],
   "2026-10-14": ["sun", "Sec, doux", "Tendance"],
   "2026-10-15": ["sun", "Sec, doux", "Tendance"],
-  "2026-10-16": ["cloud", "Averses possibles, plus frais", "Tendance"],
-  "2026-10-17": ["cloud", "Plutôt sec, frais", "Tendance"],
-  "2026-10-18": ["cloud", "Plutôt sec, frais", "Tendance"],
-  "2026-10-19": ["cloud", "Incertain", "Tendance"]
+  "2026-10-16": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-10-17": ["cloud", "Sec, plus de vent, frais", "Tendance"],
+  "2026-10-18": ["cloud", "Sec, frais", "Tendance"],
+  "2026-10-19": ["cloud", "Incertain", "Tendance"],
+  "2026-10-20": ["cloud", "Incertain", "Tendance"]
  },
  "tips": [
-  "Sorties moto : toute la semaine jusqu'à jeudi est favorable, avec les journées les plus douces mardi, mercredi et jeudi (22 à 23°).",
-  "Linge : à étendre sans souci de dimanche à jeudi.",
-  "Arrosage : pots et jeunes plantations à arroser en milieu de semaine, après 5 jours secs et doux.",
-  "Vêtements : frais le matin (8 à 13°), et prévoir plus chaud à partir du week-end prochain."
+  "Sorties moto : toute la semaine jusqu'à jeudi est favorable, les après-midi les plus doux mardi, mercredi et jeudi (22 à 23°).",
+  "Linge : à étendre sans souci de lundi à jeudi.",
+  "Arrosage : pots et jeunes plantations à arroser mercredi ou jeudi, après une semaine sèche.",
+  "Jardin : à surveiller samedi 17, rentrer le mobilier léger si le vent de nord-est se confirme vers 50 km/h."
  ]
 }
