@@ -28,10 +28,14 @@ comments.json (rédigé par l'assistant après lecture de `summary`) :
 import json, os, sys, shutil, statistics as st, datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 d = json.load(open(os.path.join(HERE, "raw.json")))
+# un modèle en erreur côté Open-Meteo ({"error": ...}) est simplement ignoré
+MISSING = sorted(f"{g}:{m}" for g in ("det", "ens") for m, v in d[g].items() if "hourly" not in v)
+for g in ("det", "ens"): d[g] = {m: v for m, v in d[g].items() if "hourly" in v}
 T = d["det"]["ecmwf_ifs025"]["hourly"]["time"]
 JOURS = ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"]
 LAB = {"arome_france": "AROME", "meteofrance_seamless": "Météo-France", "ecmwf_ifs025": "ECMWF", "ecmwf_aifs025_single": "AIFS",
        "icon_seamless": "ICON", "gfs_seamless": "GFS", "ukmo_seamless": "UKMO"}
+LAB = {m: lab for m, lab in LAB.items() if m in d["det"]}
 MOOD = {"storm": ("⛈️", "#5a6b7c"), "sun": ("☀️", "#f2a516"), "hot": ("🌞", "#e9821b"), "rain": ("🌧️", "#6b7d8f"), "cloud": ("⛅", "#8aa4bd"), "wind": ("💨", "#7a8fa6")}
 def pill(txt, p):
     bg, fg = ("#e2f5e6", "#1b7a34") if p < 20 else (("#fff1cf", "#9a6300") if p < 50 else ("#ffe0e0", "#b52323"))
@@ -96,7 +100,7 @@ def compute():
             if hrs: tsm.append(f"{lab} {min(hrs)}h-{max(hrs) + 1}h")
         cape = None
         for m in ("ecmwf_ifs025", "gfs_seamless"):
-            cv = [x for t, x in zip(T, d["det"][m]["hourly"].get("cape", [])) if t[:10] == day and x is not None]
+            cv = [x for t, x in zip(T, d["det"].get(m, {}).get("hourly", {}).get("cape", [])) if t[:10] == day and x is not None]
             if cv: cape = round(max(cv)); break
         storm = round(100 * sum(stm) / len(stm)) if stm else None
         wdet = []
@@ -179,6 +183,7 @@ def summary():
     out = {"issued": issued_local(), "rows": rows}
     ps = os.path.join(HERE, "sent.json")
     print(f"Données émises le {out['issued']} (heure de Paris)")
+    if MISSING: print("Modèles en erreur, ignorés : " + ", ".join(MISSING))
     print("jour        T°      P>=1mm  médiane  p90   rafales  orage  CAPE | rafales méd/≥60/≥80 dir | nuit/matin/aprem/soir (P>=0,5mm)  | modèles (mm) | orage prévu par")
     for r in rows:
         print(f"{r['day']}  {r['tmin']:>2}/{r['tmax']:<2}°  {r['p1']:>4} %  {r['med']:>5}   {r['p90']:>5}  {r['gust']:>3} km/h  {(str(r.get('storm')) + ' %') if r.get('storm') is not None else 'n.d.':>5}  {r.get('cape') if r.get('cape') is not None else '-':>4} | {'-' if r.get('gmed') is None else r['gmed']}/{'-' if r.get('w60') is None else r['w60']}%/{'-' if r.get('w80') is None else r['w80']}% {r.get('wdir') or ''} | " + "/".join(str(v) for v in r['bl'].values()) + " | " + " · ".join(r['det']) + " | " + (", ".join(r.get('tsm') or []) or "aucun") + " | rafales " + " · ".join(r.get('wdet') or []))
