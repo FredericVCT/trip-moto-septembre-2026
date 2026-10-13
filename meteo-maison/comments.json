@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mardi 13, <b>journée plutôt sèche</b> : 18 % de risque, AROME et Météo-France à 0 mm, au plus 1 mm chez ECMWF, AIFS et UKMO (plutôt l'après-midi ou le soir). 13 à 19°, vent faible. <b>Mercredi et jeudi secs et doux</b> (23 à 24°). Pas d'orage. <b>Samedi 17, vent de nord plus soutenu</b> : rafales vers 50 km/h en fin d'après-midi selon ECMWF (51 km/h vers 19h) et UKMO (49 km/h vers 17h), puis week-end frais (13 à 15°). Lundi 19 incertain (25 %). Note : l'ensemble ICON était indisponible ce soir chez Open-Meteo, les pourcentages reposent sur 133 scénarios (ECMWF, AIFS, GFS).",
- "agreement": "Mardi, AROME, Météo-France, ICON et GFS secs, ECMWF, AIFS et UKMO à 1 mm. Mercredi et jeudi, unanimité sur le sec. Vendredi, tous secs. Orage : aucun modèle n'en prévoit. Vent : rien de notable jusqu'à vendredi ; samedi 17, ECMWF 51 km/h et UKMO 49 km/h, ICON 35 km/h, médiane des scénarios 33 km/h, aucun à 60 km/h. Lundi 19, GFS isolé à 16 mm, les autres à 1 ou 2 mm. Au-delà de mercredi, ce sont des tendances.",
- "changes": "Prévisions globalement stables. Mardi sera un peu moins chaud (19° au lieu de 22°), et lundi 19 aussi (15° au lieu de 20°). Le vent de samedi 17 se confirme chez ECMWF et passe chez UKMO, mais ICON le revoit à la baisse.",
+ "headline": "DEMAIN mercredi 14, <b>journée sèche et douce</b> : 0 % de risque, tous les modèles à 0 mm, 14 à 23°, vent très faible. Jeudi aussi (24°). Vendredi 16, quelques averses possibles en soirée (17 %). <b>Samedi 17, pluie faible possible la nuit et le matin</b> (40 %, 1 à 2 mm) et <b>vent de nord soutenu toute la journée</b> : rafales de 44 à 51 km/h selon tous les modèles (UKMO 50 km/h vers 13h, ICON 49 km/h vers 16h, ECMWF 51 km/h vers 19h). Pas d'orage. Puis <b>net coup de froid</b> : 11 à 12° l'après-midi dimanche et lundi, 3 à 4° au petit matin lundi et mardi.",
+ "agreement": "Mercredi et jeudi, unanimité sur le sec. Vendredi, traces seulement (ICON 0,8 mm). Samedi, AIFS 2,4 mm, ECMWF 1,8 mm, ICON et UKMO 0,9 mm, GFS sec ; vent : les 6 modèles entre 44 et 51 km/h, médiane des scénarios 39 km/h, aucun à 60 km/h. Orage : aucun modèle n'en prévoit. Lundi 19, désaccord : GFS 20 mm, ICON 13 mm, AIFS 12 mm, ECMWF et UKMO presque secs. Au-delà de vendredi, ce sont des tendances.",
+ "changes": "L'ensemble ICON est revenu ce soir (173 scénarios). Samedi 17 devient plus humide (40 % contre 15 % hier) et le vent de nord est désormais vu par tous les modèles. Le froid de début de semaine prochaine s'accentue : 11° lundi au lieu de 15°, 14° mardi au lieu de 22°.",
  "days": {
-  "2026-10-13": ["cloud", "Plutôt sec", "Sec"],
   "2026-10-14": ["sun", "Sec, doux", "Sec"],
-  "2026-10-15": ["sun", "Sec, doux", "Tendance"],
-  "2026-10-16": ["sun", "Plutôt sec, doux", "Tendance"],
-  "2026-10-17": ["wind", "Sec, venteux en fin de journée, frais", "Tendance"],
-  "2026-10-18": ["cloud", "Sec, frais", "Tendance"],
-  "2026-10-19": ["cloud", "Incertain, frais", "Tendance"],
-  "2026-10-20": ["cloud", "Incertain", "Tendance"],
-  "2026-10-21": ["cloud", "Incertain", "Tendance"]
+  "2026-10-15": ["sun", "Sec, doux", "Sec"],
+  "2026-10-16": ["sun", "Plutôt sec, averse possible le soir", "Tendance"],
+  "2026-10-17": ["wind", "Venteux (nord), pluie faible le matin, frais", "Tendance"],
+  "2026-10-18": ["cloud", "Plutôt sec, froid", "Tendance"],
+  "2026-10-19": ["cloud", "Incertain, froid", "Tendance"],
+  "2026-10-20": ["cloud", "Incertain, très froid au matin (3°)", "Tendance"],
+  "2026-10-21": ["cloud", "Incertain, plus doux", "Tendance"],
+  "2026-10-22": ["cloud", "Incertain", "Tendance"]
  },
  "tips": [
-  "Sorties moto : mercredi et jeudi sont les meilleures journées (secs, 23 à 24°). Samedi 17, attention au vent de travers en fin d'après-midi si les 50 km/h se confirment.",
-  "Linge : à étendre mercredi, jeudi ou vendredi.",
-  "Arrosage : pots et jeunes plantations à arroser mercredi ou jeudi.",
-  "Jardin : samedi 17, rentrer parasols et mobilier léger, fixer les poubelles si le vent se confirme."
+  "Sorties moto : mercredi et jeudi sont idéaux (secs, 23 à 24°). Samedi 17, vent de nord de travers jusqu'à 50 km/h, à éviter ou prudence.",
+  "Jardin : vendredi soir, rentrer parasols et mobilier léger, fixer les poubelles avant le vent de samedi, prudence sous les arbres.",
+  "Arrosage : pots à arroser mercredi ou jeudi ; rentrer les plantes sensibles au froid avant lundi (3 à 4° au petit matin).",
+  "Vêtements : ressortir les gants et la veste chaude à partir de dimanche."
  ]
 }
