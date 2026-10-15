@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN jeudi 15, <b>journée sèche et douce</b> : 0 % de risque, tous les modèles à 0 mm, 12 à 24°, vent faible. Vendredi 16, averses possibles en soirée (17 %, Météo-France 2,6 mm, ICON 1,9 mm). <b>Samedi 17, pluie faible possible la nuit et le matin</b> (38 %) et <b>vent de nord-est soutenu</b> l'après-midi : rafales de 39 à 46 km/h selon les modèles (ECMWF 46 km/h vers 14h). Pas d'orage. Ensuite <b>froid</b> : 12 à 15° l'après-midi de dimanche à mardi, 5 à 6° au petit matin. Lundi 19 incertain (46 %), surtout à cause d'AIFS.",
- "agreement": "Jeudi, unanimité sur le sec. Vendredi, petites averses chez Météo-France (2,6 mm), ICON (1,9 mm) et UKMO (1,5 mm). Samedi, Météo-France 2,1 mm, les autres moins de 1 mm ; vent : 36 à 46 km/h selon les modèles, médiane des scénarios 44 km/h, aucun à 60 km/h. Orage : aucun modèle n'en prévoit. Lundi 19, AIFS isolé à 22 mm, GFS 5 mm, ECMWF et ICON secs. Au-delà de samedi, ce sont des tendances.",
- "changes": "Prévisions globalement stables. Le vent de samedi 17 est un peu revu à la baisse (au plus 46 km/h au lieu de 51), et il tourne au nord-est. Lundi 19 devient plus incertain (46 %), porté surtout par AIFS. Jeudi 22 un peu plus frais (19° au lieu de 22°).",
+ "headline": "DEMAIN vendredi 16, <b>journée sèche</b> : 15 % de risque, AROME et Météo-France à 0 mm, 12 à 22°. Une averse reste possible en soirée (24 % après 18h, surtout GFS). <b>Samedi 17, frais et venteux</b> : 12 à 14°, rafales de nord-est vers 45 km/h l'après-midi (ECMWF 46 km/h vers 14h, UKMO 45 km/h vers 16h), quelques gouttes possibles la nuit (23 %). Dimanche sec et froid (7 à 13°). Pas d'orage. <b>Retour probable de la pluie à partir de mardi 20</b> (53 %, jusqu'à 14 mm, ECMWF 14 mm) et mercredi 21 (52 %), plus doux mardi (23°).",
+ "agreement": "Vendredi, presque tous secs, seul GFS donne 1,7 mm le soir. Samedi, traces seulement (0 à 0,6 mm) ; vent : AROME 33, GFS 35, Météo-France 41, ICON 43, UKMO 45 et ECMWF 46 km/h, médiane des scénarios 45 km/h, aucun à 60 km/h. Dimanche, tous secs. Lundi 19, AIFS (15 mm) et UKMO (13 mm) font pleuvoir, ECMWF, ICON et GFS restent secs. Mardi 20, ECMWF 14 mm, AIFS 11 mm, UKMO 8 mm. Orage : aucun modèle n'en prévoit. Au-delà de dimanche, ce sont des tendances.",
+ "changes": "Le week-end reste frais avec du vent de nord-est samedi, et la pluie de samedi matin s'amenuise (23 % contre 38 % hier). Le changement principal concerne la semaine prochaine : la pluie revient plus nettement mardi 20 (53 % contre 25 %), avec un net redoux ce jour-là (23° au lieu de 15°), puis jeudi 22 et vendredi 23 plus frais (14 à 15° au lieu de 19 à 20°).",
  "days": {
-  "2026-10-15": ["sun", "Sec, doux", "Sec"],
-  "2026-10-16": ["cloud", "Plutôt sec, averses possibles le soir", "Sec en journée"],
-  "2026-10-17": ["cloud", "Pluie faible le matin, vent de nord-est, frais", "Tendance"],
-  "2026-10-18": ["cloud", "Incertain, froid", "Tendance"],
-  "2026-10-19": ["rain", "Pluie possible, froid", "Tendance"],
-  "2026-10-20": ["cloud", "Incertain, frais", "Tendance"],
-  "2026-10-21": ["cloud", "Incertain, plus doux", "Tendance"],
-  "2026-10-22": ["cloud", "Incertain", "Tendance"],
-  "2026-10-23": ["cloud", "Incertain", "Tendance"]
+  "2026-10-16": ["sun", "Sec, averse possible le soir", "Sec"],
+  "2026-10-17": ["cloud", "Frais, vent de nord-est soutenu", "Frais"],
+  "2026-10-18": ["cloud", "Sec, froid", "Tendance"],
+  "2026-10-19": ["cloud", "Incertain, froid le matin", "Tendance"],
+  "2026-10-20": ["rain", "Pluie probable, doux", "Tendance"],
+  "2026-10-21": ["rain", "Pluie probable", "Tendance"],
+  "2026-10-22": ["cloud", "Incertain, frais", "Tendance"],
+  "2026-10-23": ["cloud", "Incertain, frais", "Tendance"],
+  "2026-10-24": ["cloud", "Incertain, plus de vent", "Tendance"]
  },
  "tips": [
-  "Sorties moto : jeudi est la journée à saisir (sec, 24°). Vendredi en journée aussi, rentrer avant le soir. Samedi, vent de nord-est de travers vers 45 km/h.",
-  "Linge : à étendre jeudi ou vendredi en journée.",
-  "Jardin : rentrer les plantes sensibles avant dimanche (5 à 6° au petit matin), fixer le mobilier léger pour samedi.",
+  "Sorties moto : vendredi est la dernière belle journée douce (22°), rentrer avant le soir. Samedi, vent de nord-est de travers vers 45 km/h et seulement 14°.",
+  "Linge : à étendre vendredi en journée, puis dimanche par temps sec mais froid.",
+  "Jardin : rentrer les plantes sensibles avant lundi (4° au petit matin), fixer le mobilier léger pour samedi.",
   "Vêtements : gants et veste chaude à partir de samedi."
  ]
 }
