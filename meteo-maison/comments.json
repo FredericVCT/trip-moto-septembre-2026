@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mardi 20, <b>pluie la nuit, sec à partir du matin</b> : 93 % de risque, mais l'essentiel tombe avant 5h (AROME et Météo-France 11 mm, dont 4 mm vers minuit), puis plus rien sur AROME, Météo-France et ECMWF de 6h jusqu'au soir. 6 à 13°, vent faible. <b>Mercredi 21, journée pluvieuse</b> (100 %, 7 mm) avec un vent d'ouest soutenu l'après-midi : rafales de 38 à 48 km/h (ECMWF 48 km/h vers 15h). <b>Vendredi 23, pluie et vent fort</b> (93 %, rafales d'ouest de 48 km/h en médiane, ICON 58 km/h vers 12h, 16 % des scénarios à 60 km/h ou plus). <b>Dimanche 25, nouvel épisode plus marqué</b> (92 %, 12,6 mm, UKMO 41 mm) avec rafales d'ouest jusqu'à 56 km/h le soir selon ECMWF. Aucun orage prévu.",
- "agreement": "Demain, tous les modèles font pleuvoir la nuit : AROME 11 mm, Météo-France 10,7 mm, ICON 5,5 mm, GFS 5 mm, AIFS 4,8 mm, UKMO 2 mm, ECMWF 0,9 mm. Mercredi, tous entre 6 et 11,4 mm (UKMO et ECMWF les plus arrosés) ; rafales AROME 38, Météo-France 39, GFS 40, UKMO 41, ICON 47, ECMWF 48 km/h. Vendredi 23 : ICON 58, ECMWF 53, GFS 49, UKMO 42 km/h. Dimanche 25 : UKMO 41 mm, ECMWF 22 mm, ICON 21 mm, GFS 12 mm, AIFS 9 mm ; rafales ECMWF 56 km/h, les autres entre 34 et 44. Orage : aucun modèle n'en prévoit, CAPE au plus 200 J/kg. Au-delà de mercredi, ce sont des tendances.",
- "changes": "La pluie de cette nuit est un peu revue à la baisse (5,4 mm en médiane au lieu de 9,6, et au plus 11 mm au lieu de 28), et elle s'arrête plus tôt : la matinée de mardi devient sèche. Vendredi 23 se confirme pluvieux et venteux (93 % contre 80 %, médiane des rafales 48 km/h au lieu de 46). Le changement principal concerne dimanche 25 : la pluie devient probable (92 % contre 67 %) et plus abondante (12,6 mm au lieu de 5,4).",
+ "headline": "DEMAIN mercredi 21, <b>pluie dès 6h</b> : 99 % de risque, le plus gros entre 6h et 9h (AROME et Météo-France 4,5 mm), puis quelques gouttes et <b>une averse vers 18h</b> (3,5 mm selon AROME et Météo-France) ; 8,4 mm au total en médiane. 7 à 14°. Vent d'ouest soutenu en début d'après-midi, rafales de 41 à 48 km/h (ECMWF 48 km/h vers 15h). <b>Jeudi 22, accalmie</b> (32 %). <b>Vendredi 23, pluie et vent fort</b> (100 %, 7,5 mm) : rafales d'ouest de 54 km/h en médiane, ECMWF 62 km/h vers 15h, 28 % des scénarios à 60 km/h ou plus ; <b>ICON prévoit un orage vers 9h-10h</b>, seul modèle à le faire. Puis samedi 24 pluvieux (92 %) et <b>dimanche 25 pluie et vent</b> (98 %, 15 mm, rafales de nord-ouest jusqu'à 54 km/h selon ECMWF vers 16h).",
+ "agreement": "Demain, tous les modèles font pleuvoir : UKMO 14,5 mm, GFS 13 mm, ECMWF 11,4 mm, Météo-France 9,3 mm, AROME et AIFS 9 mm, ICON 5,1 mm ; rafales AROME 41, UKMO 41, Météo-France 43, GFS 43, ICON 46, ECMWF 48 km/h. Vendredi 23 : entre 4,5 (ECMWF) et 12,6 mm (UKMO) ; rafales ECMWF 62, GFS 54, ICON 53, UKMO 45, Météo-France 44 km/h ; orage seulement chez ICON (9h-10h), CAPE au plus 160 J/kg et aucun scénario d'ensemble orageux, donc risque faible (indice relevé à 20 % à cause d'ICON). Dimanche 25 : UKMO 27 mm, les autres entre 12,6 et 14,1 mm ; rafales ECMWF 54, GFS 51, ICON 44, UKMO 35 km/h. Au-delà de jeudi, ce sont des tendances.",
+ "changes": "Vendredi 23 se renforce : un peu plus de pluie (7,5 mm au lieu de 4,8), vent plus fort (médiane 54 km/h au lieu de 48, 28 % des scénarios à 60 km/h au lieu de 16 %), et ICON fait apparaître un orage le matin. Samedi 24 devient franchement pluvieux (92 % contre 66 %, 6 mm au lieu de 3,6). Jeudi 22 s'améliore (32 % contre 53 %). Dimanche 25 confirmé, un peu plus arrosé (15 mm au lieu de 12,6).",
  "days": {
-  "2026-10-20": ["rain", "Pluie la nuit, sec à partir du matin", "Pluie"],
-  "2026-10-21": ["rain", "Pluie toute la journée, vent soutenu l'après-midi", "Pluie"],
-  "2026-10-22": ["cloud", "Incertain, averses possibles", "Tendance"],
-  "2026-10-23": ["wind", "Pluie et vent fort", "Tendance"],
+  "2026-10-21": ["rain", "Pluie le matin, averse vers 18h, vent soutenu", "Pluie"],
+  "2026-10-22": ["cloud", "Accalmie, averse possible", "Incertain"],
+  "2026-10-23": ["wind", "Pluie et vent fort, orageux le matin selon ICON", "Tendance"],
   "2026-10-24": ["rain", "Pluie probable", "Tendance"],
-  "2026-10-25": ["wind", "Pluie, venteux le soir selon ECMWF", "Tendance"],
-  "2026-10-26": ["cloud", "Incertain", "Tendance"],
-  "2026-10-27": ["cloud", "Incertain, plus doux", "Tendance"],
-  "2026-10-28": ["cloud", "Plutôt sec", "Tendance"]
+  "2026-10-25": ["wind", "Pluie, venteux l'après-midi", "Tendance"],
+  "2026-10-26": ["rain", "Pluie possible, faible", "Tendance"],
+  "2026-10-27": ["rain", "Averses possibles, plus doux", "Tendance"],
+  "2026-10-28": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-10-29": ["cloud", "Plutôt sec", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain à partir de 10h, routes encore humides le matin (6 à 13°). Pas de moto mercredi ; vendredi et dimanche soir, vent d'ouest de travers vers 55 km/h.",
-  "Jardin : regarder les gouttières demain matin après les 5 à 11 mm de la nuit ; fixer ou rentrer mobilier, poubelles et trampoline avant vendredi.",
-  "Linge : demain après-midi sous abri au mieux, sinon à l'intérieur toute la semaine.",
-  "Vêtements : imperméable mercredi, gants et veste chaude le matin."
+  "Sorties moto : pas demain ; jeudi 22 est le meilleur créneau de la semaine (32 % de risque de pluie, 6 à 14°). Vendredi, éviter : vent d'ouest de travers jusqu'à 60 km/h et possible orage le matin.",
+  "Jardin : fixer ou rentrer mobilier, parasols, poubelles et trampoline avant vendredi ; prudence sous les arbres vendredi et dimanche.",
+  "Linge : jeudi seulement, et à rentrer le soir.",
+  "Vêtements : imperméable et gants demain, veste chaude le matin."
  ]
 }
