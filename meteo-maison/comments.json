@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN jeudi 22, <b>quelques gouttes possibles l'après-midi</b> : 59 % de risque d'au moins 1 mm, mais très peu d'eau (1,2 mm en médiane ; AROME sec toute la journée, Météo-France 0,7 mm vers 15h). 7 à 14°, vent faible. <b>Vendredi 23, journée de pluie et de vent fort</b> : pluie continue (100 %, 6 mm), rafales d'ouest de 61 km/h en médiane et 57 % des scénarios à 60 km/h ou plus, le plus fort entre 8h et 16h (ECMWF 67 km/h vers 15h, GFS 59 km/h vers 8h, Météo-France 55 km/h vers 14h). Samedi 24 pluvieux surtout l'après-midi et le soir (86 %). <b>Dimanche 25, pluie et vent</b> (99 %, 10 mm, ECMWF 54 km/h vers 16h). Puis temps plus sec et doux à partir de mardi 27. Aucun orage prévu.",
- "agreement": "Demain, petits cumuls partout : AIFS 2,4 mm, UKMO 2,1, ECMWF 1,8, Météo-France 1,4, GFS 0,5, ICON 0,4, AROME 0. Vendredi 23 : pluie chez tous (ICON 1,6 mm à Météo-France 9,9 mm) ; rafales ECMWF 67, GFS 59, Météo-France 55, ICON 54, UKMO 50, AROME 41 km/h : vent fort dans 5 modèles sur 6. Orage : plus aucun modèle n'en prévoit, CAPE au plus 170 J/kg. Dimanche 25 : UKMO 22 mm, GFS 13,5, AIFS 11,7, ECMWF 7,5, ICON 7,2 ; rafales ECMWF 54, GFS 47, Météo-France et UKMO 45 km/h. Au-delà de vendredi, ce sont des tendances.",
- "changes": "Le vent de vendredi 23 se renforce nettement : 57 % des scénarios à 60 km/h ou plus contre 28 % hier, médiane 61 km/h au lieu de 54. En revanche l'orage annoncé par ICON vendredi matin disparaît. Jeudi 22 devient un peu moins sec (59 % contre 32 %), mais pour de faibles quantités. Le week-end est revu à la baisse côté pluie (dimanche 10 mm au lieu de 15), et la fin de période se dégage : mercredi 28 passe de 30 % à 4 %.",
+ "headline": "DEMAIN vendredi 23, <b>vent fort d'ouest et averses</b> : rafales de 61 km/h en médiane et 57 % des scénarios à 60 km/h ou plus, le vent forcit dès 7h et reste fort jusque vers 17h (GFS 63 km/h vers 7h, Météo-France 54 km/h vers 9h, AROME 52 km/h vers 14h, ECMWF 58 km/h vers 15h). Pluie quasi certaine (99 %) mais en averses, 6 mm au total : surtout entre 9h et 11h, puis une averse vers 19h (AROME et Météo-France). 9 à 14°. Pas d'orage. <b>Samedi 24, pluie l'après-midi et le soir</b> (91 %, 3 mm), vent retombé. <b>Dimanche 25, journée pluvieuse</b> (99 %, 9 mm, UKMO 21 mm), rafales jusqu'à 46 km/h. Puis <b>temps sec et doux à partir de mardi 27</b>, jusqu'à 22°.",
+ "agreement": "Demain, tous les modèles sauf ICON (0,1 mm) font pleuvoir entre 4,5 et 7,8 mm ; rafales GFS 63, ECMWF 58, Météo-France 54, UKMO 53, AROME 52, ICON 48 km/h : vent fort dans 5 modèles sur 6, aucun scénario à 80 km/h. Orage : aucun modèle, CAPE au plus 200 J/kg. Dimanche 25 : UKMO 21 mm, Météo-France 14,3, AIFS 9,9, ECMWF 7,8, GFS 6,8, ICON 6,6 ; rafales de 40 à 46 km/h. Au-delà de samedi, ce sont des tendances ; tous les modèles sont secs de mardi à vendredi prochain.",
+ "changes": "Prévisions stables par rapport à hier soir pour le vent de demain (toujours 57 % des scénarios à 60 km/h ou plus) et pour le week-end pluvieux. Le retour au sec se confirme et s'avance : mardi 27 passe de 43 % à 20 % de risque, avec 22° au lieu de 19°.",
  "days": {
-  "2026-10-22": ["cloud", "Gris, quelques gouttes l'après-midi", "Peu de pluie"],
-  "2026-10-23": ["wind", "Pluie et vent fort toute la journée", "Vent fort"],
-  "2026-10-24": ["rain", "Pluie l'après-midi et le soir", "Tendance"],
-  "2026-10-25": ["wind", "Pluie, venteux l'après-midi", "Tendance"],
-  "2026-10-26": ["rain", "Pluie possible, très doux", "Tendance"],
-  "2026-10-27": ["cloud", "Incertain, plutôt sec", "Tendance"],
+  "2026-10-23": ["wind", "Vent fort et averses, surtout le matin", "Vent fort"],
+  "2026-10-24": ["rain", "Pluie l'après-midi et le soir", "Pluie"],
+  "2026-10-25": ["rain", "Pluie toute la journée", "Tendance"],
+  "2026-10-26": ["rain", "Pluie faible possible le matin, très doux", "Tendance"],
+  "2026-10-27": ["sun", "Plutôt sec, très doux", "Tendance"],
   "2026-10-28": ["sun", "Sec", "Tendance"],
   "2026-10-29": ["sun", "Sec, frais le matin", "Tendance"],
-  "2026-10-30": ["sun", "Sec", "Tendance"]
+  "2026-10-30": ["sun", "Sec", "Tendance"],
+  "2026-10-31": ["sun", "Sec", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain possible (peu de pluie, AROME sec), routes peut-être humides l'après-midi. Vendredi à éviter : vent d'ouest de travers jusqu'à 60 à 67 km/h et pluie. Belle fenêtre à partir de mercredi 28.",
-  "Jardin : rentrer ou fixer demain soir mobilier, parasols, poubelles et trampoline ; prudence sous les arbres vendredi et dimanche après-midi.",
-  "Linge : pas avant mercredi 28, sauf sous abri demain matin.",
-  "Vêtements : imperméable et gants vendredi, veste chaude le matin."
+  "Sorties moto : pas demain, vent d'ouest de travers de 50 à 63 km/h de 7h à 17h et chaussée mouillée. Ni samedi après-midi ni dimanche. Belle fenêtre de mardi 27 à vendredi 30.",
+  "Jardin : ce soir, rentrer ou fixer mobilier, parasols, poubelles et trampoline ; prudence sous les arbres demain.",
+  "Linge : pas avant mardi 27, ensuite plusieurs jours secs.",
+  "Vêtements : imperméable et gants demain et dimanche, veste chaude le matin."
  ]
 }
