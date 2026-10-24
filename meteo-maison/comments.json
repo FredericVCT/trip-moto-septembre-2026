@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN samedi 24, <b>matinée plutôt sèche, pluie faible à partir de midi</b> puis <b>plus nette vers 19h</b> (AROME et Météo-France 1,2 à 1,5 mm sur cette heure) : 98 % de risque, 3,9 mm au total. 8 à 14°, vent faible. <b>Dimanche 25, journée de pluie</b> (100 %, 9 mm en médiane, UKMO 22 mm), surtout le matin et l'après-midi, avec du vent de sud-ouest : rafales de 41 km/h en médiane, GFS 50 km/h vers 11h. Pas d'orage. <b>Ensuite, longue période sèche</b> à partir de lundi 26 (29 %, petits cumuls) et jusqu'au 1er novembre, avec 21° mardi 27 puis des matinées fraîches (3 à 5°) jeudi et vendredi.",
- "agreement": "Demain, tous les modèles entre 3 et 6,2 mm (UKMO le plus arrosé) et vent faible partout (23 à 36 km/h). Dimanche 25 : UKMO 22,4 mm, ECMWF et AIFS 9,6, Météo-France 7,7, GFS 5,9, ICON 3,4 ; rafales GFS 50, UKMO 44, AROME 42, ECMWF 41, Météo-France 37, ICON 36 km/h : seul GFS atteint 50 km/h, aucun scénario à 60 km/h. Orage : aucun modèle, CAPE au plus 60 J/kg. De mardi 27 au 31, tous les modèles sont secs. Au-delà de dimanche, ce sont des tendances ; les 27,9 mm de GFS le 1er novembre restent isolés (11 % des scénarios).",
- "changes": "Prévisions stables par rapport à hier soir pour le week-end pluvieux. Lundi 26 s'améliore (29 % contre 56 %) mais devient moins doux (16° au lieu de 19°), et vendredi 30 est revu plus frais (15° au lieu de 19°). Le vent fort d'aujourd'hui ne revient pas dans les prévisions.",
+ "headline": "DEMAIN dimanche 25, <b>pluie surtout de 12h à 17h</b> : 100 % de risque, 8,7 mm en médiane (AROME et Météo-France 6 mm, dont 1,7 mm vers 16h ; UKMO 23 mm), matinée seulement humide et soirée sèche. 10 à 16°. Vent de sud-ouest assez soutenu l'après-midi : rafales de 42 km/h en médiane, AROME 45 km/h et GFS 52 km/h vers 15h. Pas d'orage. <b>Ensuite, une semaine entière au sec</b> de lundi 26 au 2 novembre (12 % de risque au plus), avec 20° mardi 27 puis un rafraîchissement en fin de semaine (12 à 14° l'après-midi, 3 à 5° le matin).",
+ "agreement": "Demain, tous les modèles font pleuvoir : UKMO 22,7 mm, ECMWF 9,3, AIFS 9, GFS 8, AROME, Météo-France et ICON 6,1 ; rafales GFS 52, AROME 45, ICON 43, ECMWF et UKMO 42, Météo-France 40 km/h : seul GFS dépasse 50 km/h, aucun scénario à 60 km/h. Orage : aucun modèle, CAPE au plus 20 J/kg. De lundi 26 au 2 novembre, tous les modèles sont secs (au plus 0,6 mm sur une journée). Au-delà de lundi, ce sont des tendances.",
+ "changes": "Prévisions stables par rapport à hier soir : dimanche pluvieux confirmé, puis période sèche. Seules les températures bougent un peu : mercredi 28 plus doux (18° au lieu de 15°), samedi 31 plus frais (14° au lieu de 17°).",
  "days": {
-  "2026-10-24": ["rain", "Pluie faible l'après-midi, plus nette le soir", "Pluie"],
-  "2026-10-25": ["wind", "Pluie toute la journée, venteux selon GFS", "Pluie"],
-  "2026-10-26": ["cloud", "Incertain, petite pluie possible", "Tendance"],
-  "2026-10-27": ["sun", "Sec et très doux", "Tendance"],
-  "2026-10-28": ["sun", "Sec", "Tendance"],
+  "2026-10-25": ["wind", "Pluie l'après-midi, venteux selon GFS", "Pluie"],
+  "2026-10-26": ["cloud", "Plutôt sec", "Sec"],
+  "2026-10-27": ["sun", "Sec et doux", "Tendance"],
+  "2026-10-28": ["sun", "Sec et doux", "Tendance"],
   "2026-10-29": ["sun", "Sec, frais le matin", "Tendance"],
-  "2026-10-30": ["sun", "Sec, froid le matin", "Tendance"],
-  "2026-10-31": ["sun", "Sec", "Tendance"],
-  "2026-11-01": ["sun", "Plutôt sec", "Tendance"]
+  "2026-10-30": ["sun", "Sec", "Tendance"],
+  "2026-10-31": ["sun", "Sec, plus frais", "Tendance"],
+  "2026-11-01": ["sun", "Sec, frais", "Tendance"],
+  "2026-11-02": ["sun", "Sec, froid le matin", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain matin possible (sec jusqu'à midi environ, 8 à 12°), pas dimanche. Belle série de mardi 27 au 31, attention aux matinées à 3 à 5° jeudi et vendredi (routes fraîches, feuilles mouillées).",
-  "Jardin : rien à protéger du vent ce week-end ; profiter de la semaine sèche pour ramasser les feuilles.",
-  "Linge : à l'intérieur jusqu'à lundi, dehors à partir de mardi 27.",
-  "Vêtements : imperméable dimanche, gants et veste chaude les matins de fin de semaine."
+  "Sorties moto : demain matin seulement si besoin (chaussée humide, petite pluie possible), pas l'après-midi. Ensuite toute la semaine est bonne, idéalement mardi 27 et mercredi 28 (18 à 20°) ; matins à 3 à 5° en fin de semaine.",
+  "Jardin : récupérer l'eau de pluie demain, puis profiter de la semaine sèche pour les feuilles et la tonte éventuelle.",
+  "Linge : dehors à partir de lundi 26 après-midi, plusieurs jours secs.",
+  "Vêtements : imperméable demain après-midi, gants et veste chaude les matins de fin de semaine."
  ]
 }
