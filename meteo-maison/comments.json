@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN dimanche 25, <b>pluie surtout de 12h à 17h</b> : 100 % de risque, 8,7 mm en médiane (AROME et Météo-France 6 mm, dont 1,7 mm vers 16h ; UKMO 23 mm), matinée seulement humide et soirée sèche. 10 à 16°. Vent de sud-ouest assez soutenu l'après-midi : rafales de 42 km/h en médiane, AROME 45 km/h et GFS 52 km/h vers 15h. Pas d'orage. <b>Ensuite, une semaine entière au sec</b> de lundi 26 au 2 novembre (12 % de risque au plus), avec 20° mardi 27 puis un rafraîchissement en fin de semaine (12 à 14° l'après-midi, 3 à 5° le matin).",
- "agreement": "Demain, tous les modèles font pleuvoir : UKMO 22,7 mm, ECMWF 9,3, AIFS 9, GFS 8, AROME, Météo-France et ICON 6,1 ; rafales GFS 52, AROME 45, ICON 43, ECMWF et UKMO 42, Météo-France 40 km/h : seul GFS dépasse 50 km/h, aucun scénario à 60 km/h. Orage : aucun modèle, CAPE au plus 20 J/kg. De lundi 26 au 2 novembre, tous les modèles sont secs (au plus 0,6 mm sur une journée). Au-delà de lundi, ce sont des tendances.",
- "changes": "Prévisions stables par rapport à hier soir : dimanche pluvieux confirmé, puis période sèche. Seules les températures bougent un peu : mercredi 28 plus doux (18° au lieu de 15°), samedi 31 plus frais (14° au lieu de 17°).",
+ "headline": "DEMAIN lundi 26, <b>journée sèche</b> : 3 % de risque, aucun modèle ne fait pleuvoir (AROME, Météo-France et ECMWF à 0 mm). 6 à 15°, vent très faible. <b>La période sèche se confirme sur toute la semaine</b> et jusqu'au 3 novembre (11 % de risque au plus, médiane 0 mm partout), avec un pic de douceur mardi 27 (20°) puis un net rafraîchissement : 12° l'après-midi à partir du 1er novembre et 2° au petit matin le 3. Ni orage ni vent fort.",
+ "agreement": "Tous les modèles sont secs de lundi à vendredi (au plus 0,6 mm pour AIFS mardi). ECMWF seul donne 1,2 mm samedi 31. Rafales au plus 40 km/h (ICON dimanche 1er novembre), aucun scénario à 60 km/h. Orage : aucun modèle, CAPE au plus 50 J/kg. Au-delà de mardi, ce sont des tendances, mais très cohérentes.",
+ "changes": "Prévisions stables par rapport à hier soir : la semaine sèche se confirme.",
  "days": {
-  "2026-10-25": ["wind", "Pluie l'après-midi, venteux selon GFS", "Pluie"],
-  "2026-10-26": ["cloud", "Plutôt sec", "Sec"],
-  "2026-10-27": ["sun", "Sec et doux", "Tendance"],
-  "2026-10-28": ["sun", "Sec et doux", "Tendance"],
+  "2026-10-26": ["sun", "Sec, vent faible", "Sec"],
+  "2026-10-27": ["sun", "Sec et doux", "Sec"],
+  "2026-10-28": ["sun", "Sec", "Tendance"],
   "2026-10-29": ["sun", "Sec, frais le matin", "Tendance"],
   "2026-10-30": ["sun", "Sec", "Tendance"],
   "2026-10-31": ["sun", "Sec, plus frais", "Tendance"],
   "2026-11-01": ["sun", "Sec, frais", "Tendance"],
-  "2026-11-02": ["sun", "Sec, froid le matin", "Tendance"]
+  "2026-11-02": ["sun", "Sec, frais", "Tendance"],
+  "2026-11-03": ["sun", "Sec, froid le matin", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain matin seulement si besoin (chaussée humide, petite pluie possible), pas l'après-midi. Ensuite toute la semaine est bonne, idéalement mardi 27 et mercredi 28 (18 à 20°) ; matins à 3 à 5° en fin de semaine.",
-  "Jardin : récupérer l'eau de pluie demain, puis profiter de la semaine sèche pour les feuilles et la tonte éventuelle.",
-  "Linge : dehors à partir de lundi 26 après-midi, plusieurs jours secs.",
-  "Vêtements : imperméable demain après-midi, gants et veste chaude les matins de fin de semaine."
+  "Sorties moto : toute la semaine est bonne, la meilleure journée étant mardi 27 (20°). Attention aux matinées froides (4 à 6°, 2° le 3 novembre) et aux feuilles mouillées par la rosée.",
+  "Jardin : semaine idéale pour ramasser les feuilles et faire une dernière tonte ; pas d'arrosage nécessaire après la pluie d'aujourd'hui.",
+  "Linge : dehors toute la semaine, à rentrer avant la fraîcheur du soir.",
+  "Vêtements : veste chaude et gants le matin, une couche de moins l'après-midi."
  ]
 }
