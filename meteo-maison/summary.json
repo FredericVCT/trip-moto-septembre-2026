@@ -1,46 +1,6 @@
 {
- "issued": "26/10/2026 19:10",
+ "issued": "27/10/2026 19:08",
  "rows": [
-  {
-   "day": "2026-10-27",
-   "p1": 0,
-   "med": 0.0,
-   "p90": 0.5,
-   "bl": {
-    "nuit": 0,
-    "matin": 0,
-    "après-midi": 0,
-    "soir": 5
-   },
-   "det": [
-    "AROME 0,0",
-    "Météo-France 0,0",
-    "ECMWF 0,3",
-    "AIFS 0,6",
-    "ICON 0,1",
-    "GFS 0,2",
-    "UKMO 0,3"
-   ],
-   "tmin": 9,
-   "tmax": 19,
-   "gust": 22,
-   "n": 173,
-   "storm": 0,
-   "tsm": [],
-   "cape": 90,
-   "gmed": 23,
-   "w60": 0,
-   "w80": 0,
-   "wdet": [
-    "AROME 30 (20h)",
-    "Météo-France 27 (20h)",
-    "ECMWF 22 (15h)",
-    "ICON 18 (16h)",
-    "GFS 28 (23h)",
-    "UKMO 20 (13h)"
-   ],
-   "wdir": "O"
-  },
   {
    "day": "2026-10-28",
    "p1": 0,
@@ -53,30 +13,31 @@
     "soir": 0
    },
    "det": [
+    "AROME 0,0",
     "Météo-France 0,0",
     "ECMWF 0,0",
-    "AIFS 0,0",
+    "AIFS 0,2",
     "ICON 0,0",
     "GFS 0,0",
     "UKMO 0,0"
    ],
    "tmin": 8,
-   "tmax": 15,
+   "tmax": 16,
    "gust": 29,
    "n": 173,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 27,
+   "gmed": 28,
    "w60": 0,
    "w80": 0,
    "wdet": [
-    "AROME 25 (12h)",
-    "Météo-France 28 (17h)",
-    "ECMWF 29 (13h)",
-    "ICON 18 (17h)",
-    "GFS 27 (20h)",
-    "UKMO 32 (19h)"
+    "AROME 24 (12h)",
+    "Météo-France 24 (12h)",
+    "ECMWF 29 (15h)",
+    "ICON 23 (16h)",
+    "GFS 36 (19h)",
+    "UKMO 27 (18h)"
    ],
    "wdir": "N"
   },
@@ -100,21 +61,22 @@
     "UKMO 0,0"
    ],
    "tmin": 4,
-   "tmax": 16,
+   "tmax": 15,
    "gust": 19,
    "n": 173,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 14,
+   "gmed": 17,
    "w60": 0,
    "w80": 0,
    "wdet": [
-    "Météo-France 21 (2h)",
+    "AROME 9 (16h)",
+    "Météo-France 9 (16h)",
     "ECMWF 19 (0h)",
-    "ICON 8 (0h)",
-    "GFS 8 (11h)",
-    "UKMO 17 (0h)"
+    "ICON 6 (3h)",
+    "GFS 14 (0h)",
+    "UKMO 16 (0h)"
    ],
    "wdir": "NE"
   },
@@ -130,41 +92,42 @@
     "soir": 0
    },
    "det": [
+    "Météo-France 0,0",
     "ECMWF 0,0",
     "AIFS 0,0",
     "ICON 0,0",
     "GFS 0,0",
     "UKMO 0,0"
    ],
-   "tmin": 4,
-   "tmax": 16,
-   "gust": 32,
+   "tmin": 5,
+   "tmax": 17,
+   "gust": 13,
    "n": 173,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 12,
+   "gmed": 11,
    "w60": 0,
    "w80": 0,
    "wdet": [
-    "Météo-France 10 (9h)",
-    "ECMWF 32 (22h)",
-    "ICON 6 (22h)",
-    "GFS 5 (16h)",
-    "UKMO 16 (19h)"
+    "Météo-France 11 (13h)",
+    "ECMWF 13 (12h)",
+    "ICON 7 (15h)",
+    "GFS 4 (11h)",
+    "UKMO 13 (7h)"
    ],
-   "wdir": "N"
+   "wdir": "SE"
   },
   {
    "day": "2026-10-31",
-   "p1": 0,
+   "p1": 1,
    "med": 0.0,
    "p90": 0.0,
    "bl": {
     "nuit": 0,
     "matin": 0,
-    "après-midi": 0,
-    "soir": 0
+    "après-midi": 1,
+    "soir": 1
    },
    "det": [
     "ECMWF 0,0",
@@ -173,21 +136,22 @@
     "GFS 0,0",
     "UKMO 0,0"
    ],
-   "tmin": 4,
+   "tmin": 5,
    "tmax": 17,
    "gust": 22,
    "n": 173,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 17,
+   "gmed": 14,
    "w60": 0,
    "w80": 0,
    "wdet": [
+    "Météo-France 16 (13h)",
     "ECMWF 22 (22h)",
-    "ICON 8 (17h)",
-    "GFS 5 (10h)",
-    "UKMO 26 (19h)"
+    "ICON 9 (22h)",
+    "GFS 7 (11h)",
+    "UKMO 13 (6h)"
    ],
    "wdir": "NE"
   },
@@ -197,10 +161,10 @@
    "med": 0.0,
    "p90": 0.0,
    "bl": {
-    "nuit": 0,
+    "nuit": 1,
     "matin": 1,
-    "après-midi": 0,
-    "soir": 0
+    "après-midi": 1,
+    "soir": 1
    },
    "det": [
     "ECMWF 0,0",
@@ -210,22 +174,22 @@
     "UKMO 0,0"
    ],
    "tmin": 6,
-   "tmax": 13,
-   "gust": 19,
+   "tmax": 18,
+   "gust": 21,
    "n": 173,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 21,
+   "gmed": 25,
    "w60": 0,
    "w80": 0,
    "wdet": [
-    "ECMWF 19 (23h)",
-    "ICON 10 (16h)",
-    "GFS 9 (16h)",
-    "UKMO 30 (19h)"
+    "ECMWF 21 (19h)",
+    "ICON 37 (18h)",
+    "GFS 5 (17h)",
+    "UKMO 13 (19h)"
    ],
-   "wdir": "NE"
+   "wdir": "N"
   },
   {
    "day": "2026-11-02",
@@ -233,10 +197,46 @@
    "med": 0.0,
    "p90": 0.0,
    "bl": {
-    "nuit": 0,
-    "matin": 0,
+    "nuit": 1,
+    "matin": 1,
     "après-midi": 2,
-    "soir": 2
+    "soir": 1
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,0",
+    "ICON 0,0",
+    "GFS 0,0",
+    "UKMO 0,0"
+   ],
+   "tmin": 4,
+   "tmax": 17,
+   "gust": 36,
+   "n": 173,
+   "storm": 0,
+   "tsm": [],
+   "cape": 0,
+   "gmed": 33,
+   "w60": 0,
+   "w80": 0,
+   "wdet": [
+    "ECMWF 36 (22h)",
+    "ICON 40 (15h)",
+    "GFS 47 (20h)",
+    "UKMO 21 (19h)"
+   ],
+   "wdir": "NE"
+  },
+  {
+   "day": "2026-11-03",
+   "p1": 1,
+   "med": 0.0,
+   "p90": 0.0,
+   "bl": {
+    "nuit": 1,
+    "matin": 1,
+    "après-midi": 0,
+    "soir": 0
    },
    "det": [
     "ECMWF 0,0",
@@ -245,66 +245,33 @@
     "GFS 0,0"
    ],
    "tmin": 4,
-   "tmax": 17,
+   "tmax": 15,
    "gust": 35,
-   "n": 133,
+   "n": 173,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 22,
-   "w60": 0,
-   "w80": 0,
-   "wdet": [
-    "ECMWF 35 (23h)",
-    "ICON 19 (23h)",
-    "GFS 47 (19h)",
-    "UKMO 26 (0h)"
-   ],
-   "wdir": "NE"
-  },
-  {
-   "day": "2026-11-03",
-   "p1": 5,
-   "med": 0.0,
-   "p90": 0.0,
-   "bl": {
-    "nuit": 2,
-    "matin": 2,
-    "après-midi": 5,
-    "soir": 3
-   },
-   "det": [
-    "ECMWF 0,0",
-    "AIFS 0,0",
-    "GFS 0,0"
-   ],
-   "tmin": 6,
-   "tmax": 14,
-   "gust": 35,
-   "n": 133,
-   "storm": 0,
-   "tsm": [],
-   "cape": 0,
-   "gmed": 24,
+   "gmed": 29,
    "w60": 0,
    "w80": 0,
    "wdet": [
     "ECMWF 35 (0h)",
-    "ICON 18 (0h)",
-    "GFS 39 (3h)"
+    "ICON 45 (15h)",
+    "GFS 50 (19h)",
+    "UKMO 13 (0h)"
    ],
    "wdir": "NE"
   },
   {
    "day": "2026-11-04",
-   "p1": 8,
+   "p1": 5,
    "med": 0.0,
    "p90": 0.0,
    "bl": {
-    "nuit": 2,
-    "matin": 4,
-    "après-midi": 5,
-    "soir": 5
+    "nuit": 1,
+    "matin": 2,
+    "après-midi": 2,
+    "soir": 4
    },
    "det": [
     "ECMWF 0,0",
@@ -312,26 +279,58 @@
     "GFS 0,0"
    ],
    "tmin": 3,
-   "tmax": 12,
-   "gust": 38,
+   "tmax": 16,
+   "gust": 36,
    "n": 133,
    "storm": 0,
    "tsm": [],
    "cape": 0,
-   "gmed": 21,
+   "gmed": 23,
    "w60": 0,
    "w80": 0,
    "wdet": [
-    "ECMWF 38 (21h)",
-    "GFS 7 (12h)"
+    "ECMWF 36 (23h)",
+    "ICON 20 (0h)",
+    "GFS 36 (18h)"
+   ],
+   "wdir": "NE"
+  },
+  {
+   "day": "2026-11-05",
+   "p1": 11,
+   "med": 0.0,
+   "p90": 1.0,
+   "bl": {
+    "nuit": 6,
+    "matin": 9,
+    "après-midi": 7,
+    "soir": 7
+   },
+   "det": [
+    "ECMWF 0,0",
+    "AIFS 0,0",
+    "GFS 0,0"
+   ],
+   "tmin": 3,
+   "tmax": 15,
+   "gust": 36,
+   "n": 133,
+   "storm": 0,
+   "tsm": [],
+   "cape": 10,
+   "gmed": 24,
+   "w60": 0,
+   "w80": 0,
+   "wdet": [
+    "ECMWF 36 (0h)",
+    "GFS 42 (19h)"
    ],
    "wdir": "NE"
   }
  ],
- "prev_issued": "25/10/2026 19:10",
+ "prev_issued": "26/10/2026 19:10",
  "changes": [
-  "2026-10-31 : T max 14 → 17°",
-  "2026-11-02 : T max 12 → 17°",
-  "2026-11-03 : T max 11 → 14°"
+  "2026-11-01 : T max 13 → 18°",
+  "2026-11-04 : T max 12 → 16°"
  ]
 }
