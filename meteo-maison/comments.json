@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN jeudi 29, <b>journée sèche et calme</b> : 0 % de risque, tous les modèles à 0 mm, 5 à 15°, vent quasi nul. <b>Le sec continue jusqu'au 4 novembre</b> (9 % de risque au plus). Changement à partir du 2 novembre : <b>vent de nord-est plus frais</b> (bise), rafales autour de 40 km/h lundi 2 et mardi 3 chez tous les modèles, et des après-midi qui tombent à 10 ou 11°, avec 2° au petit matin le 4. Petit retour d'incertitude pour la pluie le 5 novembre (20 %, AIFS seul à 1,6 mm). Ni orage ni vent fort.",
- "agreement": "Tous les modèles sont secs jusqu'au 4 novembre (au plus 0,5 mm pour ICON le 3). Vent de nord-est les 2 et 3 novembre : ECMWF 41, ICON 40 à 41, GFS 40 à 42, UKMO 40 km/h, médiane des scénarios 38 à 39 km/h, aucun scénario à 60 km/h. Le 5 novembre, seul AIFS fait pleuvoir (1,6 mm), ECMWF et GFS restent secs. Orage : aucun modèle, CAPE nulle. Au-delà de vendredi, ce sont des tendances.",
- "changes": "Pas de pluie en vue, comme hier. Le changement porte sur les températures et le vent : le début novembre est nettement revu à la baisse (11° au lieu de 17° lundi 2, 10° au lieu de 16° mercredi 4), avec une bise de nord-est plus marquée (rafales médianes 39 km/h au lieu de 33).",
+ "headline": "DEMAIN vendredi 30, <b>journée sèche et sans vent</b> : 0 % de risque, tous les modèles à 0 mm, 4 à 17°. <b>Le sec tient jusqu'au 3 novembre</b>, avec une bise de nord-est qui se lève dimanche 1er et souffle jusqu'à mardi 3 (rafales de 37 à 44 km/h, après-midi à 11 ou 12°). <b>La pluie fait son retour en incertitude à partir du 4 novembre</b> : 30 % mercredi 4, 40 % jeudi 5, puis 26 à 32 %, avec des modèles très partagés. Ni orage ni vent fort.",
+ "agreement": "Jusqu'au 3 novembre, tous les modèles sont à 0 mm. Bise : ECMWF et ICON 44 km/h mardi 3, UKMO 40, médiane des scénarios 35 à 37 km/h, aucun scénario à 60 km/h. Du 4 au 7 novembre, désaccord : mercredi 4 AIFS 5,2 mm et GFS 3,4 mm contre 0 pour ECMWF, ICON et UKMO ; jeudi 5 GFS isolé à 27,9 mm, ECMWF 1,6, AIFS 0,8, ICON 0. Orage : aucun modèle, CAPE quasi nulle. Au-delà de samedi, ce sont des tendances.",
+ "changes": "La période sèche jusqu'au 3 novembre est confirmée. Nouveauté : le retour possible de la pluie à partir du 4 (30 % contre 9 % hier) et du 5 (40 % contre 20 %), porté surtout par GFS et AIFS. Mercredi 4 est aussi revu moins froid l'après-midi (14° au lieu de 10°).",
  "days": {
-  "2026-10-29": ["sun", "Sec, vent nul", "Sec"],
   "2026-10-30": ["sun", "Sec, vent nul", "Sec"],
-  "2026-10-31": ["sun", "Sec", "Tendance"],
-  "2026-11-01": ["sun", "Sec, plus frais", "Tendance"],
+  "2026-10-31": ["sun", "Sec", "Sec"],
+  "2026-11-01": ["sun", "Sec, bise de nord", "Tendance"],
   "2026-11-02": ["cloud", "Sec, bise de nord-est, frais", "Tendance"],
-  "2026-11-03": ["cloud", "Sec, bise de nord, frais", "Tendance"],
-  "2026-11-04": ["sun", "Sec, froid le matin", "Tendance"],
-  "2026-11-05": ["cloud", "Incertain", "Tendance"],
-  "2026-11-06": ["cloud", "Plutôt sec", "Tendance"]
+  "2026-11-03": ["cloud", "Sec, bise d'est, frais", "Tendance"],
+  "2026-11-04": ["cloud", "Incertain, pluie possible", "Tendance"],
+  "2026-11-05": ["cloud", "Incertain, pluie possible", "Tendance"],
+  "2026-11-06": ["cloud", "Incertain", "Tendance"],
+  "2026-11-07": ["cloud", "Incertain", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain, vendredi et samedi sont parfaits (sec, vent nul, 15 à 17° l'après-midi). Les 2 et 3 novembre, bise de nord-est à 40 km/h et 11° : sortie plus fraîche et ventée.",
-  "Jardin : finir les travaux avant le 2 novembre ; protéger les plantes sensibles avant les matinées à 2° (4 novembre).",
-  "Linge : dehors jusqu'à dimanche, la bise sèche bien le linge les 2 et 3 mais il fait frais.",
-  "Vêtements : gants et veste chaude le matin ; doublure et coupe-vent à partir du 2 novembre."
+  "Sorties moto : demain et samedi sont les meilleures journées (sec, sans vent, 17°). Dimanche à mardi, bise de nord-est jusqu'à 44 km/h et 11 à 14° : plus frais, vent de travers modéré.",
+  "Jardin : profiter de vendredi et samedi pour les derniers travaux ; aucun arrosage nécessaire.",
+  "Linge : dehors jusqu'à mardi 3, la bise sèche vite ; plus incertain ensuite.",
+  "Vêtements : gants et veste chaude le matin (4°), coupe-vent à partir de dimanche."
  ]
 }
