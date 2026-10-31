@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN samedi 31, <b>journée sèche et calme</b> : 0 % de risque, tous les modèles à 0 mm, 4 à 17°, vent faible. <b>Sec aussi jusqu'au 3 novembre</b>, avec une bise de nord à nord-est du 1er au 3 (rafales de 32 à 44 km/h, Météo-France 42 km/h lundi vers 17h, ECMWF 44 km/h mardi vers 19h) et des après-midi à 11°. <b>Gelée possible au petit matin du 4</b> (0°). Ensuite, <b>pluie probable jeudi 5</b> (53 %, mais 1,2 mm en médiane, AIFS seul à 12 mm), et incertaine le 6. Ni orage ni vent fort.",
- "agreement": "Du 31 octobre au 3 novembre, tous les modèles sont à 0 mm. Bise : Météo-France 42, ECMWF 40 à 44, GFS 37 à 38, UKMO 37, ICON 36 km/h ; médiane des scénarios 34 à 37 km/h, aucun scénario à 60 km/h. Les 4 et 5 novembre, désaccord net : AIFS 14,4 puis 12,4 mm, UKMO 1,9 puis 0,8 mm, ECMWF 0 puis 1,2 mm, ICON et GFS secs. Orage : aucun modèle, CAPE nulle. Au-delà de dimanche, ce sont des tendances.",
- "changes": "Prévisions stables par rapport à hier soir : sec jusqu'au 3, bise du 1er au 3, retour possible de la pluie autour du 5 novembre (53 % contre 40 % hier, toujours avec de faibles cumuls).",
+ "headline": "DEMAIN dimanche 1er novembre, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 4 à 15°. La bise de nord se lève l'après-midi et en soirée (rafales de 25 à 38 km/h, AROME 28 km/h vers 20h). <b>Encore sec lundi 2 et mardi 3</b>, toujours sous la bise (rafales jusqu'à 40 km/h) avec des après-midi à 10 à 12°, et <b>1° au petit matin du 4</b> (gelée possible). Ensuite, <b>pluie incertaine du 4 au 9 novembre</b> (27 à 46 %), avec des modèles en désaccord. Ni orage ni vent fort.",
+ "agreement": "Du 1er au 3 novembre, tous les modèles sont à 0 mm. Bise : ICON 40 km/h lundi, GFS 38 à 39, Météo-France et ECMWF 38, UKMO 34 km/h ; aucun scénario à 60 km/h. Mercredi 4, gros écart : AIFS 17,4 mm, UKMO 6,1, ICON 2,4, ECMWF 0,9, GFS 0. Jeudi 5, accord sur peu de pluie : ECMWF 3,6, UKMO 3,2, AIFS 3,0, GFS 1,5, ICON 0. Orage : aucun modèle, CAPE au plus 430 J/kg le 6 (faible). Au-delà de lundi, ce sont des tendances.",
+ "changes": "Prévisions stables par rapport à hier soir : sec et bise jusqu'au 3, puis pluie incertaine à partir du 4. Le 5 novembre est un peu moins probable (46 % contre 53 %), le 4 un peu plus (35 % contre 24 %).",
  "days": {
-  "2026-10-31": ["sun", "Sec, vent faible", "Sec"],
-  "2026-11-01": ["sun", "Sec, bise de nord", "Sec"],
-  "2026-11-02": ["cloud", "Sec, bise de nord, frais", "Tendance"],
+  "2026-11-01": ["sun", "Sec, bise de nord l'après-midi", "Sec"],
+  "2026-11-02": ["cloud", "Sec, bise de nord, frais", "Sec"],
   "2026-11-03": ["cloud", "Sec, bise de nord-est, frais", "Tendance"],
-  "2026-11-04": ["cloud", "Gelée possible le matin, incertain", "Tendance"],
-  "2026-11-05": ["rain", "Pluie probable, faible", "Tendance"],
+  "2026-11-04": ["cloud", "Gelée possible le matin, pluie incertaine", "Tendance"],
+  "2026-11-05": ["cloud", "Pluie incertaine, faible", "Tendance"],
   "2026-11-06": ["cloud", "Incertain", "Tendance"],
-  "2026-11-07": ["sun", "Plutôt sec", "Tendance"],
-  "2026-11-08": ["sun", "Plutôt sec", "Tendance"]
+  "2026-11-07": ["cloud", "Incertain", "Tendance"],
+  "2026-11-08": ["cloud", "Incertain", "Tendance"],
+  "2026-11-09": ["cloud", "Incertain, plus doux", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain est la dernière belle journée douce (17°, sans vent). Dimanche à mardi, bise jusqu'à 44 km/h et 11° ; mercredi 4 au matin, risque de verglas ponctuel avec 0°.",
-  "Jardin : rentrer ou protéger les plantes sensibles avant la nuit du 3 au 4 (gelée possible) ; aucun arrosage nécessaire.",
-  "Linge : dehors jusqu'à mardi 3, la bise sèche vite.",
-  "Vêtements : gants et veste chaude, bonnet pour les matins froids à partir du 4."
+  "Sorties moto : demain matin calme et sec (vent faible jusqu'à midi) ; lundi et mardi, bise jusqu'à 40 km/h et 10 à 12°. Mercredi 4 au matin, 1° : prudence sur les routes à l'ombre.",
+  "Jardin : protéger les plantes sensibles avant la nuit du 3 au 4 ; aucun arrosage nécessaire.",
+  "Linge : dehors jusqu'à mardi 3, la bise sèche vite mais il fait frais.",
+  "Vêtements : gants, veste chaude et coupe-vent ; bonnet pour le matin du 4."
  ]
 }
