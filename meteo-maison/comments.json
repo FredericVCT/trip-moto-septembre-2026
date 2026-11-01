@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN dimanche 1er novembre, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 4 à 15°. La bise de nord se lève l'après-midi et en soirée (rafales de 25 à 38 km/h, AROME 28 km/h vers 20h). <b>Encore sec lundi 2 et mardi 3</b>, toujours sous la bise (rafales jusqu'à 40 km/h) avec des après-midi à 10 à 12°, et <b>1° au petit matin du 4</b> (gelée possible). Ensuite, <b>pluie incertaine du 4 au 9 novembre</b> (27 à 46 %), avec des modèles en désaccord. Ni orage ni vent fort.",
- "agreement": "Du 1er au 3 novembre, tous les modèles sont à 0 mm. Bise : ICON 40 km/h lundi, GFS 38 à 39, Météo-France et ECMWF 38, UKMO 34 km/h ; aucun scénario à 60 km/h. Mercredi 4, gros écart : AIFS 17,4 mm, UKMO 6,1, ICON 2,4, ECMWF 0,9, GFS 0. Jeudi 5, accord sur peu de pluie : ECMWF 3,6, UKMO 3,2, AIFS 3,0, GFS 1,5, ICON 0. Orage : aucun modèle, CAPE au plus 430 J/kg le 6 (faible). Au-delà de lundi, ce sont des tendances.",
- "changes": "Prévisions stables par rapport à hier soir : sec et bise jusqu'au 3, puis pluie incertaine à partir du 4. Le 5 novembre est un peu moins probable (46 % contre 53 %), le 4 un peu plus (35 % contre 24 %).",
+ "headline": "DEMAIN lundi 2, <b>journée sèche mais ventée et fraîche</b> : 0 % de risque, tous les modèles à 0 mm, 4 à 12°. Bise de nord renforcée en fin d'après-midi, rafales de 37 à 41 km/h vers 17h-19h (AROME et GFS 41 km/h). <b>Sec encore mardi 3</b> (10° l'après-midi), puis <b>gelée possible mercredi 4 au petit matin</b> (2°) avant un <b>retour possible de la pluie le 4 et le 5</b> (48 et 53 %, faibles cumuls en médiane). Tendance plus arrosée vers le 10 novembre (53 %, ECMWF 18 mm). Ni orage ni vent fort.",
+ "agreement": "Lundi et mardi, tous les modèles sont à 0 mm. Bise lundi : AROME et GFS 41, Météo-France 39, ECMWF 37, UKMO 36, ICON 33 km/h ; aucun scénario à 60 km/h. Mercredi 4, quatre modèles sur six font pleuvoir : AIFS 11 mm, Météo-France 10,3, UKMO 6,2, ECMWF 4,2 ; ICON 0,4 et GFS 0. Jeudi 5, seul UKMO donne plus de 1 mm (5,8). Le 10 novembre, ECMWF 18,4, GFS 14,1, AIFS 13 mm. Orage : aucun modèle, CAPE quasi nulle. Au-delà de mardi, ce sont des tendances.",
+ "changes": "Prévisions stables par rapport à hier soir : sec et bise jusqu'à mardi, pluie possible ensuite. Mercredi 4 se renforce un peu côté pluie (48 % contre 35 %, Météo-France désormais à 10 mm), et vendredi 6 est revu plus frais (11° au lieu de 15°).",
  "days": {
-  "2026-11-01": ["sun", "Sec, bise de nord l'après-midi", "Sec"],
-  "2026-11-02": ["cloud", "Sec, bise de nord, frais", "Sec"],
-  "2026-11-03": ["cloud", "Sec, bise de nord-est, frais", "Tendance"],
+  "2026-11-02": ["cloud", "Sec, bise de nord en fin de journée", "Sec"],
+  "2026-11-03": ["cloud", "Sec, frais", "Sec"],
   "2026-11-04": ["cloud", "Gelée possible le matin, pluie incertaine", "Tendance"],
-  "2026-11-05": ["cloud", "Pluie incertaine, faible", "Tendance"],
-  "2026-11-06": ["cloud", "Incertain", "Tendance"],
-  "2026-11-07": ["cloud", "Incertain", "Tendance"],
+  "2026-11-05": ["rain", "Pluie possible, faible", "Tendance"],
+  "2026-11-06": ["cloud", "Incertain, frais", "Tendance"],
+  "2026-11-07": ["cloud", "Incertain, froid le matin", "Tendance"],
   "2026-11-08": ["cloud", "Incertain", "Tendance"],
-  "2026-11-09": ["cloud", "Incertain, plus doux", "Tendance"]
+  "2026-11-09": ["cloud", "Incertain, plus doux", "Tendance"],
+  "2026-11-10": ["rain", "Pluie probable", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain matin calme et sec (vent faible jusqu'à midi) ; lundi et mardi, bise jusqu'à 40 km/h et 10 à 12°. Mercredi 4 au matin, 1° : prudence sur les routes à l'ombre.",
-  "Jardin : protéger les plantes sensibles avant la nuit du 3 au 4 ; aucun arrosage nécessaire.",
-  "Linge : dehors jusqu'à mardi 3, la bise sèche vite mais il fait frais.",
-  "Vêtements : gants, veste chaude et coupe-vent ; bonnet pour le matin du 4."
+  "Sorties moto : demain matin plutôt calme (rafales sous 25 km/h jusqu'à midi), bise jusqu'à 41 km/h en fin d'après-midi ; mardi sec et plus calme. Mercredi matin, 2° : prudence sur les routes à l'ombre.",
+  "Jardin : protéger les plantes sensibles avant la nuit de mardi à mercredi et de vendredi à samedi (1 à 2°).",
+  "Linge : dehors demain et mardi, la bise sèche vite.",
+  "Vêtements : coupe-vent, gants et veste chaude ; bonnet les matins froids."
  ]
 }
