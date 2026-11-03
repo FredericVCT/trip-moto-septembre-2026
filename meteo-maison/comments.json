@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mardi 3, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 3 à 11°. Bise de nord encore présente la nuit et le matin (rafales 23 à 34 km/h, GFS 41 km/h vers 2h), puis vent faible l'après-midi. <b>Mercredi 4, gelée possible au lever</b> (0 à 1°) puis <b>pluie faible probable à partir de 14h</b> (60 %, 2 mm en médiane, Météo-France 3,2 mm). Jeudi 5 encore un peu de pluie (59 %), puis accalmie jusqu'au week-end. <b>Retour d'une pluie plus nette les 9 à 11 novembre</b> (60 à 80 %), avec du vent de sud-est que GFS pousse à 69-70 km/h dans la nuit du 9 au 10 (seul modèle). Pas d'orage annoncé par les modèles, mais air plus instable le 11 (CAPE 1140 J/kg).",
- "agreement": "Mardi, tous les modèles sont secs. Mercredi 4, tous font pleuvoir un peu : AIFS 3,4, Météo-France 3,2, UKMO 2, GFS 1,7, ECMWF 1,5, ICON 0,9 mm. Jeudi 5, UKMO 5,5 mm, les autres entre 0 et 1,7. Les 9 et 10 novembre, GFS seul annonce des rafales de 69 et 70 km/h (10 % des scénarios à 60 km/h ou plus le 9, 4 % le 10) ; ECMWF reste sous 30 km/h. Le 11, ECMWF, AIFS et GFS donnent tous environ 6,5 mm. Orage : aucun modèle, risque 4 % au plus. Au-delà de mercredi, ce sont des tendances.",
- "changes": "Mardi et mercredi confirmés. Le principal changement concerne le 10 novembre : la pluie devient probable (80 % contre 53 %, 4,4 mm en médiane au lieu de 1,2) et il fera plus doux (20° au lieu de 16°). GFS fait aussi apparaître un coup de vent de sud-est dans la nuit du 9 au 10, à confirmer.",
+ "headline": "DEMAIN mercredi 4, <b>gelée possible au lever</b> (0 à 1° vers 6h) puis <b>pluie faible incertaine</b> : 61 % de risque dans l'ensemble des scénarios, surtout l'après-midi et en soirée, mais AROME et Météo-France restent quasi secs (0,1 mm) et ECMWF ne donne que quelques gouttes après 18h (1,2 mm). Vent faible, 9 à 13°. Jeudi 5 encore incertain (45 %), puis <b>vendredi 6 et samedi 7 secs</b> avec des matins froids. <b>Retour de la pluie du 8 au 12 novembre</b> (50 à 87 %), très doux les 10 et 11 (21°). <b>Vent fort de nord-ouest possible le 12</b> : rafales de 55 km/h vers 16h selon ECMWF et 50 km/h en soirée selon GFS. Pas d'orage annoncé par les modèles, air un peu instable le 10 (CAPE 1170 J/kg, risque 7 %).",
+ "agreement": "Mercredi 4, les modèles fins sont secs (AROME et Météo-France 0,1 mm), ECMWF 1,2 mm en soirée, les modèles globaux plus arrosés : AIFS, ICON et UKMO 2,7 à 2,8, GFS 3,1 mm. Jeudi 5, gros désaccord : UKMO 12,2 et GFS 6,4 mm contre 0 pour Météo-France, ECMWF et ICON. Le 10 novembre, GFS 12,6 mm, ICON 5,8, AIFS 4,8, ECMWF 0,8. Le 12, ECMWF 13,6 mm et 55 km/h de rafales, GFS 50 km/h ; la médiane des scénarios reste à 30 km/h. Orage : aucun modèle, risque 7 % au plus. Au-delà de jeudi, ce sont des tendances.",
+ "changes": "Mercredi confirmé mais plus incertain : AROME et Météo-France, qui donnaient 3,2 mm hier, sont maintenant presque secs. Le coup de vent de GFS dans la nuit du 9 au 10 disparaît (42 km/h au lieu de 69 à 70). Le dimanche 8 devient plus pluvieux (50 % contre 27 %) et plus doux (16° au lieu de 13°). Nouveau jour en fin de liste : le 12, pluie probable et rafales de 50 à 55 km/h de nord-ouest.",
  "days": {
-  "2026-11-03": ["sun", "Sec, bise le matin", "Sec"],
-  "2026-11-04": ["rain", "Gelée possible le matin, pluie faible l'après-midi", "Pluie"],
-  "2026-11-05": ["rain", "Pluie faible probable", "Tendance"],
-  "2026-11-06": ["cloud", "Plutôt sec, froid le matin", "Tendance"],
+  "2026-11-04": ["cloud", "Gelée possible au lever, pluie faible possible le soir", "Incertain"],
+  "2026-11-05": ["cloud", "Incertain, modèles en désaccord", "Tendance"],
+  "2026-11-06": ["sun", "Sec, froid le matin", "Tendance"],
   "2026-11-07": ["sun", "Sec, froid le matin", "Tendance"],
-  "2026-11-08": ["cloud", "Incertain", "Tendance"],
-  "2026-11-09": ["wind", "Pluie probable, venteux la nuit selon GFS", "Tendance"],
-  "2026-11-10": ["wind", "Pluie, venteux selon GFS, très doux", "Tendance"],
-  "2026-11-11": ["rain", "Pluie probable, doux", "Tendance"]
+  "2026-11-08": ["rain", "Pluie possible, plus doux", "Tendance"],
+  "2026-11-09": ["rain", "Pluie probable, doux", "Tendance"],
+  "2026-11-10": ["rain", "Pluie, très doux", "Tendance"],
+  "2026-11-11": ["rain", "Pluie probable, très doux", "Tendance"],
+  "2026-11-12": ["wind", "Pluie probable, venteux de nord-ouest", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain est sec, mieux vaut partir après 11h (bise et 3° le matin). Mercredi, routes possiblement givrées au lever puis pluie faible l'après-midi. Le 10 novembre, vent de travers possible selon GFS.",
-  "Jardin : protéger les plantes sensibles cette nuit et la nuit de mercredi ; vérifier les gouttières avant l'épisode des 9 à 11 novembre.",
-  "Linge : dehors demain seulement ; ensuite à l'intérieur ou sous abri.",
-  "Vêtements : bonnet, gants et veste chaude le matin ; imperméable à partir de mercredi après-midi."
+  "Sorties moto : demain, partir après 10h (routes possiblement givrées au lever), retour avant 18h pour éviter les gouttes du soir. Vendredi et samedi sont les meilleurs jours. Le 12, vent de travers possible.",
+  "Jardin : protéger les plantes sensibles cette nuit ; vérifier les gouttières avant l'épisode du 8 au 12 novembre.",
+  "Linge : dehors demain en journée en le rentrant avant le soir, ou vendredi et samedi.",
+  "Vêtements : gants et veste chaude le matin, imperméable dans le top case."
  ]
 }
