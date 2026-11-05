@@ -1,58 +1,22 @@
 {
- "headline": "DEMAIN jeudi 5, <b>plutôt sec</b> : 20 % de risque seulement, AROME, Météo-France, ECMWF, ICON et UKMO à 0 mm, GFS 0,6 mm. 4 à 14°, vent faible. <b>Belle série sèche ensuite</b> : vendredi 6, samedi 7 et dimanche 8 entre 1 et 6 % de risque, matins froids (1 à 2°). <b>Retour de la pluie à partir du lundi 9 au soir</b>, puis pluie probable du 10 au 13 novembre (56 à 86 %), très doux (jusqu'à 22°). <b>Orage possible les 10 et 11 novembre</b> (20 %, ICON seul : le 10 de 14h à minuit, puis le 11 de 0h à 8h) ; air instable ces deux jours (CAPE 1430 à 1460 J/kg). Pas de vent fort : rafales de 43 km/h de sud-est en médiane les 9 et 10, 49 km/h au plus selon ICON.",
- "agreement": "Jeudi 5, tous les modèles sont secs sauf GFS (0,6 mm) et AIFS (0,4 mm). Du 6 au 8, tous à 0 mm. Le 10, ICON 14,4 mm et AIFS 11, GFS 8, UKMO 5,2, ECMWF presque sec (0,4). Le 11, ICON très arrosé (28,2 mm) contre 0 à 3,8 pour les autres. Orage : seul ICON en prévoit, le 10 de 14h à minuit et le 11 de 0h à 8h ; ECMWF, GFS et UKMO n'en annoncent pas (indice brut 15 % le 10, relevé à 20 % à cause d'ICON). Rafales : ICON 49 km/h le 9 vers 14h, les autres modèles entre 37 et 44 km/h. Au-delà de vendredi, ce sont des tendances.",
- "changes": "Nette amélioration à court terme : jeudi 5 passe de 45 % à 20 % (les fortes pluies de UKMO et GFS ont disparu) et le dimanche 8 redevient sec (6 % contre 50 %). Le lundi 9 est un peu moins pluvieux (52 % contre 72 %). Nouveauté : ICON fait apparaître de l'orage les 10 et 11 novembre. Le vent fort annoncé hier pour le 12 disparaît, et ce jour devient très doux (19° au lieu de 12°).",
+ "headline": "DEMAIN vendredi 6, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 2 à 14°, vent faible. Matin froid. <b>Le week-end reste sec</b> (samedi 7 et dimanche 8 entre 0 et 1 %), plus doux dimanche (16°). <b>Retour de la pluie lundi 9 en fin de journée</b> (45 %, surtout le soir), puis <b>pluie probable du 10 au 13 novembre</b> (68 à 83 %), doux. Plus d'orage annoncé par les modèles (6 % au plus le 10). <b>Vent fort de nord possible le samedi 14 vers 7h</b> : rafales de 60 km/h selon ECMWF seul, médiane des scénarios à 28 km/h.",
+ "agreement": "Du 6 au 8, tous les modèles sont secs. Lundi 9, AIFS 2,2 et ICON 4,3 mm, les autres sous 1 mm. Le 10, ICON 6,6 et AIFS 5,6 mm, GFS 1,7, ECMWF sec. Le 12, AIFS 24,8 et ECMWF 10,2 mm contre 0,3 à 2,4 pour GFS et ICON ; le 13, ECMWF 18,2 mm. Orage : aucun modèle. Rafales : 37 à 42 km/h de sud-est les 9 et 10 selon les modèles, puis ECMWF seul à 60 km/h de nord le 14 au matin. Au-delà de samedi, ce sont des tendances.",
+ "changes": "L'orage qu'ICON annonçait les 10 et 11 novembre disparaît, et l'air est moins instable (CAPE 650 J/kg au lieu de 1430). Le 11 sera un peu moins doux (17° au lieu de 20°). Nouveau jour en fin de liste : le 14, plus frais (4 à 10°) avec un coup de vent de nord possible selon ECMWF. Le reste est stable par rapport à hier soir.",
  "days": {
-  "2026-11-05": [
-   "cloud",
-   "Plutôt sec",
-   "Sec"
-  ],
-  "2026-11-06": [
-   "sun",
-   "Sec, froid le matin",
-   "Tendance"
-  ],
-  "2026-11-07": [
-   "sun",
-   "Sec, froid le matin",
-   "Tendance"
-  ],
-  "2026-11-08": [
-   "sun",
-   "Sec, plus doux l'après-midi",
-   "Tendance"
-  ],
-  "2026-11-09": [
-   "rain",
-   "Pluie probable le soir, doux",
-   "Tendance"
-  ],
-  "2026-11-10": [
-   "rain",
-   "Pluie, orageux selon ICON, très doux",
-   "Tendance"
-  ],
-  "2026-11-11": [
-   "rain",
-   "Pluie probable, orageux la nuit selon ICON",
-   "Tendance"
-  ],
-  "2026-11-12": [
-   "rain",
-   "Pluie probable, très doux",
-   "Tendance"
-  ],
-  "2026-11-13": [
-   "rain",
-   "Pluie possible, plus frais",
-   "Tendance"
-  ]
+  "2026-11-06": ["sun", "Sec, froid le matin", "Sec"],
+  "2026-11-07": ["sun", "Sec, froid le matin", "Sec"],
+  "2026-11-08": ["sun", "Sec, plus doux", "Tendance"],
+  "2026-11-09": ["cloud", "Incertain, pluie possible le soir", "Tendance"],
+  "2026-11-10": ["rain", "Pluie probable, doux", "Tendance"],
+  "2026-11-11": ["rain", "Pluie probable", "Tendance"],
+  "2026-11-12": ["rain", "Pluie probable, doux", "Tendance"],
+  "2026-11-13": ["rain", "Pluie probable", "Tendance"],
+  "2026-11-14": ["wind", "Plus frais, venteux le matin selon ECMWF", "Tendance"]
  },
  "tips": [
-  "Sorties moto : jeudi à dimanche sont de bonnes fenêtres, en partant après 10h à cause des matins froids. Le 10 novembre, éviter l'après-midi et la soirée si l'orage se confirme.",
-  "Jardin : profiter des jours secs pour les travaux d'automne (feuilles, taille) ; vérifier les gouttières avant lundi soir.",
-  "Linge : dehors de jeudi à dimanche ; ensuite à l'intérieur.",
+  "Sorties moto : vendredi, samedi et dimanche sont parfaits, en partant après 10h à cause des matins froids. Le 14, vent de travers possible le matin.",
+  "Jardin : profiter du week-end sec pour ramasser les feuilles et vérifier les gouttières avant lundi soir.",
+  "Linge : dehors jusqu'à dimanche ; ensuite à l'intérieur.",
   "Vêtements : gants et veste chaude le matin ; imperméable à partir de lundi soir."
  ]
 }
