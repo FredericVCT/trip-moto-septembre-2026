@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN vendredi 6, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 2 à 14°, vent faible. Matin froid. <b>Le week-end reste sec</b> (samedi 7 et dimanche 8 entre 0 et 1 %), plus doux dimanche (16°). <b>Retour de la pluie lundi 9 en fin de journée</b> (45 %, surtout le soir), puis <b>pluie probable du 10 au 13 novembre</b> (68 à 83 %), doux. Plus d'orage annoncé par les modèles (6 % au plus le 10). <b>Vent fort de nord possible le samedi 14 vers 7h</b> : rafales de 60 km/h selon ECMWF seul, médiane des scénarios à 28 km/h.",
- "agreement": "Du 6 au 8, tous les modèles sont secs. Lundi 9, AIFS 2,2 et ICON 4,3 mm, les autres sous 1 mm. Le 10, ICON 6,6 et AIFS 5,6 mm, GFS 1,7, ECMWF sec. Le 12, AIFS 24,8 et ECMWF 10,2 mm contre 0,3 à 2,4 pour GFS et ICON ; le 13, ECMWF 18,2 mm. Orage : aucun modèle. Rafales : 37 à 42 km/h de sud-est les 9 et 10 selon les modèles, puis ECMWF seul à 60 km/h de nord le 14 au matin. Au-delà de samedi, ce sont des tendances.",
- "changes": "L'orage qu'ICON annonçait les 10 et 11 novembre disparaît, et l'air est moins instable (CAPE 650 J/kg au lieu de 1430). Le 11 sera un peu moins doux (17° au lieu de 20°). Nouveau jour en fin de liste : le 14, plus frais (4 à 10°) avec un coup de vent de nord possible selon ECMWF. Le reste est stable par rapport à hier soir.",
+ "headline": "DEMAIN samedi 7, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 1 à 13°, vent faible. Matin froid, gelée blanche possible au lever. <b>Dimanche 8 encore sec</b> (1 %), un peu plus doux (15°). <b>Pluie probable à partir du lundi 9 en fin d'après-midi et surtout le soir</b> (62 %, 72 % de risque en soirée), puis temps pluvieux et doux du 10 au 14 novembre (52 à 88 %), avec le plus gros le jeudi 12 (5,5 mm en médiane, jusqu'à 19 mm). Pas d'orage annoncé par les modèles (4 % au plus). Pas de vent fort : rafales de 42 km/h au plus selon GFS ; le coup de vent du 14 annoncé hier par ECMWF disparaît.",
+ "agreement": "Samedi et dimanche, tous les modèles sont secs. Lundi 9, ICON 4,9, AIFS 2,8, ECMWF 2,7, GFS 1,5, Météo-France 0,9, UKMO 0,5 mm. Les 10 et 11, AIFS (4,8 et 6,8 mm) et ICON (4,5 le 11) arrosent, ECMWF et GFS restent presque secs. Le 12, AIFS 27,8 mm contre 5,6 à 6,9 pour ECMWF, ICON et GFS ; le 13, ECMWF 14,8 mm. Orage : aucun modèle. Rafales : GFS 40 à 42 km/h les 9, 10 et 11, les autres sous 35 km/h. Au-delà de dimanche, ce sont des tendances.",
+ "changes": "Le coup de vent de nord prévu par ECMWF le 14 disparaît (26 km/h au lieu de 60), et ce jour devient plus doux (14° au lieu de 10°). Le 11 est un peu moins arrosé (2 mm au lieu de 4,4) et plus doux (20°). Le retour de la pluie lundi soir est confirmé et un peu plus net (62 % contre 45 %).",
  "days": {
-  "2026-11-06": ["sun", "Sec, froid le matin", "Sec"],
-  "2026-11-07": ["sun", "Sec, froid le matin", "Sec"],
-  "2026-11-08": ["sun", "Sec, plus doux", "Tendance"],
-  "2026-11-09": ["cloud", "Incertain, pluie possible le soir", "Tendance"],
-  "2026-11-10": ["rain", "Pluie probable, doux", "Tendance"],
-  "2026-11-11": ["rain", "Pluie probable", "Tendance"],
-  "2026-11-12": ["rain", "Pluie probable, doux", "Tendance"],
-  "2026-11-13": ["rain", "Pluie probable", "Tendance"],
-  "2026-11-14": ["wind", "Plus frais, venteux le matin selon ECMWF", "Tendance"]
+  "2026-11-07": ["sun", "Sec, gelée possible au lever", "Sec"],
+  "2026-11-08": ["sun", "Sec, plus doux", "Sec"],
+  "2026-11-09": ["rain", "Pluie probable le soir, doux", "Tendance"],
+  "2026-11-10": ["rain", "Pluie probable surtout la nuit, doux", "Tendance"],
+  "2026-11-11": ["rain", "Pluie probable, doux", "Tendance"],
+  "2026-11-12": ["rain", "Pluie, la journée la plus arrosée", "Tendance"],
+  "2026-11-13": ["rain", "Pluie probable, plus frais", "Tendance"],
+  "2026-11-14": ["rain", "Pluie possible", "Tendance"],
+  "2026-11-15": ["cloud", "Incertain, frais", "Tendance"]
  },
  "tips": [
-  "Sorties moto : vendredi, samedi et dimanche sont parfaits, en partant après 10h à cause des matins froids. Le 14, vent de travers possible le matin.",
-  "Jardin : profiter du week-end sec pour ramasser les feuilles et vérifier les gouttières avant lundi soir.",
-  "Linge : dehors jusqu'à dimanche ; ensuite à l'intérieur.",
-  "Vêtements : gants et veste chaude le matin ; imperméable à partir de lundi soir."
+  "Sorties moto : samedi et dimanche sont parfaits, en partant après 10h (routes possiblement givrées au lever). Lundi, rentrer avant 17h.",
+  "Jardin : profiter du week-end pour ramasser les feuilles et vider les gouttières avant la semaine pluvieuse.",
+  "Linge : dehors samedi et dimanche ; ensuite à l'intérieur.",
+  "Vêtements : gants et veste chaude le matin ; imperméable toute la semaine prochaine."
  ]
 }
