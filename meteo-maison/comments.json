@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN dimanche 8, <b>journée sèche</b> : 0 % de risque, tous les modèles à 0 mm, 4 à 16°, vent faible de sud-est. <b>Pluie probable lundi 9 à partir de l'après-midi</b> (64 %, 65 % de risque en soirée ; Météo-France le plus arrosé avec 7,9 mm). Ensuite <b>semaine pluvieuse du 10 au 13 novembre</b> (73 à 87 %), le plus gros le jeudi 12 (6,2 mm en médiane, jusqu'à 17 mm), et rafraîchissement à partir du 11 (16° au lieu de 20°). Accalmie probable le week-end des 14 et 15 (32 %) avec <b>gelée possible dimanche 15 au matin</b> (-1°). Pas d'orage annoncé par les modèles. <b>Vent fort de sud possible le lundi 16 vers 16h</b> : rafales de 53 km/h selon ECMWF seul, médiane des scénarios à 34 km/h.",
- "agreement": "Dimanche, tous les modèles sont secs. Lundi 9, Météo-France 7,9 mm, AIFS 3,8, ICON 1,9, GFS 0,8, ECMWF sec. Le 10, tous entre 2,8 et 4 mm sauf Météo-France et UKMO (0,3 à 0,4). Le 11, ECMWF 7,9 et AIFS 6,4 mm ; le 12, AIFS 8,8 et GFS 8,2 mm ; le 13, ECMWF 10,6 mm. Les 14 et 15, tous à 0 mm. Orage : aucun modèle. Rafales : 37 à 41 km/h au plus jusqu'au 15 (GFS, Météo-France, ECMWF), puis ECMWF seul à 53 km/h le 16. Au-delà de lundi, ce sont des tendances.",
- "changes": "Prévisions globalement stables. Les 11 et 12 novembre seront plus frais qu'annoncé hier (16° au lieu de 20°). Le samedi 14 devient plus sec (32 % contre 52 %). Nouveau jour en fin de liste : le 16, retour de la pluie et coup de vent de sud possible selon ECMWF.",
+ "headline": "DEMAIN lundi 9, <b>sec jusqu'à 17h puis pluie faible en soirée</b> : 81 % de risque, AROME et Météo-France font pleuvoir de 18h à 22h (environ 2 mm), ECMWF de 17h à 23h (2,2 mm). 9 à 19°, vent modéré de sud-est (rafales 28 à 32 km/h l'après-midi). <b>Semaine pluvieuse ensuite</b> : pluie probable du 10 au 13 novembre (71 à 88 %), <b>le plus gros le jeudi 12</b> (8,4 mm en médiane, jusqu'à 23 mm ; ICON 23,9 et AIFS 19,2 mm). Courte accalmie le 14 (26 %), puis retour de la pluie les 16 et 17. Pas d'orage annoncé par les modèles. <b>Vent fort possible les 16 et 17</b> : rafales de 50 km/h de sud-ouest le 16 vers 18h selon ECMWF (GFS 49 km/h vers 23h), puis 51 km/h d'ouest le 17 vers 9h selon GFS ; médiane des scénarios 44 à 47 km/h.",
+ "agreement": "Lundi 9, tous les modèles font pleuvoir le soir : AROME 2,1, Météo-France 1,9, ECMWF 2,2, UKMO 1,7, AIFS 3,4, ICON 6,3 et GFS 6,5 mm. Le 10, UKMO 6,9 et AIFS 4 mm, ICON et ECMWF presque secs. Le 11, AIFS 7,2 et Météo-France 5,2 mm. Le 12, gros écart : ICON 23,9, AIFS 19,2 et UKMO 11,5 mm contre 2 pour ECMWF. Le 13, ECMWF 20,6 et ICON 15 mm. Orage : aucun modèle. Rafales : 38 à 44 km/h au plus jusqu'au 15 (GFS, ICON), puis ECMWF 50 et GFS 49 km/h le 16, GFS 51 km/h le 17. Au-delà de mardi, ce sont des tendances.",
+ "changes": "Le jeudi 12 devient plus arrosé (8,4 mm en médiane contre 6,2) et plus doux (19° au lieu de 16°). Le dimanche 15 sera plus doux (16° au lieu de 11°), la gelée annoncée hier disparaît. Le lundi 16 est plus pluvieux (4,8 mm contre 1,4) et le vent fort s'y confirme, avec GFS qui rejoint ECMWF. Nouveau jour en fin de liste : le 17, pluie probable et venteux selon GFS.",
  "days": {
-  "2026-11-08": ["sun", "Sec, doux l'après-midi", "Sec"],
-  "2026-11-09": ["rain", "Pluie probable l'après-midi et le soir", "Pluie"],
-  "2026-11-10": ["rain", "Pluie probable la nuit et le soir, doux", "Tendance"],
-  "2026-11-11": ["rain", "Pluie probable, plus frais", "Tendance"],
+  "2026-11-09": ["rain", "Sec en journée, pluie faible en soirée", "Pluie"],
+  "2026-11-10": ["rain", "Pluie probable par moments, doux", "Pluie"],
+  "2026-11-11": ["rain", "Pluie probable surtout la nuit et le matin", "Tendance"],
   "2026-11-12": ["rain", "Pluie, la journée la plus arrosée", "Tendance"],
-  "2026-11-13": ["rain", "Pluie probable, frais", "Tendance"],
-  "2026-11-14": ["cloud", "Plutôt sec, frais", "Tendance"],
-  "2026-11-15": ["cloud", "Plutôt sec, gelée possible au lever", "Tendance"],
-  "2026-11-16": ["wind", "Pluie possible, venteux selon ECMWF", "Tendance"]
+  "2026-11-13": ["rain", "Pluie probable, plus frais", "Tendance"],
+  "2026-11-14": ["cloud", "Accalmie, plutôt sec", "Tendance"],
+  "2026-11-15": ["cloud", "Incertain, doux", "Tendance"],
+  "2026-11-16": ["wind", "Pluie probable, venteux le soir", "Tendance"],
+  "2026-11-17": ["wind", "Pluie probable, venteux le matin selon GFS", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain est la dernière belle journée avant une semaine pluvieuse ; lundi, rentrer avant 13h. Le 16, vent de travers possible l'après-midi.",
-  "Jardin : demain, finir les travaux extérieurs et vider les gouttières ; protéger les plantes sensibles avant la nuit du 14 au 15.",
-  "Linge : dehors demain seulement ; ensuite à l'intérieur jusqu'au 13.",
-  "Vêtements : imperméable dès lundi après-midi ; gants et bonnet pour le week-end du 14 et 15."
+  "Sorties moto : demain, possible jusqu'à 17h, retour avant la pluie du soir ; ensuite peu de créneaux secs avant le 14. Les 16 et 17, vent de travers possible.",
+  "Jardin : vérifier les gouttières et regards avant jeudi 12 ; rentrer ou fixer le mobilier léger et les poubelles avant le 16.",
+  "Linge : dehors demain matin seulement, à rentrer avant 17h ; ensuite à l'intérieur.",
+  "Vêtements : imperméable à partir de demain soir et toute la semaine."
  ]
 }
