@@ -1,31 +1,26 @@
 {
- "headline": "DEMAIN mercredi 11, <b>pluie la nuit jusqu'à 8h, puis sec l'après-midi</b> : 95 % de risque ; ECMWF donne 11 mm entre minuit et 8h, AROME et Météo-France beaucoup moins (0,4 à 0,8 mm), l'après-midi est sec (12 % de risque). 12 à 18°, vent faible. <b>Jeudi 12, journée très pluvieuse et venteuse</b> : 99 %, 16,4 mm en médiane, jusqu'à 28 mm (ECMWF 44,5 mm), rafales de nord jusqu'à 51 km/h vers 20h selon ECMWF (médiane 46 km/h). Accalmie vendredi 13 et samedi 14 (29 à 37 %, matin froid samedi avec 1°). <b>Puis longue période pluvieuse et agitée du 15 au 19</b> (82 à 94 %, 5 à 15 mm par jour) avec <b>vent fort</b> : GFS 54 km/h de sud le 16 vers 7h, ICON 63 km/h le 17 vers 22h, <b>GFS 70 km/h de sud-ouest le 18 vers 4h</b> (ICON 58 km/h vers minuit) ; 22 % des scénarios atteignent 60 km/h les 17 et 18. Plus d'orage annoncé.",
- "agreement": "Mercredi 11, désaccord sur la nuit : ECMWF 11,2, AIFS 7,4, UKMO 6,9, GFS 5,3 mm contre 0,4 à 0,8 pour AROME et Météo-France. Jeudi 12, tous d'accord sur une forte pluie : ECMWF 44,5, GFS 22,3, Météo-France 21,9, UKMO 18,7, ICON 18,1, AIFS 15,6 mm ; rafales ECMWF 51, UKMO 47, ICON 46 km/h. Du 15 au 18, gros cumuls : ICON 20,8 le 16, GFS 34,5 et ICON 29,1 le 17, ECMWF 13 le 18. Rafales : GFS 54 le 16, ICON 63 le 17, GFS 70 et ICON 58 le 18. Orage : aucun modèle. Au-delà de jeudi, ce sont des tendances.",
- "changes": "Nette aggravation de la pluie : jeudi 12 plus arrosé (16,4 mm contre 12,3), et surtout la fin de période, avec le 15 qui devient pluvieux (82 % contre 43 %) et des cumuls en hausse les 16 (9,6 mm), 17 (15,4 mm) et 18 (11,8 mm). Le vent se renforce aussi (jusqu'à 70 km/h selon GFS le 18). À l'inverse, vendredi 13 devient plus sec (37 % contre 58 %) et l'orage qu'ICON prévoyait le 16 disparaît.",
+ "headline": "DEMAIN jeudi 12, <b>journée pluvieuse, pluie forte en fin d'après-midi</b> : 100 % de risque, 13,9 mm en médiane (jusqu'à 21 mm). AROME et Météo-France donnent 24 mm, surtout entre 15h et 20h (4 à 6 mm par heure) ; avant midi, pluie faible (moins de 1 mm). 10 à 14°, vent de nord qui se lève le soir (rafales 32 à 45 km/h vers 20h à 23h). Vendredi 13 sec après une petite pluie nocturne, samedi 14 gelée possible au lever (0°) puis pluie le soir. <b>Ensuite, très longue période pluvieuse du 15 au 20</b> (79 à 98 %, 5 à 16 mm par jour, soit environ 60 mm en six jours en médiane) avec <b>vent fort</b> : rafales de sud-ouest à ouest de 56 km/h le 16 vers 7h (GFS), 52 km/h le 17 (ECMWF, GFS), 56 à 68 km/h le 18 (ICON vers 15h) et <b>73 km/h le 19 vers 16h selon ECMWF</b> ; 22 à 28 % des scénarios atteignent 60 km/h les 17 et 18. <b>Orage possible le 18 entre 20h et 23h</b> selon ICON seul.",
+ "agreement": "Jeudi 12, AROME 24,2, Météo-France 24,1 et GFS 18,9 mm, contre 8 à 11 mm pour ECMWF, AIFS, ICON et UKMO. Samedi 14, ECMWF 10,2 mm contre 0,1 pour ICON. Du 15 au 20, tous les modèles font pleuvoir ; les plus gros cumuls : UKMO 46,2 et ICON 43,9 mm le 17, AIFS 24,2 le 16, ECMWF 21,4 le 19. Orage : ICON seul le 18 de 20h à 23h. Rafales : GFS 56 le 16 ; ECMWF et GFS 52 le 17 ; ICON 68, ECMWF et GFS 56 le 18 ; ECMWF 73 et ICON 50 le 19. Au-delà de vendredi, ce sont des tendances.",
+ "changes": "Jeudi 12 un peu moins arrosé dans l'ensemble (13,9 mm contre 16,4), mais les modèles fins AROME et Météo-France montent à 24 mm. Samedi 14 devient pluvieux le soir (65 % contre 29 %). Nouveauté : ICON fait apparaître de l'orage le 18 au soir, et le vent se renforce encore en fin de période, avec 73 km/h selon ECMWF le 19 (nouveau jour). La période pluvieuse du 15 au 20 se confirme.",
  "days": {
-  "2026-11-11": [
-   "rain",
-   "Pluie la nuit jusqu'au matin, sec l'après-midi",
-   "Pluie"
-  ],
   "2026-11-12": [
-   "wind",
-   "Forte pluie toute la journée, venteux le soir",
+   "rain",
+   "Pluie, forte de 15h à 20h, vent de nord le soir",
    "Pluie"
   ],
   "2026-11-13": [
    "cloud",
    "Pluie possible la nuit, puis sec et frais",
-   "Tendance"
+   "Sec"
   ],
   "2026-11-14": [
-   "cloud",
-   "Incertain, pluie possible le soir, froid le matin",
+   "rain",
+   "Gelée possible au lever, pluie le soir",
    "Tendance"
   ],
   "2026-11-15": [
    "rain",
-   "Pluie probable, frais",
+   "Pluie, doux",
    "Tendance"
   ],
   "2026-11-16": [
@@ -35,24 +30,29 @@
   ],
   "2026-11-17": [
    "wind",
-   "Forte pluie, vent fort le soir selon ICON",
+   "Forte pluie, venteux",
    "Tendance"
   ],
   "2026-11-18": [
    "wind",
-   "Pluie, vent fort la nuit selon GFS",
+   "Pluie, vent fort, orageux le soir selon ICON",
    "Tendance"
   ],
   "2026-11-19": [
+   "wind",
+   "Pluie, vent très fort l'après-midi selon ECMWF",
+   "Tendance"
+  ],
+  "2026-11-20": [
    "rain",
-   "Pluie probable",
+   "Pluie probable, frais",
    "Tendance"
   ]
  },
  "tips": [
-  "Sorties moto : demain après-midi est possible sur route sèche ; éviter jeudi 12 (forte pluie et vent). Vendredi 13 et samedi 14 en journée sont les seules fenêtres ensuite ; du 16 au 18, vent de travers et rafales fortes, à éviter.",
-  "Jardin : dégager gouttières, regards et fossés avant jeudi, les cumuls de la semaine prochaine pourront dépasser 50 mm ; rentrer ou fixer mobilier, poubelles et trampoline avant le 16, prudence sous les arbres.",
-  "Linge : dehors demain après-midi, vendredi ou samedi seulement.",
-  "Vêtements : imperméable complet jeudi et à partir du 15 ; veste chaude vendredi et samedi."
+  "Sorties moto : demain, chaussée mouillée le matin et pluie forte à partir de 15h, mieux vaut s'abstenir ; vendredi 13 est la meilleure journée. Éviter du 16 au 19 : pluie forte, vent de travers et rafales jusqu'à 70 km/h, chaussée glissante avec les feuilles.",
+  "Jardin : dégager gouttières, regards et fossés dès demain matin, environ 60 mm attendus du 15 au 20 ; rentrer ou fixer mobilier, poubelles et trampoline avant le 16, et prudence sous les arbres les 18 et 19.",
+  "Linge : dehors vendredi 13 seulement.",
+  "Vêtements : imperméable complet demain et à partir de dimanche 15 ; gants et bonnet samedi matin."
  ]
 }
