@@ -1,22 +1,58 @@
 {
- "headline": "DEMAIN vendredi 13, <b>sec après quelques gouttes vers 1h</b> : 43 % de risque à cause de la nuit, mais AROME, Météo-France et ECMWF sont secs de 3h à minuit (0,2 à 1,1 mm en tout). 4 à 11°, vent de nord encore sensible la nuit (rafales 30 à 39 km/h vers minuit), puis plus calme. <b>Samedi 14, gelée possible au lever (0°)</b> puis pluie l'après-midi et surtout le soir (84 %). <b>Ensuite, période très pluvieuse du 15 au 20</b> (83 à 100 %), environ 67 mm en six jours en médiane, le plus gros le mardi 17 (18 mm, jusqu'à 36 mm) et le mercredi 18 (14 mm). <b>Vent fort de sud-ouest à ouest du 17 au 19</b> : rafales de 60 km/h le 17 vers 12h (GFS), 60 km/h le 18 vers 18h (ECMWF), 52 à 53 km/h le 19 (ICON, GFS) ; 28 à 37 % des scénarios atteignent 60 km/h les 17 et 18. <b>Orage possible selon ICON seul</b> le 16 entre 8h et 11h et le 18 entre 8h et 23h.",
- "agreement": "Vendredi 13, tous les modèles sont presque secs (0 à 1,1 mm, la nuit). Samedi 14, ECMWF 15,8 et UKMO 9,3 mm contre 1,2 pour ICON. Du 15 au 20, tous les modèles font pleuvoir ; les plus gros cumuls : UKMO 35,2 et ECMWF 32,8 mm le 17, ICON 29,6 le 18, ICON 17,9 le 16. Orage : ICON seul, le 16 de 8h à 11h et le 18 de 8h à 23h. Rafales : GFS 60 et ECMWF 52 le 17 ; ECMWF 60, GFS 55 et ICON 50 le 18 ; ICON 53 et GFS 52 le 19. Au-delà de samedi, ce sont des tendances.",
- "changes": "Prévisions globalement confirmées. Le mardi 17 et le jeudi 19 deviennent un peu plus arrosés (18,1 mm contre 16 et 11,2 mm contre 8,9). ICON ajoute un risque d'orage le 16 au matin, en plus de celui du 18. Le vent fort reste annoncé du 17 au 19, mais le pic de 73 km/h que donnait ECMWF hier pour le 19 disparaît (45 km/h). Le 20 sera plus doux (14° au lieu de 11°).",
+ "headline": "DEMAIN samedi 14, <b>sec le matin, pluie à partir de la fin d'après-midi</b> : 93 % de risque, 82 % l'après-midi et 91 % en soirée dans les scénarios ; AROME et Météo-France donnent environ 4 mm, la plus grosse partie entre 19h et 21h. Matin froid (1 à 2° au lever), 13° l'après-midi, vent faible. <b>Ensuite, longue période pluvieuse du 15 au 20</b> (86 à 100 %), environ 69 mm en six jours en médiane, le plus gros le mardi 17 (21 mm, jusqu'à 36 mm). <b>Vent fort de sud-ouest à ouest du 17 au 20</b> : rafales de 65 km/h le 17 vers 22h (GFS, UKMO 59), <b>61 à 68 km/h le 18</b> (GFS vers minuit, ECMWF vers 18h), 63 km/h le 19 vers 14h (ICON) et 59 km/h le 20 vers 7h (GFS) ; près d'un scénario sur deux (48 %) atteint 60 km/h le 18. Plus d'orage annoncé. Accalmie probable les 21 et 22.",
+ "agreement": "Samedi 14, tous font pleuvoir le soir : AIFS 5,4, UKMO 5,1, GFS 5, AROME 4,2, Météo-France 4,1, ECMWF 2,7, ICON 1,3 mm. Dimanche 15, UKMO 13,7 et ECMWF 9,7 mm. Mardi 17, ICON 36,7, UKMO 34,1, AIFS 26,2, ECMWF 20,4, GFS 10,8 mm. Le 19, GFS 22,4 et ECMWF 19,4 contre 3 pour UKMO. Orage : aucun modèle. Rafales : GFS 65, UKMO 59 et ECMWF 52 le 17 ; GFS 68, ECMWF 61 et ICON 54 le 18 ; ICON 63 le 19 ; GFS 59 le 20. Au-delà de dimanche, ce sont des tendances.",
+ "changes": "Le risque d'orage qu'ICON donnait les 16 et 18 disparaît. Le mardi 17 devient encore plus arrosé (21 mm contre 18,1) et le 19 aussi (13,6 mm contre 11,2), alors que le 16 l'est moins (6,8 mm contre 10,8). Le vent fort se renforce un peu le 18 (48 % des scénarios à 60 km/h contre 37 %) et s'étend au 20 selon GFS. Le 21 sera plus frais (11° au lieu de 14°).",
  "days": {
-  "2026-11-13": ["cloud", "Sec après une petite pluie la nuit, frais", "Sec"],
-  "2026-11-14": ["rain", "Gelée possible au lever, pluie l'après-midi et le soir", "Pluie"],
-  "2026-11-15": ["rain", "Pluie, surtout l'après-midi et le soir", "Tendance"],
-  "2026-11-16": ["rain", "Pluie, orageux le matin selon ICON", "Tendance"],
-  "2026-11-17": ["wind", "Forte pluie, vent fort", "Tendance"],
-  "2026-11-18": ["wind", "Pluie, vent fort, orageux selon ICON", "Tendance"],
-  "2026-11-19": ["wind", "Pluie, venteux", "Tendance"],
-  "2026-11-20": ["rain", "Pluie probable, plus doux", "Tendance"],
-  "2026-11-21": ["cloud", "Incertain", "Tendance"]
+  "2026-11-14": [
+   "rain",
+   "Sec le matin, pluie en fin d'après-midi et le soir",
+   "Pluie"
+  ],
+  "2026-11-15": [
+   "rain",
+   "Pluie l'après-midi et le soir",
+   "Pluie"
+  ],
+  "2026-11-16": [
+   "rain",
+   "Pluie",
+   "Tendance"
+  ],
+  "2026-11-17": [
+   "wind",
+   "Forte pluie, vent fort le soir",
+   "Tendance"
+  ],
+  "2026-11-18": [
+   "wind",
+   "Pluie, vent fort",
+   "Tendance"
+  ],
+  "2026-11-19": [
+   "wind",
+   "Pluie, venteux l'après-midi selon ICON",
+   "Tendance"
+  ],
+  "2026-11-20": [
+   "wind",
+   "Pluie, venteux le matin selon GFS",
+   "Tendance"
+  ],
+  "2026-11-21": [
+   "cloud",
+   "Accalmie, plus frais",
+   "Tendance"
+  ],
+  "2026-11-22": [
+   "cloud",
+   "Incertain",
+   "Tendance"
+  ]
  },
  "tips": [
-  "Sorties moto : demain est la seule vraie fenêtre, en partant après 9h (route encore humide tôt le matin, 6 à 7°). Samedi, rentrer avant midi ; ensuite éviter jusqu'au 20, surtout du 17 au 19 (vent de travers, rafales jusqu'à 60 km/h).",
-  "Jardin : finir les travaux et dégager gouttières, regards et fossés demain, environ 67 mm attendus du 15 au 20 ; rentrer ou fixer mobilier, poubelles et trampoline avant le 17, prudence sous les arbres du 17 au 19.",
-  "Linge : dehors demain seulement.",
-  "Vêtements : gants et bonnet samedi matin ; imperméable complet à partir de samedi après-midi."
+  "Sorties moto : demain entre 11h et 15h, dernière fenêtre avant une semaine à éviter, surtout du 17 au 20 (pluie forte, vent de travers et rafales jusqu'à 65 km/h).",
+  "Jardin : dégager gouttières, regards et fossés demain, environ 70 mm attendus d'ici le 20 ; rentrer ou fixer mobilier, poubelles et trampoline avant le 17, prudence sous les arbres du 17 au 20.",
+  "Linge : dehors demain en journée, à rentrer avant 15h ; ensuite à l'intérieur jusqu'au 21.",
+  "Vêtements : gants et bonnet demain matin ; imperméable complet dès demain soir."
  ]
 }
