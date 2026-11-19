@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN jeudi 19, <b>pluie toute la journée et vent fort d'ouest</b> : 100 %, 18,3 mm en médiane, AROME 25 et Météo-France 28 mm. Le plus gros tombe la nuit entre minuit et 4h (8 à 10 mm), avec des <b>rafales de 62 à 65 km/h vers 4h</b> (AROME, Météo-France). Matinée plus calme mais encore humide (petite pluie quasi certaine), puis averse forte vers 14h (2 à 3 mm, rafales 58 à 60 km/h), d'autres vers 18h et 20h (jusqu'à 5 mm selon Météo-France). Rafales médianes 55 km/h, 13 % des scénarios à 60 km/h ou plus. 9 à 12°. Vendredi 20 encore pluvieux (12 mm), rafales 52 km/h vers 14h selon GFS, <b>orage possible selon ICON seul vers 17h-18h</b>. Samedi 21 sec en journée, pluie le soir. <b>Dimanche 22, pluie (14 mm) et vent fort</b> : rafales d'ouest de 59 à 62 km/h entre 7h et 13h (Météo-France, ICON, GFS). Répit relatif le 23, puis temps toujours humide.",
- "agreement": "Jeudi 19, Météo-France 28,0, UKMO 27,0, AROME 25,1 et GFS 22,1 mm, contre 15,3 pour ECMWF et 11,1 pour ICON. Vendredi 20, de 7,4 (ICON) à 16,5 mm (ECMWF). Dimanche 22, GFS 24,6 et UKMO 19,0 mm, les autres vers 13 à 18. Orage : ICON seul, le 20 de 17h à 18h. Rafales : Météo-France 65, AROME 62, ECMWF 60 et GFS 54 le 19, ICON seulement 38 ; GFS 52 le 20 ; GFS 62, ICON 60 et Météo-France 59 le 22. Le 25, GFS isolé à 80 km/h vers 19h. Au-delà de samedi, ce sont des tendances.",
- "changes": "Le risque d'orage disparaît pour jeudi 19 ; ICON le garde pour vendredi 20 mais le décale en fin d'après-midi (17h-18h). Le vent de jeudi est un peu moins menaçant dans les scénarios (13 % à 60 km/h ou plus contre 37 %), même si AROME et Météo-France montent à 62 et 65 km/h. Nouveau : du vent fort dimanche 22 selon trois modèles. Le 25 un peu moins arrosé (6,8 mm contre 9,2) et le 26 plus doux (11° contre 8).",
+ "headline": "DEMAIN vendredi 20, <b>pluie faible mais fréquente</b> : 100 %, 9,9 mm en médiane (AROME 9,7, Météo-France 8,5). Quelques gouttes la nuit, averse vers 9h (1,5 mm), après-midi plus calme selon AROME et Météo-France mais encore un peu de pluie vers 14h-16h selon ECMWF et les scénarios, puis pluie qui reprend à partir de 19h (jusqu'à 2 mm vers 23h). Vent modéré (rafales médianes 45 km/h), pas d'orage : ICON ne le prévoit plus. 8 à 12°. Samedi 21 sec en journée, pluie le soir. <b>Dimanche 22, pluie soutenue et vent fort d'ouest</b> : 18,9 mm, le plus gros entre 2h et 8h, puis <b>rafales de 56 à 63 km/h de 9h à 16h</b> (Météo-France, ECMWF, ICON, GFS), 38 % des scénarios à 60 km/h ou plus. Accalmie le 23 et le 24, nouvelle pluie le 25.",
+ "agreement": "Vendredi 20, UKMO 14,3, AIFS 10,6, AROME 9,7 et Météo-France 8,5 mm, contre 4,3 pour GFS et 1,9 pour ICON. Dimanche 22, accord sur un épisode marqué : de 16,3 (ICON) à 29,0 mm (GFS), les autres vers 19 à 21. Orage : aucun modèle n'en prévoit. Rafales : ICON 63, ECMWF 62, GFS 57 et Météo-France 56 le 22, UKMO plus modéré (46). Le 25, de 3,0 (ECMWF) à 25,0 mm (UKMO). Au-delà de dimanche, ce sont des tendances.",
+ "changes": "Le risque d'orage de vendredi 20 disparaît : plus aucun modèle n'en prévoit, et le vent de vendredi faiblit. Dimanche 22 se renforce nettement : 18,9 mm contre 14,0, et 38 % des scénarios à 60 km/h ou plus contre 14 %. Le 25 un peu plus arrosé (9,9 mm contre 6,8) et le 26 plus doux (14° contre 11).",
  "days": {
-  "2026-11-19": ["wind", "Pluie continue, vent fort d'ouest", "Pluie"],
-  "2026-11-20": ["wind", "Pluie, venteux, orageux en fin d'après-midi selon ICON", "Pluie"],
-  "2026-11-21": ["rain", "Sec en journée, pluie le soir", "Tendance"],
-  "2026-11-22": ["wind", "Pluie et vent fort", "Tendance"],
+  "2026-11-20": ["rain", "Pluie faible et fréquente, reprise le soir", "Pluie"],
+  "2026-11-21": ["cloud", "Sec en journée, pluie le soir", "Tendance"],
+  "2026-11-22": ["wind", "Pluie soutenue et vent fort d'ouest", "Tendance"],
   "2026-11-23": ["cloud", "Averses la nuit, plutôt sec ensuite", "Tendance"],
-  "2026-11-24": ["rain", "Frais, pluie possible le soir", "Tendance"],
-  "2026-11-25": ["wind", "Pluie, venteux le soir selon GFS", "Tendance"],
-  "2026-11-26": ["rain", "Pluie probable", "Tendance"],
-  "2026-11-27": ["rain", "Pluie probable, plus doux", "Tendance"]
+  "2026-11-24": ["cloud", "Frais, pluie possible le soir", "Tendance"],
+  "2026-11-25": ["rain", "Pluie", "Tendance"],
+  "2026-11-26": ["rain", "Pluie probable, plus doux", "Tendance"],
+  "2026-11-27": ["rain", "Pluie probable, doux", "Tendance"],
+  "2026-11-28": ["rain", "Pluie probable", "Tendance"]
  },
  "tips": [
-  "Sorties moto : éviter jeudi 19 (pluie et vent de travers jusqu'à 60 km/h), vendredi 20 et dimanche 22. Samedi 21 en journée est la meilleure fenêtre, puis lundi 23 après-midi.",
-  "Jardin : fixer ou rentrer mobilier, parasols, trampoline et poubelles ce soir et avant dimanche ; prudence sous les arbres cette nuit et jeudi ; surveiller gouttières et fossés, environ 30 mm attendus les 19 et 20.",
-  "Linge : à l'intérieur ; éventuellement samedi 21 en journée.",
-  "Vêtements : imperméable complet, 9 à 12° ; plus frais le 24 (3 à 10°)."
+  "Sorties moto : samedi 21 en journée est la meilleure fenêtre (risque de pluie sous 10 % jusqu'à 18h) ; éviter dimanche 22 (pluie et vent de travers à 60 km/h) ; lundi 23 après-midi et mardi 24 en journée possibles.",
+  "Jardin : avant dimanche, fixer ou rentrer mobilier, parasols, trampoline et poubelles ; prudence sous les arbres dimanche de 9h à 16h ; surveiller gouttières et fossés, environ 30 mm attendus du 20 au 22.",
+  "Linge : samedi 21 en journée, à rentrer avant le soir.",
+  "Vêtements : imperméable vendredi et dimanche ; frais lundi et mardi matin (4 à 5°)."
  ]
 }
