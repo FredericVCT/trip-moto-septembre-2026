@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN vendredi 20, <b>pluie faible mais fréquente</b> : 100 %, 9,9 mm en médiane (AROME 9,7, Météo-France 8,5). Quelques gouttes la nuit, averse vers 9h (1,5 mm), après-midi plus calme selon AROME et Météo-France mais encore un peu de pluie vers 14h-16h selon ECMWF et les scénarios, puis pluie qui reprend à partir de 19h (jusqu'à 2 mm vers 23h). Vent modéré (rafales médianes 45 km/h), pas d'orage : ICON ne le prévoit plus. 8 à 12°. Samedi 21 sec en journée, pluie le soir. <b>Dimanche 22, pluie soutenue et vent fort d'ouest</b> : 18,9 mm, le plus gros entre 2h et 8h, puis <b>rafales de 56 à 63 km/h de 9h à 16h</b> (Météo-France, ECMWF, ICON, GFS), 38 % des scénarios à 60 km/h ou plus. Accalmie le 23 et le 24, nouvelle pluie le 25.",
- "agreement": "Vendredi 20, UKMO 14,3, AIFS 10,6, AROME 9,7 et Météo-France 8,5 mm, contre 4,3 pour GFS et 1,9 pour ICON. Dimanche 22, accord sur un épisode marqué : de 16,3 (ICON) à 29,0 mm (GFS), les autres vers 19 à 21. Orage : aucun modèle n'en prévoit. Rafales : ICON 63, ECMWF 62, GFS 57 et Météo-France 56 le 22, UKMO plus modéré (46). Le 25, de 3,0 (ECMWF) à 25,0 mm (UKMO). Au-delà de dimanche, ce sont des tendances.",
- "changes": "Le risque d'orage de vendredi 20 disparaît : plus aucun modèle n'en prévoit, et le vent de vendredi faiblit. Dimanche 22 se renforce nettement : 18,9 mm contre 14,0, et 38 % des scénarios à 60 km/h ou plus contre 14 %. Le 25 un peu plus arrosé (9,9 mm contre 6,8) et le 26 plus doux (14° contre 11).",
+ "headline": "DEMAIN samedi 21, <b>sec toute la journée</b> : aucun modèle ne donne de pluie avant 23h, vent faible (rafales 23 km/h), 8 à 14°. La pluie arrive en fin de soirée, d'où le risque de 61 % sur la journée (72 % entre 18h et minuit, mais surtout après 22h). <b>Dimanche 22, pluie soutenue et vent fort d'ouest</b> : 19,8 mm en médiane, le plus gros entre minuit et 8h, puis averses plus éparses ; <b>rafales de 55 à 69 km/h de 10h à 16h</b> (GFS 69 vers 12h, AROME, Météo-France, ECMWF et ICON 55 à 56), 47 % des scénarios à 60 km/h ou plus. Aucun orage prévu. Lundi 23 et mardi 24 plus calmes (pluie possible la nuit du 23 et le soir du 24), nouvelle pluie mercredi 25, puis plus frais.",
+ "agreement": "Samedi 21, tous les modèles à 2,2 mm ou moins, et seulement en fin de soirée. Dimanche 22, écart marqué sur le cumul : UKMO 29,2, ECMWF 23,6 et AIFS 22,4 mm, contre 11,5 pour Météo-France, 12,7 pour GFS et 8,6 pour ICON. Rafales : GFS 69 (12h), ECMWF et ICON 56, AROME et Météo-France 55, UKMO 45. Orage : aucun modèle n'en prévoit. Le 26, de 0,6 (GFS) à 23,8 mm (UKMO). Au-delà de mardi, ce sont des tendances.",
+ "changes": "Samedi 21 confirmé sec en journée. Dimanche 22 un peu plus venteux dans les scénarios (47 % à 60 km/h ou plus contre 38 %), cumul stable autour de 20 mm. Fin de période plus sèche et plus fraîche : le 26 à 3,6 mm contre 6,2 et 10° au lieu de 14, le 27 à 48 % de risque contre 69 % et 10° au lieu de 13, le 28 moins arrosé (1,4 mm contre 3,8).",
  "days": {
-  "2026-11-20": ["rain", "Pluie faible et fréquente, reprise le soir", "Pluie"],
-  "2026-11-21": ["cloud", "Sec en journée, pluie le soir", "Tendance"],
-  "2026-11-22": ["wind", "Pluie soutenue et vent fort d'ouest", "Tendance"],
-  "2026-11-23": ["cloud", "Averses la nuit, plutôt sec ensuite", "Tendance"],
+  "2026-11-21": ["cloud", "Sec en journée, pluie à partir de 23h", "Demain"],
+  "2026-11-22": ["wind", "Pluie soutenue et vent fort d'ouest", "Pluie"],
+  "2026-11-23": ["cloud", "Pluie possible la nuit, plutôt sec ensuite", "Tendance"],
   "2026-11-24": ["cloud", "Frais, pluie possible le soir", "Tendance"],
   "2026-11-25": ["rain", "Pluie", "Tendance"],
-  "2026-11-26": ["rain", "Pluie probable, plus doux", "Tendance"],
-  "2026-11-27": ["rain", "Pluie probable, doux", "Tendance"],
-  "2026-11-28": ["rain", "Pluie probable", "Tendance"]
+  "2026-11-26": ["rain", "Pluie probable, plus frais", "Tendance"],
+  "2026-11-27": ["cloud", "Incertain, froid", "Tendance"],
+  "2026-11-28": ["rain", "Pluie possible", "Tendance"],
+  "2026-11-29": ["rain", "Pluie possible", "Tendance"]
  },
  "tips": [
-  "Sorties moto : samedi 21 en journée est la meilleure fenêtre (risque de pluie sous 10 % jusqu'à 18h) ; éviter dimanche 22 (pluie et vent de travers à 60 km/h) ; lundi 23 après-midi et mardi 24 en journée possibles.",
-  "Jardin : avant dimanche, fixer ou rentrer mobilier, parasols, trampoline et poubelles ; prudence sous les arbres dimanche de 9h à 16h ; surveiller gouttières et fossés, environ 30 mm attendus du 20 au 22.",
-  "Linge : samedi 21 en journée, à rentrer avant le soir.",
-  "Vêtements : imperméable vendredi et dimanche ; frais lundi et mardi matin (4 à 5°)."
+  "Sorties moto : demain samedi 21 est la bonne journée (sec jusqu'au soir, vent faible, mais 8° le matin) ; éviter dimanche 22 (pluie puis vent de travers jusqu'à 60 km/h et plus) ; lundi 23 après-midi et mardi 24 en journée possibles.",
+  "Jardin : demain, fixer ou rentrer mobilier, parasols, trampoline et poubelles avant la nuit ; prudence sous les arbres dimanche de 10h à 16h ; environ 20 mm attendus dimanche, surveiller gouttières et fossés.",
+  "Linge : demain en journée, à rentrer avant 22h.",
+  "Vêtements : imperméable dimanche ; plus froid à partir du 26 (4 à 10°)."
  ]
 }
