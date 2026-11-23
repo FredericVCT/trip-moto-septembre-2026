@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN lundi 23, <b>journée sèche</b> : au plus quelques gouttes vers 1h (0,2 mm selon AROME et Météo-France), puis plus rien ; 26 % de risque sur la journée, dû à la nuit. Vent faible (rafales 31 km/h), 5 à 12°, fraîcheur le soir (5° à 23h). Mardi 24 sec et froid le matin (3 à 4°), pluie à partir de 21h-23h. <b>Mercredi 25, pluie</b> (8,3 mm en médiane). Ensuite temps sec et de plus en plus froid : 2 à 8° le 27, 0 à 6° le 28, -1 à 7° le 29 avec un retour possible de la pluie. Ni orage ni vent fort sur la période.",
- "agreement": "Lundi 23, tous les modèles à 0,8 mm ou moins. Mardi 24, de 1,3 (ECMWF) à 3,3 mm (UKMO), tous en soirée. Mercredi 25, gros écart : ECMWF 18,6 et Météo-France 11,0 mm, contre 3,2 à 4,8 pour ICON, GFS et UKMO. Vent : aucun modèle au-dessus de 42 km/h (GFS mardi soir). Orage : aucun modèle n'en prévoit. Les 27 et 28, tous les modèles à 0 mm. Au-delà de mercredi, ce sont des tendances.",
- "changes": "Prévisions stables pour les trois prochains jours. Fin de semaine plus sèche et plus froide : samedi 28 passe de 46 % à 24 % de risque et de 9° à 6° au maximum, dimanche 29 de 10° à 7°.",
+ "headline": "DEMAIN mardi 24, <b>sec jusqu'en fin d'après-midi, petite pluie le soir</b> : rien avant 19h, puis quelques gouttes et 0,7 mm vers 23h selon AROME et Météo-France (1,3 à 1,7 mm sur la journée pour la plupart des modèles), d'où le risque de 83 % concentré sur la soirée (95 % entre 18h et minuit). Matinée froide (4°), 10° l'après-midi, vent faible (rafales 20 km/h). <b>Mercredi 25, pluie</b> : 7,2 mm en médiane, faible la nuit, averse vers 8h, averses l'après-midi (jusqu'à 6 mm entre 15h et 17h selon ICON) et pluie plus forte le soir selon GFS. Ensuite <b>temps sec et froid de jeudi soir à samedi</b> (gelée possible samedi 28, -1°), pluie possible dimanche 29. Ni orage ni vent fort.",
+ "agreement": "Mardi 24, AROME, Météo-France, ECMWF et ICON entre 1,3 et 1,4 mm, AIFS 3,0, UKMO sec. Mercredi 25, ICON 14,9 et GFS 12,8 mm, contre 7,1 pour Météo-France et ECMWF et 4,2 pour AIFS. Vent : aucun modèle au-dessus de 38 km/h. Orage : aucun modèle n'en prévoit. Les 27 et 28, tous les modèles à 0,1 mm ou moins. Dimanche 29, UKMO 9,2 mm, GFS 3,9 et ICON 3,2, ECMWF et AIFS secs. Au-delà de jeudi, ce sont des tendances.",
+ "changes": "Prévisions stables par rapport à hier soir. Seule nuance : fin de période un peu moins froide l'après-midi (9° au lieu de 6 samedi 28, 11° au lieu de 8 lundi 30) et moins de pluie possible le 30 et le 1er décembre.",
  "days": {
-  "2026-11-23": ["cloud", "Sec, frais le soir", "Demain"],
-  "2026-11-24": ["rain", "Froid le matin, pluie le soir", "Tendance"],
-  "2026-11-25": ["rain", "Pluie", "Tendance"],
+  "2026-11-24": ["cloud", "Sec en journée, petite pluie le soir", "Demain"],
+  "2026-11-25": ["rain", "Pluie et averses", "Pluie"],
   "2026-11-26": ["cloud", "Pluie possible la nuit, puis sec", "Tendance"],
   "2026-11-27": ["cloud", "Sec et froid", "Tendance"],
-  "2026-11-28": ["cloud", "Sec, très froid le matin", "Tendance"],
-  "2026-11-29": ["rain", "Gel le matin, pluie possible", "Tendance"],
-  "2026-11-30": ["cloud", "Incertain, froid", "Tendance"],
-  "2026-12-01": ["cloud", "Incertain, froid le matin", "Tendance"]
+  "2026-11-28": ["cloud", "Sec, gelée le matin", "Tendance"],
+  "2026-11-29": ["rain", "Froid, pluie possible", "Tendance"],
+  "2026-11-30": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-12-01": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-12-02": ["cloud", "Plutôt sec, froid le matin", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain lundi 23 est une bonne journée (sec, vent faible, route qui sèche dans la matinée) ; mardi 24 possible jusqu'en fin d'après-midi mais froid le matin (3°) ; éviter mercredi 25.",
-  "Jardin : rien à protéger côté vent ; profiter de lundi pour ramasser les branches et feuilles tombées dimanche ; protéger les plantes sensibles du froid à partir du 27 (0 à -1° le matin les 28 et 29).",
-  "Linge : demain lundi en journée, ou mardi jusqu'au soir.",
-  "Vêtements : couches chaudes et gants à moto, matinées à 3 à 5° cette semaine puis proches de 0° en fin de semaine."
+  "Sorties moto : demain mardi 24 possible de la fin de matinée jusqu'à 18h (route sèche, vent faible, mais 4° le matin) ; éviter mercredi 25 ; vendredi 27 et samedi 28 secs mais froids, attention aux routes givrées le matin samedi.",
+  "Jardin : rien à craindre côté vent ; protéger les plantes sensibles du gel pour la nuit de vendredi à samedi (-1°).",
+  "Linge : demain mardi en journée, à rentrer avant 19h ; ensuite vendredi 27.",
+  "Vêtements : couches chaudes et gants à moto, matinées entre -1 et 4° toute la semaine."
  ]
 }
