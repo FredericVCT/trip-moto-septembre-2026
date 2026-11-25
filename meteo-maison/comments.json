@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN mercredi 25, <b>pluie surtout la nuit, puis journée plutôt sèche</b> : 99 % de risque, mais 4,6 mm en médiane et l'essentiel tombe entre minuit et 6h (2,3 à 2,4 mm selon AROME et Météo-France). Ensuite plus que quelques gouttes possibles vers 9h-10h, et rien l'après-midi selon AROME, Météo-France et ECMWF, alors que les scénarios gardent un risque de 67 % le matin et 55 % l'après-midi. Petite pluie possible vers 20h-21h selon ICON. 5 à 10°, vent faible (rafales 29 km/h). Ensuite <b>longue période sèche et froide</b> : quasiment aucune pluie du 27 au 3 décembre, gelées le matin (-2° samedi 28, -1° les 29, 1er et 3). Ni orage ni vent fort.",
- "agreement": "Mercredi 25, accord sur un épisode faible : AROME, Météo-France, ECMWF, GFS et ICON entre 2,3 et 3,0 mm, AIFS 4,6, UKMO 6,7. Jeudi 26, UKMO 3,7 et Météo-France 2,2 mm, les autres sous 2 mm. Du 27 au 3 décembre, tous les modèles à 0 mm ou presque, sauf ICON 4,7 mm le 29. Vent : aucun modèle au-dessus de 37 km/h. Orage : aucun modèle n'en prévoit. Au-delà de vendredi, ce sont des tendances.",
- "changes": "Mercredi 25 nettement moins arrosé (4,6 mm contre 7,2) et la pluie se concentre sur la nuit. Dimanche 29 devient sec (27 % de risque contre 65 %, 0 mm en médiane contre 2,0) et lundi 30 aussi (12 % contre 32 %).",
+ "headline": "DEMAIN jeudi 26, <b>petite pluie le matin, sec l'après-midi</b> : 71 % de risque, 1,8 mm en médiane (AROME et Météo-France 2,4 mm), surtout entre 7h et 12h (jusqu'à 0,7 mm par heure vers 10h-11h), puis plus rien à partir de 13h. Frais, 5 à 9°, vent faible (rafales 22 km/h). Ensuite <b>temps sec et froid durable</b> : rien vendredi 27 et samedi 28 (gelée possible samedi, -1°), pluie faible possible dimanche 29 l'après-midi (39 %), puis de nouveau sec jusqu'au 4 décembre avec des matinées proches de 0°. Ni orage ni vent fort.",
+ "agreement": "Jeudi 26, AROME, Météo-France et ICON entre 2,3 et 2,4 mm, AIFS 3,0, UKMO 1,7, GFS 1,4 et ECMWF 0,9 ; tous mettent la pluie le matin. Vendredi 27 et samedi 28, tous les modèles à 0 mm. Dimanche 29, partagés : UKMO 7,8 et ICON 4,8 mm, contre 0 pour ECMWF. Vent : aucun modèle au-dessus de 28 km/h. Orage : aucun modèle n'en prévoit. Au-delà de samedi, ce sont des tendances.",
+ "changes": "Jeudi 26 un peu plus humide qu'annoncé hier (71 % de risque contre 26 %), mais il s'agit d'une petite pluie matinale de 1 à 2 mm. Le reste est stable : longue période sèche et froide.",
  "days": {
-  "2026-11-25": ["rain", "Pluie la nuit, puis plutôt sec", "Demain"],
-  "2026-11-26": ["cloud", "Plutôt sec, frais", "Tendance"],
+  "2026-11-26": ["rain", "Petite pluie le matin, sec l'après-midi", "Demain"],
   "2026-11-27": ["cloud", "Sec et froid", "Tendance"],
   "2026-11-28": ["cloud", "Sec, gelée le matin", "Tendance"],
-  "2026-11-29": ["cloud", "Plutôt sec, gelée le matin", "Tendance"],
+  "2026-11-29": ["cloud", "Froid, pluie faible possible l'après-midi", "Tendance"],
   "2026-11-30": ["cloud", "Sec", "Tendance"],
-  "2026-12-01": ["cloud", "Sec, gelée le matin", "Tendance"],
-  "2026-12-02": ["cloud", "Sec", "Tendance"],
-  "2026-12-03": ["cloud", "Plutôt sec, gelée le matin", "Tendance"]
+  "2026-12-01": ["cloud", "Sec, froid le matin", "Tendance"],
+  "2026-12-02": ["cloud", "Plutôt sec, froid le matin", "Tendance"],
+  "2026-12-03": ["cloud", "Plutôt sec", "Tendance"],
+  "2026-12-04": ["cloud", "Sec, froid le matin", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain mercredi 25 possible l'après-midi (route encore humide après la pluie de la nuit) ; vendredi 27 et lundi 30 sont les meilleures journées, secs et sans vent ; attention au givre le matin les 28, 29, 1er et 3.",
-  "Jardin : rentrer ou protéger les plantes sensibles du gel à partir de vendredi soir ; pas besoin d'arroser, les sols restent humides.",
-  "Linge : vendredi 27 ou lundi 30, en journée (séchage lent par ce froid).",
-  "Vêtements : gants et couches chaudes à moto, matinées entre -2 et 4° toute la semaine prochaine."
+  "Sorties moto : demain jeudi 26 possible l'après-midi (route encore humide) ; vendredi 27, lundi 30 et mardi 1er sont les meilleures journées, secs et sans vent ; attention au givre le matin samedi 28 et en début de semaine prochaine.",
+  "Jardin : protéger les plantes sensibles du gel à partir de vendredi soir ; pas d'arrosage nécessaire.",
+  "Linge : vendredi 27 ou samedi 28 en journée (séchage lent par ce froid).",
+  "Vêtements : gants et couches chaudes à moto, matinées entre -1 et 4° jusqu'au 4 décembre."
  ]
 }
