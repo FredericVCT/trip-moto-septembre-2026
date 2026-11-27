@@ -1,22 +1,22 @@
 {
- "headline": "DEMAIN vendredi 27, <b>journée sèche et calme</b> : aucun modèle ne donne de pluie (0 % de risque), vent quasi nul (rafales 10 km/h), froid le matin (2° vers 7h selon AROME et Météo-France) puis 8 à 9° l'après-midi. Samedi 28 également sec, avec 0° au lever du jour. <b>Dimanche 29, retour de la pluie</b> : 79 % de risque, 3,0 mm en médiane, surtout du matin à l'après-midi, mais 9 à 11 mm selon Météo-France et ICON. Ensuite de nouveau sec et froid jusqu'au 5 décembre, avec des matinées autour de 0 à 2°. Ni orage ni vent fort.",
- "agreement": "Vendredi 27 et samedi 28, tous les modèles à 0,1 mm ou moins. Dimanche 29, gros écart : ICON 11,1 et Météo-France 9,3 mm, UKMO 5,1, AIFS 3,6, ECMWF 2,5 et GFS seulement 0,6. Le 3 décembre, ICON isolé à 10,6 mm, les autres secs. Vent : aucun modèle au-dessus de 35 km/h. Orage : aucun modèle n'en prévoit. Au-delà de samedi, ce sont des tendances.",
- "changes": "Dimanche 29 nettement plus pluvieux qu'annoncé hier : 79 % de risque contre 39 % et 3,0 mm contre 0,6. Début décembre un peu plus froid l'après-midi (8° au lieu de 11 les 1er et 2). Le reste est stable.",
+ "headline": "DEMAIN samedi 28, <b>journée sèche et calme</b> : aucun modèle ne donne de pluie (0 % de risque), vent quasi nul (rafales 11 km/h), froid au lever du jour (0 à 1° vers 7h-9h selon AROME et Météo-France, gelée possible) puis 10° l'après-midi. <b>Dimanche 29, pluie faible l'après-midi</b> : 84 % de risque, 3,2 mm en médiane, surtout entre 13h et 17h selon AROME et Météo-France (dès 11h selon ICON), journée froide (4 à 7°). Ensuite <b>temps sec durable</b> du 30 novembre au 6 décembre, matinées autour de 0°, un peu plus de vent de nord les 3 et 4 (rafales jusqu'à 35 à 38 km/h selon ECMWF). Ni orage ni vent fort.",
+ "agreement": "Samedi 28, tous les modèles à 0 mm. Dimanche 29, ICON 4,6, ECMWF 4,2, AIFS 3,6 et Météo-France 3,5 mm, contre 0,9 pour GFS et 1,1 pour UKMO. Du 30 au 6 décembre, tous les modèles à 1,8 mm ou moins chaque jour. Vent : aucun modèle au-dessus de 38 km/h. Orage : aucun modèle n'en prévoit. Au-delà de dimanche, ce sont des tendances.",
+ "changes": "Prévisions stables par rapport à hier soir.",
  "days": {
-  "2026-11-27": ["cloud", "Sec, calme, froid le matin", "Demain"],
-  "2026-11-28": ["cloud", "Sec, gelée possible le matin", "Tendance"],
-  "2026-11-29": ["rain", "Pluie du matin à l'après-midi", "Tendance"],
+  "2026-11-28": ["cloud", "Sec, calme, gelée possible le matin", "Demain"],
+  "2026-11-29": ["rain", "Pluie faible l'après-midi, froid", "Pluie"],
   "2026-11-30": ["cloud", "Sec", "Tendance"],
-  "2026-12-01": ["cloud", "Sec et froid", "Tendance"],
-  "2026-12-02": ["cloud", "Plutôt sec, froid le matin", "Tendance"],
-  "2026-12-03": ["cloud", "Plutôt sec", "Tendance"],
-  "2026-12-04": ["cloud", "Sec", "Tendance"],
-  "2026-12-05": ["cloud", "Sec, froid le matin", "Tendance"]
+  "2026-12-01": ["cloud", "Sec, froid le matin", "Tendance"],
+  "2026-12-02": ["cloud", "Sec, froid le matin", "Tendance"],
+  "2026-12-03": ["cloud", "Plutôt sec, vent de nord", "Tendance"],
+  "2026-12-04": ["cloud", "Sec, vent de nord", "Tendance"],
+  "2026-12-05": ["cloud", "Sec", "Tendance"],
+  "2026-12-06": ["cloud", "Sec, gelée le matin", "Tendance"]
  },
  "tips": [
-  "Sorties moto : demain vendredi 27 est idéal côté pluie et vent (sec, calme), à partir de la fin de matinée à cause du froid ; samedi 28 aussi, attention au givre tôt le matin ; éviter dimanche 29 ; lundi 30 et mardi 1er de nouveau secs.",
-  "Jardin : protéger les plantes sensibles du gel surtout pour la nuit de vendredi à samedi (0°) ; pas d'arrosage nécessaire.",
-  "Linge : vendredi 27 ou samedi 28 en journée.",
-  "Vêtements : gants et couches chaudes à moto, matinées entre 0 et 2° ; imperméable dimanche."
+  "Sorties moto : demain samedi 28 est une bonne journée (sec, sans vent), mieux à partir de 11h à cause du givre possible tôt le matin ; éviter dimanche 29 l'après-midi ; lundi 30 et mardi 1er de nouveau secs.",
+  "Jardin : protéger les plantes sensibles du gel cette nuit et en fin de semaine prochaine ; pas d'arrosage nécessaire.",
+  "Linge : demain samedi 28 en journée, ou lundi 30.",
+  "Vêtements : gants et couches chaudes à moto, matinées entre -1 et 3° toute la semaine prochaine ; imperméable dimanche après-midi."
  ]
 }
